@@ -18,7 +18,7 @@ src/
 │
 ├── lib/
 │   ├── openai/
-│   │   └── client.ts           # OpenAI クライアント
+│   │   └── client.ts           # AI クライアント（Gemini使用）
 │   ├── party/
 │   │   ├── types.ts            # パーティ関連型
 │   │   ├── generator.ts        # パーティ生成ロジック
@@ -68,7 +68,7 @@ export interface GeneratePartyResponse {
 
 ---
 
-## OpenAI プロンプト設計
+## AI プロンプト設計
 
 ### システムプロンプト
 
@@ -77,12 +77,12 @@ export interface GeneratePartyResponse {
 ユーザーが指定したテーマに合うポケモンを選んでください。
 
 ルール:
-1. 実在するポケモンの英語名のみを返してください
+1. 実在するポケモンの英語名（小文字、ハイフンあり）のみを返してください
 2. 指定された数のポケモンを選んでください
 3. テーマに合わないポケモンは選ばないでください
-4. JSON形式で返してください
+4. 必ずJSON形式のみで返してください（説明文は不要）
 
-出力形式:
+出力形式（必ずこの形式で）:
 {"pokemon": ["pikachu", "charizard", "blastoise"]}
 ```
 
@@ -92,7 +92,7 @@ export interface GeneratePartyResponse {
 テーマ: {theme}
 ポケモン数: {count}匹
 
-このテーマに合うポケモンを選んでください。
+このテーマに合うポケモンを選んでください。JSONのみで返答してください。
 ```
 
 ---
@@ -111,8 +111,8 @@ export async function POST(request: Request) {
     return Response.json({ error: { code: 'INVALID_INPUT', message: '...' } });
   }
 
-  // 3. OpenAI API 呼び出し
-  const aiResponse = await callOpenAI(theme, count);
+  // 3. AI API 呼び出し
+  const aiResponse = await generatePokemonNames(theme, count);
 
   // 4. PokeAPI でバリデーション & データ取得
   const validatedPokemon = await validateAndFetchPokemon(aiResponse.pokemon);
@@ -209,7 +209,7 @@ export async function selectMovesForPokemon(
 | エラーコード | 原因 | ユーザーメッセージ |
 |-------------|------|-------------------|
 | INVALID_INPUT | 入力不正 | テーマを入力してください |
-| AI_ERROR | OpenAI API エラー | 生成に失敗しました。再度お試しください |
+| AI_ERROR | AI API エラー | 生成に失敗しました。再度お試しください |
 | POKEMON_NOT_FOUND | ポケモン存在しない | 条件に合うポケモンが見つかりませんでした |
 | RATE_LIMIT | API制限 | しばらく待ってから再度お試しください |
 
@@ -218,7 +218,7 @@ export async function selectMovesForPokemon(
 ## 環境変数
 
 ```
-OPENAI_API_KEY=sk-...
+GEMINI_API_KEY=...
 ```
 
 `.env.local` に設定（NFR-10: サーバーサイドのみで使用）
@@ -230,7 +230,7 @@ OPENAI_API_KEY=sk-...
 | Bolt | タスク | ファイル |
 |------|--------|----------|
 | 2-1 | 入力UI | party-generator.tsx, pokemon-count-select.tsx |
-| 2-2 | OpenAI統合 | lib/openai/client.ts, .env.local |
+| 2-2 | AI統合 | lib/openai/client.ts, .env.local |
 | 2-3 | プロンプト設計 | lib/openai/client.ts |
 | 2-4 | バリデーション | lib/pokeapi/client.ts |
 | 2-5 | 技選定 | lib/party/move-selector.ts |

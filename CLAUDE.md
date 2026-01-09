@@ -1,5 +1,9 @@
 # Project: PokeParty
 
+## Overview
+ポケモンバトルごっこ用パーティ生成Webアプリ。
+ポケモンの知識に乏しい親が子供とごっこ遊びをする際に使用する。
+
 ## AI-DLC Configuration
 - このプロジェクトはAI-DLC（AI-Driven Development Lifecycle）を採用しています。
 - Intentにおいての質問は1問1答形式にしてください
@@ -9,21 +13,60 @@
 ### Artifact Locations
 - Intent: `.ai-dlc/intent/intent.md`
 - Inception: `.ai-dlc/inception/`
-- Construction: `.ai-dlc/construction/`
+- Construction: `.ai-dlc/construction/unit{n}/`
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Construction
+Operation（MVP完成）
 
-### Active Unit
-Unit 1: 基盤構築 & PokeAPI統合
+### Completed Units
+| Unit | 機能 | 状態 |
+|------|------|------|
+| 1 | 基盤構築 & PokeAPI統合 | 完了 |
+| 2 | AIパーティ生成 | 完了 |
+| 3 | タイプ相性判定 | 完了 |
+| 4 | UI/UX改善 | 完了 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)
-- Language: TypeScript
-- Styling: Tailwind CSS
-- API: PokeAPI, OpenAI API
+- Language: TypeScript (strict mode)
+- Styling: Tailwind CSS v3
+- AI: Google Gemini API (gemini-2.5-flash)
+- Data: PokeAPI
 - Hosting: Vercel
+
+## Deployment
+- **Production URL**: https://pokeparty-three.vercel.app
+- **GitHub**: https://github.com/5txt68jpgt-png/poke_party
+
+## Project Structure
+```
+src/
+├── app/
+│   ├── api/generate-party/    # パーティ生成API
+│   ├── page.tsx               # トップページ
+│   └── globals.css
+├── components/
+│   ├── party-generator.tsx    # メインフォーム
+│   ├── party-display.tsx      # パーティ表示
+│   ├── pokemon-card.tsx       # ポケモンカード
+│   ├── move-list.tsx          # 技リスト（相性チェック付き）
+│   ├── type-badge.tsx         # タイプバッジ
+│   ├── type-selector.tsx      # タイプ選択
+│   ├── effectiveness-result.tsx
+│   ├── move-effectiveness-modal.tsx
+│   ├── theme-suggestions.tsx  # おすすめテーマ
+│   └── ...
+├── lib/
+│   ├── pokeapi/               # PokeAPIクライアント
+│   ├── openai/                # AI クライアント（Gemini）
+│   ├── party/                 # パーティ生成ロジック
+│   ├── effectiveness/         # 相性計算
+│   └── pokemon/               # ドメイン型
+└── data/
+    ├── type-data.ts           # タイプ日本語名・カラー
+    └── type-chart.ts          # 相性表
+```
 
 ## Git Commit Convention
 Format: `[phase]: [type] [description]`
@@ -57,3 +100,8 @@ Format: `[phase]: [type] [description]`
 1. 成果物は `.ai-dlc/` に保存
 2. セッション終了時にログを作成
 3. 各決定ポイントで人間の承認を得る
+
+## Environment Variables
+```
+GEMINI_API_KEY=...
+```

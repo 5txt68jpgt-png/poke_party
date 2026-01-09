@@ -49,8 +49,8 @@ Unit 1: 基盤構築 & PokeAPI統合
 - `src/app/page.tsx` - トップページ
 
 ### 設計書
-- `.ai-dlc/construction/domain-design/unit1.md`
-- `.ai-dlc/construction/logical-design/unit1.md`
+- `.ai-dlc/construction/unit1/domain-design.md`
+- `.ai-dlc/construction/unit1/logical-design.md`
 
 ### デプロイ
 - **URL**: https://pokeparty-three.vercel.app

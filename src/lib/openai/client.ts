@@ -33,17 +33,18 @@ export async function generatePokemonNames(
   theme: string,
   count: number
 ): Promise<AIResponse> {
-  const userPrompt = `テーマ: ${theme}
+  const fullPrompt = `${SYSTEM_PROMPT}
+
+テーマ: ${theme}
 ポケモン数: ${count}匹
 
 このテーマに合うポケモンを選んでください。JSONのみで返答してください。`;
 
   const model = getGenAI().getGenerativeModel({
-    model: "gemini-1.5-flash-latest",
-    systemInstruction: SYSTEM_PROMPT,
+    model: "gemini-pro",
   });
 
-  const result = await model.generateContent(userPrompt);
+  const result = await model.generateContent(fullPrompt);
   const response = result.response;
   const text = response.text();
 

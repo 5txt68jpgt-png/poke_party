@@ -1,18 +1,18 @@
-import OpenAI from "openai";
+import Anthropic from "@anthropic-ai/sdk";
 
 // 遅延初期化（ビルド時にエラーを防ぐ）
-let openai: OpenAI | null = null;
+let anthropic: Anthropic | null = null;
 
-function getOpenAI(): OpenAI {
-  if (!openai) {
-    if (!process.env.OPENAI_API_KEY) {
-      throw new Error("OPENAI_API_KEY is not set");
+function getAnthropic(): Anthropic {
+  if (!anthropic) {
+    if (!process.env.ANTHROPIC_API_KEY) {
+      throw new Error("ANTHROPIC_API_KEY is not set");
     }
-    openai = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY,
+    anthropic = new Anthropic({
+      apiKey: process.env.ANTHROPIC_API_KEY,
     });
   }
-  return openai;
+  return anthropic;
 }
 
 const SYSTEM_PROMPT = `あなたはポケモンの専門家です。
@@ -38,25 +38,28 @@ export async function generatePokemonNames(
   const userPrompt = `テーマ: ${theme}
 ポケモン数: ${count}匹
 
-このテーマに合うポケモンを選んでください。`;
+このテーマに合うポケモンを選んでください。JSONのみで返答してください。`;
 
-  const response = await getOpenAI().chat.completions.create({
-    model: "gpt-4o-mini",
-    messages: [
-      { role: "system", content: SYSTEM_PROMPT },
-      { role: "user", content: userPrompt },
-    ],
-    temperature: 0.8,
+  const response = await getAnthropic().messages.create({
+    model: "claude-sonnet-4-20250514",
     max_tokens: 200,
-    response_format: { type: "json_object" },
+    system: SYSTEM_PROMPT,
+    messages: [{ role: "user", content: userPrompt }],
   });
 
-  const content = response.choices[0]?.message?.content;
-  if (!content) {
-    throw new Error("AI response is empty");
+  const content = response.content[0];
+  if (content.type !== "text") {
+    throw new Error("Unexpected response type");
   }
 
-  const parsed = JSON.parse(content) as AIResponse;
+  // JSONを抽出（マークダウンコードブロックがある場合も対応）
+  let jsonText = content.text.trim();
+  const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (jsonMatch) {
+    jsonText = jsonMatch[1].trim();
+  }
+
+  const parsed = JSON.parse(jsonText) as AIResponse;
 
   if (!parsed.pokemon || !Array.isArray(parsed.pokemon)) {
     throw new Error("Invalid AI response format");

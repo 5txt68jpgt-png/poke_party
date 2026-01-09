@@ -41,7 +41,7 @@ export async function generatePokemonNames(
 このテーマに合うポケモンを選んでください。JSONのみで返答してください。`;
 
   const model = getGenAI().getGenerativeModel({
-    model: "gemini-pro",
+    model: "gemini-2.5-flash",
   });
 
   const result = await model.generateContent(fullPrompt);

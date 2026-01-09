@@ -17,7 +17,10 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Operation（MVP完成）
+Construction（v2）
+
+### Active Unit
+Unit 5: パーティ生成改善
 
 ### Completed Units
 | Unit | 機能 | 状態 |

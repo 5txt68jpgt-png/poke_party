@@ -4,6 +4,7 @@ import { useState } from "react";
 import { PokemonCountSelect } from "./pokemon-count-select";
 import { PartyDisplay } from "./party-display";
 import { LoadingSpinner } from "./loading-spinner";
+import { ThemeSuggestions } from "./theme-suggestions";
 import { GenerationState, GeneratePartyResponse } from "@/lib/party/types";
 
 export function PartyGenerator() {
@@ -67,10 +68,16 @@ export function PartyGenerator() {
             type="text"
             value={theme}
             onChange={(e) => setTheme(e.target.value)}
-            placeholder="例: 第一世代のポケモン、かわいいポケモン"
+            placeholder="例：かわいいポケモン"
             className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
             disabled={state.status === "loading"}
           />
+          <div className="mt-2">
+            <ThemeSuggestions
+              onSelect={setTheme}
+              disabled={state.status === "loading"}
+            />
+          </div>
         </div>
 
         <PokemonCountSelect value={count} onChange={setCount} />

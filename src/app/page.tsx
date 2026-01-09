@@ -1,12 +1,8 @@
-import { getPokemonWithRandomMoves } from "@/lib/pokeapi/client";
-import { PokemonCard } from "@/components/pokemon-card";
+import { PartyGenerator } from "@/components/party-generator";
 
-export default async function Home() {
-  // デモ: ピカチュウを取得
-  const pokemon = await getPokemonWithRandomMoves("pikachu");
-
+export default function Home() {
   return (
-    <main className="max-w-md mx-auto p-4">
+    <main className="max-w-md mx-auto p-4 pb-8">
       <header className="mb-6">
         <h1 className="text-2xl font-bold text-center text-gray-800">
           PokeParty
@@ -16,7 +12,7 @@ export default async function Home() {
         </p>
       </header>
 
-      <PokemonCard pokemon={pokemon} />
+      <PartyGenerator />
     </main>
   );
 }

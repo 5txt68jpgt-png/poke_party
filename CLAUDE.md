@@ -1,4 +1,4 @@
-# Project: [プロジェクト名を入力]
+# Project: PokeParty
 
 ## AI-DLC Configuration
 - このプロジェクトはAI-DLC（AI-Driven Development Lifecycle）を採用しています。
@@ -13,15 +13,17 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Inception
+Construction
 
 ### Active Unit
-N/A
+Unit 1: 基盤構築 & PokeAPI統合
 
 ## Tech Stack
-- Framework: [例: Next.js 14]
+- Framework: Next.js 14 (App Router)
 - Language: TypeScript
 - Styling: Tailwind CSS
+- API: PokeAPI, OpenAI API
+- Hosting: Vercel
 
 ## Git Commit Convention
 Format: `[phase]: [type] [description]`

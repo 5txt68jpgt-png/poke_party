@@ -1,18 +1,16 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // 遅延初期化（ビルド時にエラーを防ぐ）
-let anthropic: Anthropic | null = null;
+let genAI: GoogleGenerativeAI | null = null;
 
-function getAnthropic(): Anthropic {
-  if (!anthropic) {
-    if (!process.env.ANTHROPIC_API_KEY) {
-      throw new Error("ANTHROPIC_API_KEY is not set");
+function getGenAI(): GoogleGenerativeAI {
+  if (!genAI) {
+    if (!process.env.GEMINI_API_KEY) {
+      throw new Error("GEMINI_API_KEY is not set");
     }
-    anthropic = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    });
+    genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
   }
-  return anthropic;
+  return genAI;
 }
 
 const SYSTEM_PROMPT = `あなたはポケモンの専門家です。
@@ -40,20 +38,17 @@ export async function generatePokemonNames(
 
 このテーマに合うポケモンを選んでください。JSONのみで返答してください。`;
 
-  const response = await getAnthropic().messages.create({
-    model: "claude-sonnet-4-20250514",
-    max_tokens: 200,
-    system: SYSTEM_PROMPT,
-    messages: [{ role: "user", content: userPrompt }],
+  const model = getGenAI().getGenerativeModel({
+    model: "gemini-1.5-flash",
+    systemInstruction: SYSTEM_PROMPT,
   });
 
-  const content = response.content[0];
-  if (content.type !== "text") {
-    throw new Error("Unexpected response type");
-  }
+  const result = await model.generateContent(userPrompt);
+  const response = result.response;
+  const text = response.text();
 
   // JSONを抽出（マークダウンコードブロックがある場合も対応）
-  let jsonText = content.text.trim();
+  let jsonText = text.trim();
   const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
   if (jsonMatch) {
     jsonText = jsonMatch[1].trim();

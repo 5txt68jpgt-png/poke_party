@@ -17,10 +17,7 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Construction（v2）
-
-### Active Unit
-Unit 5: パーティ生成改善
+Operation（v2完成）
 
 ### Completed Units
 | Unit | 機能 | 状態 |
@@ -29,6 +26,7 @@ Unit 5: パーティ生成改善
 | 2 | AIパーティ生成 | 完了 |
 | 3 | タイプ相性判定 | 完了 |
 | 4 | UI/UX改善 | 完了 |
+| 5 | パーティ生成改善（v2） | 完了 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)

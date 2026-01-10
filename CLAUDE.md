@@ -17,7 +17,10 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Operation（v2完成）
+Construction（v3）
+
+### Active Unit
+Unit 6: ポケモン検索機能
 
 ### Completed Units
 | Unit | 機能 | 状態 |
@@ -27,6 +30,7 @@ Operation（v2完成）
 | 3 | タイプ相性判定 | 完了 |
 | 4 | UI/UX改善 | 完了 |
 | 5 | パーティ生成改善（v2） | 完了 |
+| 6 | ポケモン検索機能（v3） | 進行中 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)

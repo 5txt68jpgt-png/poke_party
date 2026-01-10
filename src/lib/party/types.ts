@@ -12,10 +12,14 @@ export interface Party {
   members: PartyPokemon[];
 }
 
+// 生成モード
+export type GenerationMode = "theme" | "random";
+
 // 生成リクエスト
 export interface GenerationRequest {
-  theme: string;
-  count: number; // 1-6
+  theme?: string;  // おまかせ時はundefined
+  count: number;   // 1-6
+  mode: GenerationMode;
 }
 
 // 生成状態

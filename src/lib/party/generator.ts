@@ -1,4 +1,4 @@
-import { generatePokemonNames } from "@/lib/openai/client";
+import { generatePokemonNames, generateRandomParty } from "@/lib/openai/client";
 import { getPokemonBasic } from "@/lib/pokeapi/client";
 import { selectMovesForPokemon } from "./move-selector";
 import { Party, PartyPokemon, GenerationRequest } from "./types";
@@ -9,14 +9,29 @@ import { Party, PartyPokemon, GenerationRequest } from "./types";
 export async function generateParty(
   request: GenerationRequest
 ): Promise<Party> {
-  const { theme, count } = request;
+  const { count, mode } = request;
 
-  // 1. AIにポケモン名を生成してもらう
-  const aiResponse = await generatePokemonNames(theme, count);
+  let theme: string;
+  let pokemonNames: string[];
+
+  if (mode === "random") {
+    // おまかせモード: AIがテーマとポケモンを同時生成
+    const randomResponse = await generateRandomParty(count);
+    theme = randomResponse.theme;
+    pokemonNames = randomResponse.pokemon;
+  } else {
+    // テーマ指定モード
+    if (!request.theme) {
+      throw new Error("テーマが指定されていません");
+    }
+    theme = request.theme;
+    const aiResponse = await generatePokemonNames(theme, count);
+    pokemonNames = aiResponse.pokemon;
+  }
 
   // 2. 各ポケモンの情報を取得し、技を選定
   const members = await Promise.all(
-    aiResponse.pokemon.map((name) => createPartyPokemon(name))
+    pokemonNames.map((name) => createPartyPokemon(name))
   );
 
   // 3. 無効なポケモンを除外（存在しないポケモンがあった場合）

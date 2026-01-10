@@ -29,7 +29,27 @@ const SYSTEM_PROMPT = `あなたはポケモンの専門家です。
 出力形式（必ずこの形式で）:
 {"pokemon": ["pokemon1", "pokemon2", "pokemon3"]}`;
 
+const RANDOM_PROMPT = `あなたはポケモンの専門家です。
+ユーザーのためにランダムで面白いテーマを考え、そのテーマに合うポケモンを選んでください。
+
+ルール:
+1. まず面白いテーマを1つ考えてください（例：「青いポケモン」「鳥ポケモン」「つぶらな瞳のポケモン」「砂漠にいそうなポケモン」など）
+2. そのテーマに合うポケモンを指定数ランダムに選んでください
+3. 実在するポケモンの英語名（小文字、ハイフンあり）のみを返してください
+4. 必ずJSON形式のみで返してください（説明文は不要）
+5. 御三家やメジャーなポケモンばかりにならないようにしてください
+6. マイナーなポケモンも積極的に含めてください
+7. テーマは毎回違うものにしてください
+
+出力形式（必ずこの形式で）:
+{"theme": "考えたテーマ", "pokemon": ["pokemon1", "pokemon2", "pokemon3"]}`;
+
 export interface AIResponse {
+  pokemon: string[];
+}
+
+export interface RandomAIResponse {
+  theme: string;
   pokemon: string[];
 }
 
@@ -63,6 +83,40 @@ export async function generatePokemonNames(
 
   if (!parsed.pokemon || !Array.isArray(parsed.pokemon)) {
     throw new Error("Invalid AI response format");
+  }
+
+  return parsed;
+}
+
+// おまかせ生成（テーマもAIが決める）
+export async function generateRandomParty(
+  count: number
+): Promise<RandomAIResponse> {
+  const fullPrompt = `${RANDOM_PROMPT}
+
+ポケモン数: ${count}匹
+
+面白いテーマを考えて、そのテーマに合うポケモンを選んでください。JSONのみで返答してください。`;
+
+  const model = getGenAI().getGenerativeModel({
+    model: "gemini-2.5-flash",
+  });
+
+  const result = await model.generateContent(fullPrompt);
+  const response = result.response;
+  const text = response.text();
+
+  // JSONを抽出（マークダウンコードブロックがある場合も対応）
+  let jsonText = text.trim();
+  const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (jsonMatch) {
+    jsonText = jsonMatch[1].trim();
+  }
+
+  const parsed = JSON.parse(jsonText) as RandomAIResponse;
+
+  if (!parsed.theme || !parsed.pokemon || !Array.isArray(parsed.pokemon)) {
+    throw new Error("Invalid AI response format for random generation");
   }
 
   return parsed;

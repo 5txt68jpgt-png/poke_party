@@ -5,15 +5,16 @@ import { PokemonCountSelect } from "./pokemon-count-select";
 import { PartyDisplay } from "./party-display";
 import { LoadingSpinner } from "./loading-spinner";
 import { ThemeSuggestions } from "./theme-suggestions";
-import { GenerationState, GeneratePartyResponse } from "@/lib/party/types";
+import { GenerationState, GeneratePartyResponse, GenerationMode } from "@/lib/party/types";
 
 export function PartyGenerator() {
   const [theme, setTheme] = useState("");
   const [count, setCount] = useState(3);
   const [state, setState] = useState<GenerationState>({ status: "idle" });
+  const [lastMode, setLastMode] = useState<GenerationMode>("theme");
 
-  const handleGenerate = async () => {
-    if (!theme.trim()) {
+  const handleGenerate = async (mode: GenerationMode) => {
+    if (mode === "theme" && !theme.trim()) {
       setState({
         status: "error",
         message: "テーマを入力してください",
@@ -22,12 +23,17 @@ export function PartyGenerator() {
     }
 
     setState({ status: "loading" });
+    setLastMode(mode);
 
     try {
       const response = await fetch("/api/generate-party", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ theme: theme.trim(), count }),
+        body: JSON.stringify({
+          theme: mode === "theme" ? theme.trim() : undefined,
+          count,
+          mode,
+        }),
       });
 
       const data: GeneratePartyResponse = await response.json();
@@ -49,13 +55,32 @@ export function PartyGenerator() {
   };
 
   const handleRegenerate = () => {
-    handleGenerate();
+    handleGenerate(lastMode);
   };
 
   return (
     <div className="space-y-6">
       {/* 入力フォーム */}
       <div className="space-y-4">
+        {/* おまかせ生成ボタン */}
+        <button
+          onClick={() => handleGenerate("random")}
+          disabled={state.status === "loading"}
+          className="w-full py-4 min-h-[52px] bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-bold text-lg hover:from-purple-600 hover:to-pink-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-md"
+        >
+          {state.status === "loading" && lastMode === "random"
+            ? "生成中..."
+            : "🎲 おまかせ生成"}
+        </button>
+
+        {/* 区切り線 */}
+        <div className="flex items-center gap-3">
+          <div className="flex-1 h-px bg-gray-300" />
+          <span className="text-sm text-gray-500">または</span>
+          <div className="flex-1 h-px bg-gray-300" />
+        </div>
+
+        {/* テーマ入力 */}
         <div>
           <label
             htmlFor="theme"
@@ -83,11 +108,13 @@ export function PartyGenerator() {
         <PokemonCountSelect value={count} onChange={setCount} />
 
         <button
-          onClick={handleGenerate}
+          onClick={() => handleGenerate("theme")}
           disabled={state.status === "loading"}
           className="w-full py-3 min-h-[44px] bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
-          {state.status === "loading" ? "生成中..." : "パーティ生成"}
+          {state.status === "loading" && lastMode === "theme"
+            ? "生成中..."
+            : "パーティ生成"}
         </button>
       </div>
 

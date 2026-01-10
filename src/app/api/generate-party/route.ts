@@ -6,8 +6,22 @@ export async function POST(request: Request) {
   try {
     const body = (await request.json()) as GenerationRequest;
 
-    // 入力バリデーション
-    if (!body.theme || typeof body.theme !== "string") {
+    // モードのバリデーション
+    const mode = body.mode || "theme";
+    if (mode !== "theme" && mode !== "random") {
+      return NextResponse.json<GeneratePartyResponse>(
+        {
+          error: {
+            code: "INVALID_INPUT",
+            message: "無効なモードです",
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    // テーマモードの場合はテーマが必須
+    if (mode === "theme" && (!body.theme || typeof body.theme !== "string")) {
       return NextResponse.json<GeneratePartyResponse>(
         {
           error: {
@@ -19,6 +33,7 @@ export async function POST(request: Request) {
       );
     }
 
+    // countのバリデーション
     if (
       typeof body.count !== "number" ||
       body.count < 1 ||
@@ -35,13 +50,11 @@ export async function POST(request: Request) {
       );
     }
 
-    // テーマのサニタイズ（NFR-11）
-    const sanitizedTheme = body.theme.trim().slice(0, 200);
-
     // パーティ生成
     const party = await generateParty({
-      theme: sanitizedTheme,
+      theme: body.theme ? body.theme.trim().slice(0, 200) : undefined,
       count: body.count,
+      mode,
     });
 
     return NextResponse.json<GeneratePartyResponse>({ party });

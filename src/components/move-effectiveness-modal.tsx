@@ -5,9 +5,11 @@ import { Move, PokemonTypeName } from "@/lib/pokemon/types";
 import { TypeBadge } from "./type-badge";
 import { TypeSelector } from "./type-selector";
 import { EffectivenessResult } from "./effectiveness-result";
+import { PokemonSearch } from "./pokemon-search";
 import { calculateEffectiveness } from "@/lib/effectiveness/calculator";
 import { EffectivenessResult as EffectivenessResultType, DefenderTypes } from "@/lib/effectiveness/types";
 import { DAMAGE_CLASS_JAPANESE } from "@/data/type-data";
+import type { PokemonEntry } from "@/lib/pokemon/search";
 
 interface MoveEffectivenessModalProps {
   move: Move | null;
@@ -21,7 +23,20 @@ export function MoveEffectivenessModal({
   onClose,
 }: MoveEffectivenessModalProps) {
   const [selectedTypes, setSelectedTypes] = useState<PokemonTypeName[]>([]);
+  const [selectedPokemon, setSelectedPokemon] = useState<PokemonEntry | null>(null);
   const [result, setResult] = useState<EffectivenessResultType | null>(null);
+
+  // ポケモン選択時にタイプを自動設定
+  const handlePokemonSelect = (pokemon: PokemonEntry) => {
+    setSelectedPokemon(pokemon);
+    setSelectedTypes(pokemon.types);
+  };
+
+  // タイプ選択時はポケモン選択をクリア
+  const handleTypeSelect = (types: PokemonTypeName[]) => {
+    setSelectedPokemon(null);
+    setSelectedTypes(types);
+  };
 
   // タイプ選択時に相性を計算
   useEffect(() => {
@@ -40,6 +55,7 @@ export function MoveEffectivenessModal({
   useEffect(() => {
     if (!isOpen) {
       setSelectedTypes([]);
+      setSelectedPokemon(null);
       setResult(null);
     }
   }, [isOpen]);
@@ -95,14 +111,48 @@ export function MoveEffectivenessModal({
           </div>
         ) : (
           <>
+            {/* ポケモン検索 */}
+            <div className="mb-4">
+              <h3 className="text-sm font-medium text-gray-700 mb-2">
+                相手のポケモンを検索
+              </h3>
+              <PokemonSearch
+                onSelect={handlePokemonSelect}
+                placeholder="ポケモン名を入力..."
+              />
+              {selectedPokemon && (
+                <div className="mt-2 p-2 bg-blue-50 rounded-lg flex items-center justify-between">
+                  <span className="font-medium text-blue-800">
+                    {selectedPokemon.japaneseName}
+                  </span>
+                  <button
+                    onClick={() => {
+                      setSelectedPokemon(null);
+                      setSelectedTypes([]);
+                    }}
+                    className="text-blue-600 hover:text-blue-800 text-sm"
+                  >
+                    クリア
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {/* 区切り線 */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="flex-1 h-px bg-gray-300" />
+              <span className="text-sm text-gray-500">または</span>
+              <div className="flex-1 h-px bg-gray-300" />
+            </div>
+
             {/* 相手タイプ選択 */}
             <div className="mb-4">
               <h3 className="text-sm font-medium text-gray-700 mb-2">
-                相手のタイプを選択（最大2つ）
+                タイプを直接選択（最大2つ）
               </h3>
               <TypeSelector
                 selectedTypes={selectedTypes}
-                onSelect={setSelectedTypes}
+                onSelect={handleTypeSelect}
                 maxSelection={2}
               />
             </div>

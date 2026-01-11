@@ -17,10 +17,10 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Construction（v6）
+Operation（v6完成）
 
 ### Active Unit
-Unit 11: 技の入れ替え機能
+N/A
 
 ### Completed Units
 | Unit | 機能 | 状態 |
@@ -35,6 +35,7 @@ Unit 11: 技の入れ替え機能
 | 8 | ゲーム風デザイン（v4） | 完了 |
 | 9 | 相手ポケモン選択保持（v5） | 完了 |
 | 10 | 受けた技の相性チェック（v5） | 完了 |
+| 11 | 技の入れ替え機能（v6） | 完了 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)

@@ -62,6 +62,9 @@ export function PartyGenerator() {
     <div className="space-y-6">
       {/* 入力フォーム */}
       <div className="space-y-4">
+        {/* ポケモン数選択（共通） */}
+        <PokemonCountSelect value={count} onChange={setCount} />
+
         {/* おまかせ生成ボタン */}
         <button
           onClick={() => handleGenerate("random")}
@@ -104,8 +107,6 @@ export function PartyGenerator() {
             />
           </div>
         </div>
-
-        <PokemonCountSelect value={count} onChange={setCount} />
 
         <button
           onClick={() => handleGenerate("theme")}

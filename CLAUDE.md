@@ -17,7 +17,10 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Operation（v4完成）
+Construction（v5）
+
+### Active Unit
+Unit 9: 相手ポケモン選択保持
 
 ### Completed Units
 | Unit | 機能 | 状態 |

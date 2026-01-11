@@ -17,7 +17,11 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Operation（v3完成）
+Construction（v4）
+
+### Active Units
+- Unit 7: おまかせ生成改善
+- Unit 8: ゲーム風デザイン
 
 ### Completed Units
 | Unit | 機能 | 状態 |

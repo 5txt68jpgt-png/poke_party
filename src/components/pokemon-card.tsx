@@ -9,21 +9,22 @@ interface PokemonCardProps {
 
 export function PokemonCard({ pokemon }: PokemonCardProps) {
   return (
-    <div className="bg-white rounded-2xl shadow-md overflow-hidden max-w-sm mx-auto">
+    <div className="bg-white rounded-pokemon shadow-pokemon-card overflow-hidden max-w-sm mx-auto border-2 border-pokemon-blue-200">
       {/* ポケモン画像 */}
-      <div className="bg-gradient-to-b from-gray-100 to-gray-200 p-4 flex justify-center">
+      <div className="bg-gradient-to-b from-pokemon-blue-100 to-pokemon-blue-200 p-4 flex justify-center relative">
+        <div className="absolute inset-0 bg-card-shine" />
         {pokemon.sprite ? (
           <Image
             src={pokemon.sprite}
             alt={pokemon.japaneseName}
             width={160}
             height={160}
-            className="drop-shadow-lg"
+            className="drop-shadow-lg relative z-10"
             unoptimized
           />
         ) : (
-          <div className="w-40 h-40 bg-gray-300 rounded-full flex items-center justify-center">
-            <span className="text-gray-500">No Image</span>
+          <div className="w-40 h-40 bg-pokemon-blue-300 rounded-full flex items-center justify-center relative z-10">
+            <span className="text-pokemon-blue-600">No Image</span>
           </div>
         )}
       </div>
@@ -31,7 +32,7 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
       {/* ポケモン情報 */}
       <div className="p-4">
         {/* 名前 */}
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">
+        <h2 className="text-2xl font-bold text-center text-pokemon-blue-800 mb-2">
           {pokemon.japaneseName}
         </h2>
 
@@ -43,8 +44,8 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
         </div>
 
         {/* 技リスト */}
-        <div className="border-t pt-4">
-          <h3 className="text-sm font-medium text-gray-600 mb-2">わざ</h3>
+        <div className="border-t-2 border-pokemon-blue-100 pt-4">
+          <h3 className="text-sm font-medium text-pokemon-blue-600 mb-2">わざ</h3>
           <MoveList moves={pokemon.moves} />
         </div>
       </div>

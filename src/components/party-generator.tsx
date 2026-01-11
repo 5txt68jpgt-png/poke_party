@@ -69,7 +69,7 @@ export function PartyGenerator() {
         <button
           onClick={() => handleGenerate("random")}
           disabled={state.status === "loading"}
-          className="w-full py-4 min-h-[52px] bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-bold text-lg hover:from-purple-600 hover:to-pink-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-md"
+          className="w-full py-4 min-h-[52px] pokemon-button-secondary text-lg disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {state.status === "loading" && lastMode === "random"
             ? "生成中..."
@@ -78,16 +78,16 @@ export function PartyGenerator() {
 
         {/* 区切り線 */}
         <div className="flex items-center gap-3">
-          <div className="flex-1 h-px bg-gray-300" />
-          <span className="text-sm text-gray-500">または</span>
-          <div className="flex-1 h-px bg-gray-300" />
+          <div className="flex-1 h-px bg-pokemon-blue-300/50" />
+          <span className="text-sm text-pokemon-blue-600 font-medium">または</span>
+          <div className="flex-1 h-px bg-pokemon-blue-300/50" />
         </div>
 
         {/* テーマ入力 */}
         <div>
           <label
             htmlFor="theme"
-            className="block text-sm font-medium text-gray-700 mb-1"
+            className="block text-sm font-medium text-pokemon-blue-700 mb-1"
           >
             テーマを入力
           </label>
@@ -97,7 +97,7 @@ export function PartyGenerator() {
             value={theme}
             onChange={(e) => setTheme(e.target.value)}
             placeholder="例：かわいいポケモン"
-            className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+            className="w-full px-4 py-3 min-h-[44px] pokemon-input text-gray-800 placeholder:text-gray-400"
             disabled={state.status === "loading"}
           />
           <div className="mt-2">
@@ -111,7 +111,7 @@ export function PartyGenerator() {
         <button
           onClick={() => handleGenerate("theme")}
           disabled={state.status === "loading"}
-          className="w-full py-3 min-h-[44px] bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="w-full py-3 min-h-[44px] pokemon-button-primary disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {state.status === "loading" && lastMode === "theme"
             ? "生成中..."
@@ -123,8 +123,8 @@ export function PartyGenerator() {
       {state.status === "loading" && <LoadingSpinner />}
 
       {state.status === "error" && (
-        <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-          <p className="text-red-600">{state.message}</p>
+        <div className="p-4 bg-red-100 border-2 border-red-300 rounded-pokemon">
+          <p className="text-red-700 font-medium">{state.message}</p>
         </div>
       )}
 

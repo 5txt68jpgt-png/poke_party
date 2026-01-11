@@ -90,27 +90,27 @@ export function PokemonSearch({
         onFocus={() => results.length > 0 && setIsOpen(true)}
         onBlur={handleBlur}
         placeholder={placeholder}
-        className="w-full px-4 py-3 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        className="w-full px-4 py-3 text-lg pokemon-input text-gray-800 placeholder:text-gray-400"
         autoComplete="off"
       />
 
       {isOpen && results.length > 0 && (
         <ul
           ref={listRef}
-          className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-80 overflow-auto"
+          className="absolute z-50 w-full mt-1 bg-white border-2 border-pokemon-blue-200 rounded-pokemon shadow-pokemon-card max-h-80 overflow-auto"
         >
           {results.map((pokemon, index) => (
             <li key={pokemon.id}>
               <button
                 type="button"
                 onClick={() => handleSelect(pokemon)}
-                className={`w-full px-4 py-3 flex items-center justify-between text-left hover:bg-gray-50 transition-colors ${
-                  index === highlightedIndex ? "bg-blue-50" : ""
-                } ${index === 0 ? "rounded-t-lg" : ""} ${
-                  index === results.length - 1 ? "rounded-b-lg" : ""
+                className={`w-full px-4 py-3 flex items-center justify-between text-left hover:bg-pokemon-blue-50 transition-colors ${
+                  index === highlightedIndex ? "bg-pokemon-blue-100" : ""
+                } ${index === 0 ? "rounded-t-pokemon" : ""} ${
+                  index === results.length - 1 ? "rounded-b-pokemon" : ""
                 }`}
               >
-                <span className="text-lg font-medium">
+                <span className="text-lg font-medium text-pokemon-blue-800">
                   {pokemon.japaneseName}
                 </span>
                 <div className="flex gap-1">

@@ -23,9 +23,9 @@ export function PartyDisplay({
   return (
     <div className="space-y-4">
       {/* テーマ表示 */}
-      <div className="text-center">
-        <span className="text-sm text-gray-500">テーマ:</span>
-        <p className="font-medium text-gray-800">{party.theme}</p>
+      <div className="text-center bg-pokemon-blue-50 rounded-pokemon p-3">
+        <span className="text-sm text-pokemon-blue-500">テーマ</span>
+        <p className="font-bold text-pokemon-blue-800">{party.theme}</p>
       </div>
 
       {/* ポケモン選択タブ */}
@@ -34,10 +34,10 @@ export function PartyDisplay({
           <button
             key={member.pokemon.id}
             onClick={() => setSelectedIndex(index)}
-            className={`flex flex-col items-center p-2 rounded-lg min-w-[70px] min-h-[70px] transition-all ${
+            className={`flex flex-col items-center p-2 rounded-pokemon min-w-[70px] min-h-[70px] transition-all border-2 ${
               selectedIndex === index
-                ? "bg-blue-100 ring-2 ring-blue-500"
-                : "bg-gray-100 hover:bg-gray-200"
+                ? "bg-pokemon-blue-100 border-pokemon-blue-500 shadow-md"
+                : "bg-white border-pokemon-blue-200 hover:bg-pokemon-blue-50"
             }`}
           >
             {member.pokemon.sprite && (
@@ -49,7 +49,7 @@ export function PartyDisplay({
                 unoptimized
               />
             )}
-            <span className="text-xs text-gray-700 truncate max-w-[60px]">
+            <span className="text-xs text-pokemon-blue-700 truncate max-w-[60px] font-medium">
               {member.pokemon.japaneseName}
             </span>
           </button>
@@ -65,9 +65,9 @@ export function PartyDisplay({
       <button
         onClick={onRegenerate}
         disabled={isLoading}
-        className="w-full py-3 min-h-[44px] bg-gray-200 text-gray-800 rounded-lg font-medium hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+        className="w-full py-3 min-h-[44px] bg-pokemon-blue-100 text-pokemon-blue-700 rounded-pokemon font-bold hover:bg-pokemon-blue-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors border-2 border-pokemon-blue-300"
       >
-        {isLoading ? "生成中..." : "再生成"}
+        {isLoading ? "生成中..." : "🔄 再生成"}
       </button>
     </div>
   );
@@ -75,28 +75,29 @@ export function PartyDisplay({
 
 function PokemonDetail({ member }: { member: PartyPokemon }) {
   return (
-    <div className="bg-white rounded-2xl shadow-md overflow-hidden">
+    <div className="bg-white rounded-pokemon shadow-pokemon-card overflow-hidden border-2 border-pokemon-blue-200">
       {/* ポケモン画像 */}
-      <div className="bg-gradient-to-b from-gray-100 to-gray-200 p-4 flex justify-center">
+      <div className="bg-gradient-to-b from-pokemon-blue-100 to-pokemon-blue-200 p-4 flex justify-center relative">
+        <div className="absolute inset-0 bg-card-shine" />
         {member.pokemon.sprite ? (
           <Image
             src={member.pokemon.sprite}
             alt={member.pokemon.japaneseName}
             width={140}
             height={140}
-            className="drop-shadow-lg"
+            className="drop-shadow-lg relative z-10"
             unoptimized
           />
         ) : (
-          <div className="w-36 h-36 bg-gray-300 rounded-full flex items-center justify-center">
-            <span className="text-gray-500">No Image</span>
+          <div className="w-36 h-36 bg-pokemon-blue-300 rounded-full flex items-center justify-center relative z-10">
+            <span className="text-pokemon-blue-600">No Image</span>
           </div>
         )}
       </div>
 
       {/* ポケモン情報 */}
       <div className="p-4">
-        <h2 className="text-xl font-bold text-center text-gray-800 mb-2">
+        <h2 className="text-xl font-bold text-center text-pokemon-blue-800 mb-2">
           {member.pokemon.japaneseName}
         </h2>
 
@@ -106,8 +107,8 @@ function PokemonDetail({ member }: { member: PartyPokemon }) {
           ))}
         </div>
 
-        <div className="border-t pt-4">
-          <h3 className="text-sm font-medium text-gray-600 mb-2">わざ</h3>
+        <div className="border-t-2 border-pokemon-blue-100 pt-4">
+          <h3 className="text-sm font-medium text-pokemon-blue-600 mb-2">わざ</h3>
           <MoveList moves={member.selectedMoves} />
         </div>
       </div>

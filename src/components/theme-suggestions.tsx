@@ -27,7 +27,7 @@ export function ThemeSuggestions({ onSelect, disabled }: ThemeSuggestionsProps) 
             key={theme}
             onClick={() => onSelect(theme)}
             disabled={disabled}
-            className="px-3 py-1.5 bg-gray-100 text-gray-700 text-sm rounded-full hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors whitespace-nowrap"
+            className="px-3 py-1.5 bg-pokemon-blue-100 text-pokemon-blue-700 text-sm rounded-full hover:bg-pokemon-blue-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors whitespace-nowrap border border-pokemon-blue-200"
           >
             {theme}
           </button>

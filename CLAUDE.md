@@ -17,11 +17,7 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Construction（v4）
-
-### Active Units
-- Unit 7: おまかせ生成改善
-- Unit 8: ゲーム風デザイン
+Operation（v4完成）
 
 ### Completed Units
 | Unit | 機能 | 状態 |
@@ -32,6 +28,8 @@ Construction（v4）
 | 4 | UI/UX改善 | 完了 |
 | 5 | パーティ生成改善（v2） | 完了 |
 | 6 | ポケモン検索機能（v3） | 完了 |
+| 7 | おまかせ生成改善（v4） | 完了 |
+| 8 | ゲーム風デザイン（v4） | 完了 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)

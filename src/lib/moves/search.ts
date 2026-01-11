@@ -6,6 +6,8 @@ export interface MoveEntry {
   name: string;
   japaneseName: string;
   type: PokemonTypeName;
+  power: number | null;
+  damageClass: "physical" | "special" | "status";
 }
 
 // JSONデータを型付け
@@ -70,8 +72,34 @@ export function getMoveById(id: number): MoveEntry | undefined {
 }
 
 /**
+ * 英語名で技を取得
+ * @param name 技の英語名
+ * @returns 技エントリ（見つからない場合はundefined）
+ */
+export function getMoveByName(name: string): MoveEntry | undefined {
+  return moveList.find((m) => m.name === name);
+}
+
+/**
+ * 複数の技を英語名で取得
+ * @param names 技の英語名の配列
+ * @returns 技エントリの配列
+ */
+export function getMovesByNames(names: string[]): MoveEntry[] {
+  const nameSet = new Set(names);
+  return moveList.filter((m) => nameSet.has(m.name));
+}
+
+/**
  * 全技数を取得
  */
 export function getTotalMoveCount(): number {
   return moveList.length;
+}
+
+/**
+ * 全技リストを取得
+ */
+export function getAllMoves(): MoveEntry[] {
+  return moveList;
 }

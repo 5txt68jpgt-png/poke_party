@@ -7,7 +7,7 @@ import { TypeBadge } from "./type-badge";
 import { MoveList } from "./move-list";
 import { ReceivedMoveModal } from "./received-move-modal";
 import type { PokemonEntry } from "@/lib/pokemon/search";
-import type { PokemonTypeName } from "@/lib/pokemon/types";
+import type { PokemonTypeName, Move } from "@/lib/pokemon/types";
 
 interface PartyDisplayProps {
   party: Party;
@@ -22,7 +22,31 @@ export function PartyDisplay({
 }: PartyDisplayProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [opponentPokemon, setOpponentPokemon] = useState<PokemonEntry | null>(null);
-  const selectedMember = party.members[selectedIndex];
+  const [partyMembers, setPartyMembers] = useState<PartyPokemon[]>(party.members);
+  const selectedMember = partyMembers[selectedIndex];
+
+  // パーティが変わったら状態をリセット
+  if (party.members !== partyMembers && party.theme !== partyMembers[0]?.pokemon.name) {
+    // 新しいパーティが生成された場合のみリセット
+    if (party.members.length > 0 && party.members[0].pokemon.id !== partyMembers[0]?.pokemon.id) {
+      setPartyMembers(party.members);
+      setSelectedIndex(0);
+    }
+  }
+
+  // 技入れ替えハンドラ
+  const handleMoveSwap = (pokemonIndex: number, moveIndex: number, newMove: Move) => {
+    setPartyMembers((prev) => {
+      const updated = [...prev];
+      const updatedMoves = [...updated[pokemonIndex].selectedMoves];
+      updatedMoves[moveIndex] = newMove;
+      updated[pokemonIndex] = {
+        ...updated[pokemonIndex],
+        selectedMoves: updatedMoves,
+      };
+      return updated;
+    });
+  };
 
   return (
     <div className="space-y-4">
@@ -34,7 +58,7 @@ export function PartyDisplay({
 
       {/* ポケモン選択タブ */}
       <div className="flex justify-center gap-2 flex-wrap">
-        {party.members.map((member, index) => (
+        {partyMembers.map((member, index) => (
           <button
             key={member.pokemon.id}
             onClick={() => setSelectedIndex(index)}
@@ -64,8 +88,10 @@ export function PartyDisplay({
       {selectedMember && (
         <PokemonDetail
           member={selectedMember}
+          memberIndex={selectedIndex}
           opponentPokemon={opponentPokemon}
           onOpponentChange={setOpponentPokemon}
+          onMoveSwap={handleMoveSwap}
         />
       )}
 
@@ -83,13 +109,19 @@ export function PartyDisplay({
 
 interface PokemonDetailProps {
   member: PartyPokemon;
+  memberIndex: number;
   opponentPokemon: PokemonEntry | null;
   onOpponentChange: (pokemon: PokemonEntry | null) => void;
+  onMoveSwap: (pokemonIndex: number, moveIndex: number, newMove: Move) => void;
 }
 
-function PokemonDetail({ member, opponentPokemon, onOpponentChange }: PokemonDetailProps) {
+function PokemonDetail({ member, memberIndex, opponentPokemon, onOpponentChange, onMoveSwap }: PokemonDetailProps) {
   const [isReceivedMoveModalOpen, setIsReceivedMoveModalOpen] = useState(false);
   const pokemonTypes: PokemonTypeName[] = member.pokemon.types.map((t) => t.name);
+
+  const handleMoveSwap = (moveIndex: number, newMove: Move) => {
+    onMoveSwap(memberIndex, moveIndex, newMove);
+  };
 
   return (
     <div className="bg-white rounded-pokemon shadow-pokemon-card overflow-hidden border-2 border-pokemon-blue-200">
@@ -130,6 +162,9 @@ function PokemonDetail({ member, opponentPokemon, onOpponentChange }: PokemonDet
             moves={member.selectedMoves}
             opponentPokemon={opponentPokemon}
             onOpponentChange={onOpponentChange}
+            pokemonId={member.pokemon.id}
+            pokemonName={member.pokemon.japaneseName}
+            onMoveSwap={handleMoveSwap}
           />
         </div>
 

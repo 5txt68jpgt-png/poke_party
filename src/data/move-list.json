@@ -3,5622 +3,7496 @@
     "id": 1,
     "name": "pound",
     "japaneseName": "はたく",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 2,
     "name": "karate-chop",
     "japaneseName": "からてチョップ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 3,
     "name": "double-slap",
     "japaneseName": "おうふくビンタ",
-    "type": "normal"
+    "type": "normal",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 4,
     "name": "comet-punch",
     "japaneseName": "れんぞくパンチ",
-    "type": "normal"
+    "type": "normal",
+    "power": 18,
+    "damageClass": "physical"
   },
   {
     "id": 5,
     "name": "mega-punch",
     "japaneseName": "メガトンパンチ",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 6,
     "name": "pay-day",
     "japaneseName": "ネコにこばん",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 7,
     "name": "fire-punch",
     "japaneseName": "ほのおのパンチ",
-    "type": "fire"
+    "type": "fire",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 8,
     "name": "ice-punch",
     "japaneseName": "れいとうパンチ",
-    "type": "ice"
+    "type": "ice",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 9,
     "name": "thunder-punch",
     "japaneseName": "かみなりパンチ",
-    "type": "electric"
+    "type": "electric",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 10,
     "name": "scratch",
     "japaneseName": "ひっかく",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 11,
     "name": "vice-grip",
     "japaneseName": "はさむ",
-    "type": "normal"
+    "type": "normal",
+    "power": 55,
+    "damageClass": "physical"
   },
   {
     "id": 12,
     "name": "guillotine",
     "japaneseName": "ハサミギロチン",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 13,
     "name": "razor-wind",
     "japaneseName": "かまいたち",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 14,
     "name": "swords-dance",
     "japaneseName": "つるぎのまい",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 15,
     "name": "cut",
     "japaneseName": "いあいぎり",
-    "type": "normal"
+    "type": "normal",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 16,
     "name": "gust",
     "japaneseName": "かぜおこし",
-    "type": "flying"
+    "type": "flying",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 17,
     "name": "wing-attack",
     "japaneseName": "つばさでうつ",
-    "type": "flying"
+    "type": "flying",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 18,
     "name": "whirlwind",
     "japaneseName": "ふきとばし",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 19,
     "name": "fly",
     "japaneseName": "そらをとぶ",
-    "type": "flying"
+    "type": "flying",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 20,
     "name": "bind",
     "japaneseName": "しめつける",
-    "type": "normal"
+    "type": "normal",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 21,
     "name": "slam",
     "japaneseName": "たたきつける",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 22,
     "name": "vine-whip",
     "japaneseName": "つるのムチ",
-    "type": "grass"
+    "type": "grass",
+    "power": 45,
+    "damageClass": "physical"
   },
   {
     "id": 23,
     "name": "stomp",
     "japaneseName": "ふみつけ",
-    "type": "normal"
+    "type": "normal",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 24,
     "name": "double-kick",
     "japaneseName": "にどげり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 25,
     "name": "mega-kick",
     "japaneseName": "メガトンキック",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 26,
     "name": "jump-kick",
     "japaneseName": "とびげり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 27,
     "name": "rolling-kick",
     "japaneseName": "まわしげり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 28,
     "name": "sand-attack",
     "japaneseName": "すなかけ",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 29,
     "name": "headbutt",
     "japaneseName": "ずつき",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 30,
     "name": "horn-attack",
     "japaneseName": "つのでつく",
-    "type": "normal"
+    "type": "normal",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 31,
     "name": "fury-attack",
     "japaneseName": "みだれづき",
-    "type": "normal"
+    "type": "normal",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 32,
     "name": "horn-drill",
     "japaneseName": "つのドリル",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 33,
     "name": "tackle",
     "japaneseName": "たいあたり",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 34,
     "name": "body-slam",
     "japaneseName": "のしかかり",
-    "type": "normal"
+    "type": "normal",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 35,
     "name": "wrap",
     "japaneseName": "まきつく",
-    "type": "normal"
+    "type": "normal",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 36,
     "name": "take-down",
     "japaneseName": "とっしん",
-    "type": "normal"
+    "type": "normal",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 37,
     "name": "thrash",
     "japaneseName": "あばれる",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 38,
     "name": "double-edge",
     "japaneseName": "すてみタックル",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 39,
     "name": "tail-whip",
     "japaneseName": "しっぽをふる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 40,
     "name": "poison-sting",
     "japaneseName": "どくばり",
-    "type": "poison"
+    "type": "poison",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 41,
     "name": "twineedle",
     "japaneseName": "ダブルニードル",
-    "type": "bug"
+    "type": "bug",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 42,
     "name": "pin-missile",
     "japaneseName": "ミサイルばり",
-    "type": "bug"
+    "type": "bug",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 43,
     "name": "leer",
     "japaneseName": "にらみつける",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 44,
     "name": "bite",
     "japaneseName": "かみつく",
-    "type": "dark"
+    "type": "dark",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 45,
     "name": "growl",
     "japaneseName": "なきごえ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 46,
     "name": "roar",
     "japaneseName": "ほえる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 47,
     "name": "sing",
     "japaneseName": "うたう",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 48,
     "name": "supersonic",
     "japaneseName": "ちょうおんぱ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 49,
     "name": "sonic-boom",
     "japaneseName": "ソニックブーム",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 50,
     "name": "disable",
     "japaneseName": "かなしばり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 51,
     "name": "acid",
     "japaneseName": "ようかいえき",
-    "type": "poison"
+    "type": "poison",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 52,
     "name": "ember",
     "japaneseName": "ひのこ",
-    "type": "fire"
+    "type": "fire",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 53,
     "name": "flamethrower",
     "japaneseName": "かえんほうしゃ",
-    "type": "fire"
+    "type": "fire",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 54,
     "name": "mist",
     "japaneseName": "しろいきり",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 55,
     "name": "water-gun",
     "japaneseName": "みずでっぽう",
-    "type": "water"
+    "type": "water",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 56,
     "name": "hydro-pump",
     "japaneseName": "ハイドロポンプ",
-    "type": "water"
+    "type": "water",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 57,
     "name": "surf",
     "japaneseName": "なみのり",
-    "type": "water"
+    "type": "water",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 58,
     "name": "ice-beam",
     "japaneseName": "れいとうビーム",
-    "type": "ice"
+    "type": "ice",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 59,
     "name": "blizzard",
     "japaneseName": "ふぶき",
-    "type": "ice"
+    "type": "ice",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 60,
     "name": "psybeam",
     "japaneseName": "サイケこうせん",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 61,
     "name": "bubble-beam",
     "japaneseName": "バブルこうせん",
-    "type": "water"
+    "type": "water",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 62,
     "name": "aurora-beam",
     "japaneseName": "オーロラビーム",
-    "type": "ice"
+    "type": "ice",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 63,
     "name": "hyper-beam",
     "japaneseName": "はかいこうせん",
-    "type": "normal"
+    "type": "normal",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 64,
     "name": "peck",
     "japaneseName": "つつく",
-    "type": "flying"
+    "type": "flying",
+    "power": 35,
+    "damageClass": "physical"
   },
   {
     "id": 65,
     "name": "drill-peck",
     "japaneseName": "ドリルくちばし",
-    "type": "flying"
+    "type": "flying",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 66,
     "name": "submission",
     "japaneseName": "じごくぐるま",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 67,
     "name": "low-kick",
     "japaneseName": "けたぐり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 68,
     "name": "counter",
     "japaneseName": "カウンター",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 69,
     "name": "seismic-toss",
     "japaneseName": "ちきゅうなげ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 70,
     "name": "strength",
     "japaneseName": "かいりき",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 71,
     "name": "absorb",
     "japaneseName": "すいとる",
-    "type": "grass"
+    "type": "grass",
+    "power": 20,
+    "damageClass": "special"
   },
   {
     "id": 72,
     "name": "mega-drain",
     "japaneseName": "メガドレイン",
-    "type": "grass"
+    "type": "grass",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 73,
     "name": "leech-seed",
     "japaneseName": "やどりぎのタネ",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 74,
     "name": "growth",
     "japaneseName": "せいちょう",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 75,
     "name": "razor-leaf",
     "japaneseName": "はっぱカッター",
-    "type": "grass"
+    "type": "grass",
+    "power": 55,
+    "damageClass": "physical"
   },
   {
     "id": 76,
     "name": "solar-beam",
     "japaneseName": "ソーラービーム",
-    "type": "grass"
+    "type": "grass",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 77,
     "name": "poison-powder",
     "japaneseName": "どくのこな",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 78,
     "name": "stun-spore",
     "japaneseName": "しびれごな",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 79,
     "name": "sleep-powder",
     "japaneseName": "ねむりごな",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 80,
     "name": "petal-dance",
     "japaneseName": "はなびらのまい",
-    "type": "grass"
+    "type": "grass",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 81,
     "name": "string-shot",
     "japaneseName": "いとをはく",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 82,
     "name": "dragon-rage",
     "japaneseName": "りゅうのいかり",
-    "type": "dragon"
+    "type": "dragon",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 83,
     "name": "fire-spin",
     "japaneseName": "ほのおのうず",
-    "type": "fire"
+    "type": "fire",
+    "power": 35,
+    "damageClass": "special"
   },
   {
     "id": 84,
     "name": "thunder-shock",
     "japaneseName": "でんきショック",
-    "type": "electric"
+    "type": "electric",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 85,
     "name": "thunderbolt",
     "japaneseName": "１０まんボルト",
-    "type": "electric"
+    "type": "electric",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 86,
     "name": "thunder-wave",
     "japaneseName": "でんじは",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 87,
     "name": "thunder",
     "japaneseName": "かみなり",
-    "type": "electric"
+    "type": "electric",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 88,
     "name": "rock-throw",
     "japaneseName": "いわおとし",
-    "type": "rock"
+    "type": "rock",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 89,
     "name": "earthquake",
     "japaneseName": "じしん",
-    "type": "ground"
+    "type": "ground",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 90,
     "name": "fissure",
     "japaneseName": "じわれ",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 91,
     "name": "dig",
     "japaneseName": "あなをほる",
-    "type": "ground"
+    "type": "ground",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 92,
     "name": "toxic",
     "japaneseName": "どくどく",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 93,
     "name": "confusion",
     "japaneseName": "ねんりき",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 94,
     "name": "psychic",
     "japaneseName": "サイコキネシス",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 95,
     "name": "hypnosis",
     "japaneseName": "さいみんじゅつ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 96,
     "name": "meditate",
     "japaneseName": "ヨガのポーズ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 97,
     "name": "agility",
     "japaneseName": "こうそくいどう",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 98,
     "name": "quick-attack",
     "japaneseName": "でんこうせっか",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 99,
     "name": "rage",
     "japaneseName": "いかり",
-    "type": "normal"
+    "type": "normal",
+    "power": 20,
+    "damageClass": "physical"
   },
   {
     "id": 100,
     "name": "teleport",
     "japaneseName": "テレポート",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 101,
     "name": "night-shade",
     "japaneseName": "ナイトヘッド",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 102,
     "name": "mimic",
     "japaneseName": "ものまね",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 103,
     "name": "screech",
     "japaneseName": "いやなおと",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 104,
     "name": "double-team",
     "japaneseName": "かげぶんしん",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 105,
     "name": "recover",
     "japaneseName": "じこさいせい",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 106,
     "name": "harden",
     "japaneseName": "かたくなる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 107,
     "name": "minimize",
     "japaneseName": "ちいさくなる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 108,
     "name": "smokescreen",
     "japaneseName": "えんまく",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 109,
     "name": "confuse-ray",
     "japaneseName": "あやしいひかり",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 110,
     "name": "withdraw",
     "japaneseName": "からにこもる",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 111,
     "name": "defense-curl",
     "japaneseName": "まるくなる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 112,
     "name": "barrier",
     "japaneseName": "バリアー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 113,
     "name": "light-screen",
     "japaneseName": "ひかりのかべ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 114,
     "name": "haze",
     "japaneseName": "くろいきり",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 115,
     "name": "reflect",
     "japaneseName": "リフレクター",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 116,
     "name": "focus-energy",
     "japaneseName": "きあいだめ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 117,
     "name": "bide",
     "japaneseName": "がまん",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 118,
     "name": "metronome",
     "japaneseName": "ゆびをふる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 119,
     "name": "mirror-move",
     "japaneseName": "オウムがえし",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 120,
     "name": "self-destruct",
     "japaneseName": "じばく",
-    "type": "normal"
+    "type": "normal",
+    "power": 200,
+    "damageClass": "physical"
   },
   {
     "id": 121,
     "name": "egg-bomb",
     "japaneseName": "タマゴばくだん",
-    "type": "normal"
+    "type": "normal",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 122,
     "name": "lick",
     "japaneseName": "したでなめる",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 123,
     "name": "smog",
     "japaneseName": "スモッグ",
-    "type": "poison"
+    "type": "poison",
+    "power": 30,
+    "damageClass": "special"
   },
   {
     "id": 124,
     "name": "sludge",
     "japaneseName": "ヘドロこうげき",
-    "type": "poison"
+    "type": "poison",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 125,
     "name": "bone-club",
     "japaneseName": "ホネこんぼう",
-    "type": "ground"
+    "type": "ground",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 126,
     "name": "fire-blast",
     "japaneseName": "だいもんじ",
-    "type": "fire"
+    "type": "fire",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 127,
     "name": "waterfall",
     "japaneseName": "たきのぼり",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 128,
     "name": "clamp",
     "japaneseName": "からではさむ",
-    "type": "water"
+    "type": "water",
+    "power": 35,
+    "damageClass": "physical"
   },
   {
     "id": 129,
     "name": "swift",
     "japaneseName": "スピードスター",
-    "type": "normal"
+    "type": "normal",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 130,
     "name": "skull-bash",
     "japaneseName": "ロケットずつき",
-    "type": "normal"
+    "type": "normal",
+    "power": 130,
+    "damageClass": "physical"
   },
   {
     "id": 131,
     "name": "spike-cannon",
     "japaneseName": "とげキャノン",
-    "type": "normal"
+    "type": "normal",
+    "power": 20,
+    "damageClass": "physical"
   },
   {
     "id": 132,
     "name": "constrict",
     "japaneseName": "からみつく",
-    "type": "normal"
+    "type": "normal",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 133,
     "name": "amnesia",
     "japaneseName": "ドわすれ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 134,
     "name": "kinesis",
     "japaneseName": "スプーンまげ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 135,
     "name": "soft-boiled",
     "japaneseName": "タマゴうみ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 136,
     "name": "high-jump-kick",
     "japaneseName": "とびひざげり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 130,
+    "damageClass": "physical"
   },
   {
     "id": 137,
     "name": "glare",
     "japaneseName": "へびにらみ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 138,
     "name": "dream-eater",
     "japaneseName": "ゆめくい",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 139,
     "name": "poison-gas",
     "japaneseName": "どくガス",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 140,
     "name": "barrage",
     "japaneseName": "たまなげ",
-    "type": "normal"
+    "type": "normal",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 141,
     "name": "leech-life",
     "japaneseName": "きゅうけつ",
-    "type": "bug"
+    "type": "bug",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 142,
     "name": "lovely-kiss",
     "japaneseName": "あくまのキッス",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 143,
     "name": "sky-attack",
     "japaneseName": "ゴッドバード",
-    "type": "flying"
+    "type": "flying",
+    "power": 140,
+    "damageClass": "physical"
   },
   {
     "id": 144,
     "name": "transform",
     "japaneseName": "へんしん",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 145,
     "name": "bubble",
     "japaneseName": "あわ",
-    "type": "water"
+    "type": "water",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 146,
     "name": "dizzy-punch",
     "japaneseName": "ピヨピヨパンチ",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 147,
     "name": "spore",
     "japaneseName": "キノコのほうし",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 148,
     "name": "flash",
     "japaneseName": "フラッシュ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 149,
     "name": "psywave",
     "japaneseName": "サイコウェーブ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 150,
     "name": "splash",
     "japaneseName": "はねる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 151,
     "name": "acid-armor",
     "japaneseName": "とける",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 152,
     "name": "crabhammer",
     "japaneseName": "クラブハンマー",
-    "type": "water"
+    "type": "water",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 153,
     "name": "explosion",
     "japaneseName": "だいばくはつ",
-    "type": "normal"
+    "type": "normal",
+    "power": 250,
+    "damageClass": "physical"
   },
   {
     "id": 154,
     "name": "fury-swipes",
     "japaneseName": "みだれひっかき",
-    "type": "normal"
+    "type": "normal",
+    "power": 18,
+    "damageClass": "physical"
   },
   {
     "id": 155,
     "name": "bonemerang",
     "japaneseName": "ホネブーメラン",
-    "type": "ground"
+    "type": "ground",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 156,
     "name": "rest",
     "japaneseName": "ねむる",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 157,
     "name": "rock-slide",
     "japaneseName": "いわなだれ",
-    "type": "rock"
+    "type": "rock",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 158,
     "name": "hyper-fang",
     "japaneseName": "ひっさつまえば",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 159,
     "name": "sharpen",
     "japaneseName": "かくばる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 160,
     "name": "conversion",
     "japaneseName": "テクスチャー",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 161,
     "name": "tri-attack",
     "japaneseName": "トライアタック",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 162,
     "name": "super-fang",
     "japaneseName": "いかりのまえば",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 163,
     "name": "slash",
     "japaneseName": "きりさく",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 164,
     "name": "substitute",
     "japaneseName": "みがわり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 165,
     "name": "struggle",
     "japaneseName": "わるあがき",
-    "type": "normal"
+    "type": "normal",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 166,
     "name": "sketch",
     "japaneseName": "スケッチ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 167,
     "name": "triple-kick",
     "japaneseName": "トリプルキック",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 168,
     "name": "thief",
     "japaneseName": "どろぼう",
-    "type": "dark"
+    "type": "dark",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 169,
     "name": "spider-web",
     "japaneseName": "クモのす",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 170,
     "name": "mind-reader",
     "japaneseName": "こころのめ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 171,
     "name": "nightmare",
     "japaneseName": "あくむ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 172,
     "name": "flame-wheel",
     "japaneseName": "かえんぐるま",
-    "type": "fire"
+    "type": "fire",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 173,
     "name": "snore",
     "japaneseName": "いびき",
-    "type": "normal"
+    "type": "normal",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 174,
     "name": "curse",
     "japaneseName": "のろい",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 175,
     "name": "flail",
     "japaneseName": "じたばた",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 176,
     "name": "conversion-2",
     "japaneseName": "テクスチャー２",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 177,
     "name": "aeroblast",
     "japaneseName": "エアロブラスト",
-    "type": "flying"
+    "type": "flying",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 178,
     "name": "cotton-spore",
     "japaneseName": "わたほうし",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 179,
     "name": "reversal",
     "japaneseName": "きしかいせい",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 180,
     "name": "spite",
     "japaneseName": "うらみ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 181,
     "name": "powder-snow",
     "japaneseName": "こなゆき",
-    "type": "ice"
+    "type": "ice",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 182,
     "name": "protect",
     "japaneseName": "まもる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 183,
     "name": "mach-punch",
     "japaneseName": "マッハパンチ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 184,
     "name": "scary-face",
     "japaneseName": "こわいかお",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 185,
     "name": "feint-attack",
     "japaneseName": "だましうち",
-    "type": "dark"
+    "type": "dark",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 186,
     "name": "sweet-kiss",
     "japaneseName": "てんしのキッス",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 187,
     "name": "belly-drum",
     "japaneseName": "はらだいこ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 188,
     "name": "sludge-bomb",
     "japaneseName": "ヘドロばくだん",
-    "type": "poison"
+    "type": "poison",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 189,
     "name": "mud-slap",
     "japaneseName": "どろかけ",
-    "type": "ground"
+    "type": "ground",
+    "power": 20,
+    "damageClass": "special"
   },
   {
     "id": 190,
     "name": "octazooka",
     "japaneseName": "オクタンほう",
-    "type": "water"
+    "type": "water",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 191,
     "name": "spikes",
     "japaneseName": "まきびし",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 192,
     "name": "zap-cannon",
     "japaneseName": "でんじほう",
-    "type": "electric"
+    "type": "electric",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 193,
     "name": "foresight",
     "japaneseName": "みやぶる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 194,
     "name": "destiny-bond",
     "japaneseName": "みちづれ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 195,
     "name": "perish-song",
     "japaneseName": "ほろびのうた",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 196,
     "name": "icy-wind",
     "japaneseName": "こごえるかぜ",
-    "type": "ice"
+    "type": "ice",
+    "power": 55,
+    "damageClass": "special"
   },
   {
     "id": 197,
     "name": "detect",
     "japaneseName": "みきり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 198,
     "name": "bone-rush",
     "japaneseName": "ボーンラッシュ",
-    "type": "ground"
+    "type": "ground",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 199,
     "name": "lock-on",
     "japaneseName": "ロックオン",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 200,
     "name": "outrage",
     "japaneseName": "げきりん",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 201,
     "name": "sandstorm",
     "japaneseName": "すなあらし",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 202,
     "name": "giga-drain",
     "japaneseName": "ギガドレイン",
-    "type": "grass"
+    "type": "grass",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 203,
     "name": "endure",
     "japaneseName": "こらえる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 204,
     "name": "charm",
     "japaneseName": "あまえる",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 205,
     "name": "rollout",
     "japaneseName": "ころがる",
-    "type": "rock"
+    "type": "rock",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 206,
     "name": "false-swipe",
     "japaneseName": "みねうち",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 207,
     "name": "swagger",
     "japaneseName": "いばる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 208,
     "name": "milk-drink",
     "japaneseName": "ミルクのみ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 209,
     "name": "spark",
     "japaneseName": "スパーク",
-    "type": "electric"
+    "type": "electric",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 210,
     "name": "fury-cutter",
     "japaneseName": "れんぞくぎり",
-    "type": "bug"
+    "type": "bug",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 211,
     "name": "steel-wing",
     "japaneseName": "はがねのつばさ",
-    "type": "steel"
+    "type": "steel",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 212,
     "name": "mean-look",
     "japaneseName": "くろいまなざし",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 213,
     "name": "attract",
     "japaneseName": "メロメロ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 214,
     "name": "sleep-talk",
     "japaneseName": "ねごと",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 215,
     "name": "heal-bell",
     "japaneseName": "いやしのすず",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 216,
     "name": "return",
     "japaneseName": "おんがえし",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 217,
     "name": "present",
     "japaneseName": "プレゼント",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 218,
     "name": "frustration",
     "japaneseName": "やつあたり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 219,
     "name": "safeguard",
     "japaneseName": "しんぴのまもり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 220,
     "name": "pain-split",
     "japaneseName": "いたみわけ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 221,
     "name": "sacred-fire",
     "japaneseName": "せいなるほのお",
-    "type": "fire"
+    "type": "fire",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 222,
     "name": "magnitude",
     "japaneseName": "マグニチュード",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 223,
     "name": "dynamic-punch",
     "japaneseName": "ばくれつパンチ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 224,
     "name": "megahorn",
     "japaneseName": "メガホーン",
-    "type": "bug"
+    "type": "bug",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 225,
     "name": "dragon-breath",
     "japaneseName": "りゅうのいぶき",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 226,
     "name": "baton-pass",
     "japaneseName": "バトンタッチ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 227,
     "name": "encore",
     "japaneseName": "アンコール",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 228,
     "name": "pursuit",
     "japaneseName": "おいうち",
-    "type": "dark"
+    "type": "dark",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 229,
     "name": "rapid-spin",
     "japaneseName": "こうそくスピン",
-    "type": "normal"
+    "type": "normal",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 230,
     "name": "sweet-scent",
     "japaneseName": "あまいかおり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 231,
     "name": "iron-tail",
     "japaneseName": "アイアンテール",
-    "type": "steel"
+    "type": "steel",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 232,
     "name": "metal-claw",
     "japaneseName": "メタルクロー",
-    "type": "steel"
+    "type": "steel",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 233,
     "name": "vital-throw",
     "japaneseName": "あてみなげ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 234,
     "name": "morning-sun",
     "japaneseName": "あさのひざし",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 235,
     "name": "synthesis",
     "japaneseName": "こうごうせい",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 236,
     "name": "moonlight",
     "japaneseName": "つきのひかり",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 237,
     "name": "hidden-power",
     "japaneseName": "めざめるパワー",
-    "type": "normal"
+    "type": "normal",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 238,
     "name": "cross-chop",
     "japaneseName": "クロスチョップ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 239,
     "name": "twister",
     "japaneseName": "たつまき",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 240,
     "name": "rain-dance",
     "japaneseName": "あまごい",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 241,
     "name": "sunny-day",
     "japaneseName": "にほんばれ",
-    "type": "fire"
+    "type": "fire",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 242,
     "name": "crunch",
     "japaneseName": "かみくだく",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 243,
     "name": "mirror-coat",
     "japaneseName": "ミラーコート",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 244,
     "name": "psych-up",
     "japaneseName": "じこあんじ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 245,
     "name": "extreme-speed",
     "japaneseName": "しんそく",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 246,
     "name": "ancient-power",
     "japaneseName": "げんしのちから",
-    "type": "rock"
+    "type": "rock",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 247,
     "name": "shadow-ball",
     "japaneseName": "シャドーボール",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 248,
     "name": "future-sight",
     "japaneseName": "みらいよち",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 249,
     "name": "rock-smash",
     "japaneseName": "いわくだき",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 250,
     "name": "whirlpool",
     "japaneseName": "うずしお",
-    "type": "water"
+    "type": "water",
+    "power": 35,
+    "damageClass": "special"
   },
   {
     "id": 251,
     "name": "beat-up",
     "japaneseName": "ふくろだたき",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 252,
     "name": "fake-out",
     "japaneseName": "ねこだまし",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 253,
     "name": "uproar",
     "japaneseName": "さわぐ",
-    "type": "normal"
+    "type": "normal",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 254,
     "name": "stockpile",
     "japaneseName": "たくわえる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 255,
     "name": "spit-up",
     "japaneseName": "はきだす",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 256,
     "name": "swallow",
     "japaneseName": "のみこむ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 257,
     "name": "heat-wave",
     "japaneseName": "ねっぷう",
-    "type": "fire"
+    "type": "fire",
+    "power": 95,
+    "damageClass": "special"
   },
   {
     "id": 258,
     "name": "hail",
     "japaneseName": "あられ",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 259,
     "name": "torment",
     "japaneseName": "いちゃもん",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 260,
     "name": "flatter",
     "japaneseName": "おだてる",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 261,
     "name": "will-o-wisp",
     "japaneseName": "おにび",
-    "type": "fire"
+    "type": "fire",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 262,
     "name": "memento",
     "japaneseName": "おきみやげ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 263,
     "name": "facade",
     "japaneseName": "からげんき",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 264,
     "name": "focus-punch",
     "japaneseName": "きあいパンチ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 150,
+    "damageClass": "physical"
   },
   {
     "id": 265,
     "name": "smelling-salts",
     "japaneseName": "きつけ",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 266,
     "name": "follow-me",
     "japaneseName": "このゆびとまれ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 267,
     "name": "nature-power",
     "japaneseName": "しぜんのちから",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 268,
     "name": "charge",
     "japaneseName": "じゅうでん",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 269,
     "name": "taunt",
     "japaneseName": "ちょうはつ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 270,
     "name": "helping-hand",
     "japaneseName": "てだすけ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 271,
     "name": "trick",
     "japaneseName": "トリック",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 272,
     "name": "role-play",
     "japaneseName": "なりきり",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 273,
     "name": "wish",
     "japaneseName": "ねがいごと",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 274,
     "name": "assist",
     "japaneseName": "ねこのて",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 275,
     "name": "ingrain",
     "japaneseName": "ねをはる",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 276,
     "name": "superpower",
     "japaneseName": "ばかぢから",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 277,
     "name": "magic-coat",
     "japaneseName": "マジックコート",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 278,
     "name": "recycle",
     "japaneseName": "リサイクル",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 279,
     "name": "revenge",
     "japaneseName": "リベンジ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 280,
     "name": "brick-break",
     "japaneseName": "かわらわり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 281,
     "name": "yawn",
     "japaneseName": "あくび",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 282,
     "name": "knock-off",
     "japaneseName": "はたきおとす",
-    "type": "dark"
+    "type": "dark",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 283,
     "name": "endeavor",
     "japaneseName": "がむしゃら",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 284,
     "name": "eruption",
     "japaneseName": "ふんか",
-    "type": "fire"
+    "type": "fire",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 285,
     "name": "skill-swap",
     "japaneseName": "スキルスワップ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 286,
     "name": "imprison",
     "japaneseName": "ふういん",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 287,
     "name": "refresh",
     "japaneseName": "リフレッシュ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 288,
     "name": "grudge",
     "japaneseName": "おんねん",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 289,
     "name": "snatch",
     "japaneseName": "よこどり",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 290,
     "name": "secret-power",
     "japaneseName": "ひみつのちから",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 291,
     "name": "dive",
     "japaneseName": "ダイビング",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 292,
     "name": "arm-thrust",
     "japaneseName": "つっぱり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 15,
+    "damageClass": "physical"
   },
   {
     "id": 293,
     "name": "camouflage",
     "japaneseName": "ほごしょく",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 294,
     "name": "tail-glow",
     "japaneseName": "ほたるび",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 295,
     "name": "luster-purge",
     "japaneseName": "ラスターパージ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 95,
+    "damageClass": "special"
   },
   {
     "id": 296,
     "name": "mist-ball",
     "japaneseName": "ミストボール",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 95,
+    "damageClass": "special"
   },
   {
     "id": 297,
     "name": "feather-dance",
     "japaneseName": "フェザーダンス",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 298,
     "name": "teeter-dance",
     "japaneseName": "フラフラダンス",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 299,
     "name": "blaze-kick",
     "japaneseName": "ブレイズキック",
-    "type": "fire"
+    "type": "fire",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 300,
     "name": "mud-sport",
     "japaneseName": "どろあそび",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 301,
     "name": "ice-ball",
     "japaneseName": "アイスボール",
-    "type": "ice"
+    "type": "ice",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 302,
     "name": "needle-arm",
     "japaneseName": "ニードルアーム",
-    "type": "grass"
+    "type": "grass",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 303,
     "name": "slack-off",
     "japaneseName": "なまける",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 304,
     "name": "hyper-voice",
     "japaneseName": "ハイパーボイス",
-    "type": "normal"
+    "type": "normal",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 305,
     "name": "poison-fang",
     "japaneseName": "どくどくのキバ",
-    "type": "poison"
+    "type": "poison",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 306,
     "name": "crush-claw",
     "japaneseName": "ブレイククロー",
-    "type": "normal"
+    "type": "normal",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 307,
     "name": "blast-burn",
     "japaneseName": "ブラストバーン",
-    "type": "fire"
+    "type": "fire",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 308,
     "name": "hydro-cannon",
     "japaneseName": "ハイドロカノン",
-    "type": "water"
+    "type": "water",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 309,
     "name": "meteor-mash",
     "japaneseName": "コメットパンチ",
-    "type": "steel"
+    "type": "steel",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 310,
     "name": "astonish",
     "japaneseName": "おどろかす",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 311,
     "name": "weather-ball",
     "japaneseName": "ウェザーボール",
-    "type": "normal"
+    "type": "normal",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 312,
     "name": "aromatherapy",
     "japaneseName": "アロマセラピー",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 313,
     "name": "fake-tears",
     "japaneseName": "うそなき",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 314,
     "name": "air-cutter",
     "japaneseName": "エアカッター",
-    "type": "flying"
+    "type": "flying",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 315,
     "name": "overheat",
     "japaneseName": "オーバーヒート",
-    "type": "fire"
+    "type": "fire",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 316,
     "name": "odor-sleuth",
     "japaneseName": "かぎわける",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 317,
     "name": "rock-tomb",
     "japaneseName": "がんせきふうじ",
-    "type": "rock"
+    "type": "rock",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 318,
     "name": "silver-wind",
     "japaneseName": "ぎんいろのかぜ",
-    "type": "bug"
+    "type": "bug",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 319,
     "name": "metal-sound",
     "japaneseName": "きんぞくおん",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 320,
     "name": "grass-whistle",
     "japaneseName": "くさぶえ",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 321,
     "name": "tickle",
     "japaneseName": "くすぐる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 322,
     "name": "cosmic-power",
     "japaneseName": "コスモパワー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 323,
     "name": "water-spout",
     "japaneseName": "しおふき",
-    "type": "water"
+    "type": "water",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 324,
     "name": "signal-beam",
     "japaneseName": "シグナルビーム",
-    "type": "bug"
+    "type": "bug",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 325,
     "name": "shadow-punch",
     "japaneseName": "シャドーパンチ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 326,
     "name": "extrasensory",
     "japaneseName": "じんつうりき",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 327,
     "name": "sky-uppercut",
     "japaneseName": "スカイアッパー",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 328,
     "name": "sand-tomb",
     "japaneseName": "すなじごく",
-    "type": "ground"
+    "type": "ground",
+    "power": 35,
+    "damageClass": "physical"
   },
   {
     "id": 329,
     "name": "sheer-cold",
     "japaneseName": "ぜったいれいど",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 330,
     "name": "muddy-water",
     "japaneseName": "だくりゅう",
-    "type": "water"
+    "type": "water",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 331,
     "name": "bullet-seed",
     "japaneseName": "タネマシンガン",
-    "type": "grass"
+    "type": "grass",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 332,
     "name": "aerial-ace",
     "japaneseName": "つばめがえし",
-    "type": "flying"
+    "type": "flying",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 333,
     "name": "icicle-spear",
     "japaneseName": "つららばり",
-    "type": "ice"
+    "type": "ice",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 334,
     "name": "iron-defense",
     "japaneseName": "てっぺき",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 335,
     "name": "block",
     "japaneseName": "とおせんぼう",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 336,
     "name": "howl",
     "japaneseName": "とおぼえ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 337,
     "name": "dragon-claw",
     "japaneseName": "ドラゴンクロー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 338,
     "name": "frenzy-plant",
     "japaneseName": "ハードプラント",
-    "type": "grass"
+    "type": "grass",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 339,
     "name": "bulk-up",
     "japaneseName": "ビルドアップ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 340,
     "name": "bounce",
     "japaneseName": "とびはねる",
-    "type": "flying"
+    "type": "flying",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 341,
     "name": "mud-shot",
     "japaneseName": "マッドショット",
-    "type": "ground"
+    "type": "ground",
+    "power": 55,
+    "damageClass": "special"
   },
   {
     "id": 342,
     "name": "poison-tail",
     "japaneseName": "ポイズンテール",
-    "type": "poison"
+    "type": "poison",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 343,
     "name": "covet",
     "japaneseName": "ほしがる",
-    "type": "normal"
+    "type": "normal",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 344,
     "name": "volt-tackle",
     "japaneseName": "ボルテッカー",
-    "type": "electric"
+    "type": "electric",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 345,
     "name": "magical-leaf",
     "japaneseName": "マジカルリーフ",
-    "type": "grass"
+    "type": "grass",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 346,
     "name": "water-sport",
     "japaneseName": "みずあそび",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 347,
     "name": "calm-mind",
     "japaneseName": "めいそう",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 348,
     "name": "leaf-blade",
     "japaneseName": "リーフブレード",
-    "type": "grass"
+    "type": "grass",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 349,
     "name": "dragon-dance",
     "japaneseName": "りゅうのまい",
-    "type": "dragon"
+    "type": "dragon",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 350,
     "name": "rock-blast",
     "japaneseName": "ロックブラスト",
-    "type": "rock"
+    "type": "rock",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 351,
     "name": "shock-wave",
     "japaneseName": "でんげきは",
-    "type": "electric"
+    "type": "electric",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 352,
     "name": "water-pulse",
     "japaneseName": "みずのはどう",
-    "type": "water"
+    "type": "water",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 353,
     "name": "doom-desire",
     "japaneseName": "はめつのねがい",
-    "type": "steel"
+    "type": "steel",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 354,
     "name": "psycho-boost",
     "japaneseName": "サイコブースト",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 355,
     "name": "roost",
     "japaneseName": "はねやすめ",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 356,
     "name": "gravity",
     "japaneseName": "じゅうりょく",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 357,
     "name": "miracle-eye",
     "japaneseName": "ミラクルアイ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 358,
     "name": "wake-up-slap",
     "japaneseName": "めざましビンタ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 359,
     "name": "hammer-arm",
     "japaneseName": "アームハンマー",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 360,
     "name": "gyro-ball",
     "japaneseName": "ジャイロボール",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 361,
     "name": "healing-wish",
     "japaneseName": "いやしのねがい",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 362,
     "name": "brine",
     "japaneseName": "しおみず",
-    "type": "water"
+    "type": "water",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 363,
     "name": "natural-gift",
     "japaneseName": "しぜんのめぐみ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 364,
     "name": "feint",
     "japaneseName": "フェイント",
-    "type": "normal"
+    "type": "normal",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 365,
     "name": "pluck",
     "japaneseName": "ついばむ",
-    "type": "flying"
+    "type": "flying",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 366,
     "name": "tailwind",
     "japaneseName": "おいかぜ",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 367,
     "name": "acupressure",
     "japaneseName": "つぼをつく",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 368,
     "name": "metal-burst",
     "japaneseName": "メタルバースト",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 369,
     "name": "u-turn",
     "japaneseName": "とんぼがえり",
-    "type": "bug"
+    "type": "bug",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 370,
     "name": "close-combat",
     "japaneseName": "インファイト",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 371,
     "name": "payback",
     "japaneseName": "しっぺがえし",
-    "type": "dark"
+    "type": "dark",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 372,
     "name": "assurance",
     "japaneseName": "ダメおし",
-    "type": "dark"
+    "type": "dark",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 373,
     "name": "embargo",
     "japaneseName": "さしおさえ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 374,
     "name": "fling",
     "japaneseName": "なげつける",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 375,
     "name": "psycho-shift",
     "japaneseName": "サイコシフト",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 376,
     "name": "trump-card",
     "japaneseName": "きりふだ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 377,
     "name": "heal-block",
     "japaneseName": "かいふくふうじ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 378,
     "name": "wring-out",
     "japaneseName": "しぼりとる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 379,
     "name": "power-trick",
     "japaneseName": "パワートリック",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 380,
     "name": "gastro-acid",
     "japaneseName": "いえき",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 381,
     "name": "lucky-chant",
     "japaneseName": "おまじない",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 382,
     "name": "me-first",
     "japaneseName": "さきどり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 383,
     "name": "copycat",
     "japaneseName": "まねっこ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 384,
     "name": "power-swap",
     "japaneseName": "パワースワップ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 385,
     "name": "guard-swap",
     "japaneseName": "ガードスワップ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 386,
     "name": "punishment",
     "japaneseName": "おしおき",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 387,
     "name": "last-resort",
     "japaneseName": "とっておき",
-    "type": "normal"
+    "type": "normal",
+    "power": 140,
+    "damageClass": "physical"
   },
   {
     "id": 388,
     "name": "worry-seed",
     "japaneseName": "なやみのタネ",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 389,
     "name": "sucker-punch",
     "japaneseName": "ふいうち",
-    "type": "dark"
+    "type": "dark",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 390,
     "name": "toxic-spikes",
     "japaneseName": "どくびし",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 391,
     "name": "heart-swap",
     "japaneseName": "ハートスワップ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 392,
     "name": "aqua-ring",
     "japaneseName": "アクアリング",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 393,
     "name": "magnet-rise",
     "japaneseName": "でんじふゆう",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 394,
     "name": "flare-blitz",
     "japaneseName": "フレアドライブ",
-    "type": "fire"
+    "type": "fire",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 395,
     "name": "force-palm",
     "japaneseName": "はっけい",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 396,
     "name": "aura-sphere",
     "japaneseName": "はどうだん",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 397,
     "name": "rock-polish",
     "japaneseName": "ロックカット",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 398,
     "name": "poison-jab",
     "japaneseName": "どくづき",
-    "type": "poison"
+    "type": "poison",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 399,
     "name": "dark-pulse",
     "japaneseName": "あくのはどう",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 400,
     "name": "night-slash",
     "japaneseName": "つじぎり",
-    "type": "dark"
+    "type": "dark",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 401,
     "name": "aqua-tail",
     "japaneseName": "アクアテール",
-    "type": "water"
+    "type": "water",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 402,
     "name": "seed-bomb",
     "japaneseName": "タネばくだん",
-    "type": "grass"
+    "type": "grass",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 403,
     "name": "air-slash",
     "japaneseName": "エアスラッシュ",
-    "type": "flying"
+    "type": "flying",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 404,
     "name": "x-scissor",
     "japaneseName": "シザークロス",
-    "type": "bug"
+    "type": "bug",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 405,
     "name": "bug-buzz",
     "japaneseName": "むしのさざめき",
-    "type": "bug"
+    "type": "bug",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 406,
     "name": "dragon-pulse",
     "japaneseName": "りゅうのはどう",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 85,
+    "damageClass": "special"
   },
   {
     "id": 407,
     "name": "dragon-rush",
     "japaneseName": "ドラゴンダイブ",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 408,
     "name": "power-gem",
     "japaneseName": "パワージェム",
-    "type": "rock"
+    "type": "rock",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 409,
     "name": "drain-punch",
     "japaneseName": "ドレインパンチ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 410,
     "name": "vacuum-wave",
     "japaneseName": "しんくうは",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 411,
     "name": "focus-blast",
     "japaneseName": "きあいだま",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 412,
     "name": "energy-ball",
     "japaneseName": "エナジーボール",
-    "type": "grass"
+    "type": "grass",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 413,
     "name": "brave-bird",
     "japaneseName": "ブレイブバード",
-    "type": "flying"
+    "type": "flying",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 414,
     "name": "earth-power",
     "japaneseName": "だいちのちから",
-    "type": "ground"
+    "type": "ground",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 415,
     "name": "switcheroo",
     "japaneseName": "すりかえ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 416,
     "name": "giga-impact",
     "japaneseName": "ギガインパクト",
-    "type": "normal"
+    "type": "normal",
+    "power": 150,
+    "damageClass": "physical"
   },
   {
     "id": 417,
     "name": "nasty-plot",
     "japaneseName": "わるだくみ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 418,
     "name": "bullet-punch",
     "japaneseName": "バレットパンチ",
-    "type": "steel"
+    "type": "steel",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 419,
     "name": "avalanche",
     "japaneseName": "ゆきなだれ",
-    "type": "ice"
+    "type": "ice",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 420,
     "name": "ice-shard",
     "japaneseName": "こおりのつぶて",
-    "type": "ice"
+    "type": "ice",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 421,
     "name": "shadow-claw",
     "japaneseName": "シャドークロー",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 422,
     "name": "thunder-fang",
     "japaneseName": "かみなりのキバ",
-    "type": "electric"
+    "type": "electric",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 423,
     "name": "ice-fang",
     "japaneseName": "こおりのキバ",
-    "type": "ice"
+    "type": "ice",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 424,
     "name": "fire-fang",
     "japaneseName": "ほのおのキバ",
-    "type": "fire"
+    "type": "fire",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 425,
     "name": "shadow-sneak",
     "japaneseName": "かげうち",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 426,
     "name": "mud-bomb",
     "japaneseName": "どろばくだん",
-    "type": "ground"
+    "type": "ground",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 427,
     "name": "psycho-cut",
     "japaneseName": "サイコカッター",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 428,
     "name": "zen-headbutt",
     "japaneseName": "しねんのずつき",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 429,
     "name": "mirror-shot",
     "japaneseName": "ミラーショット",
-    "type": "steel"
+    "type": "steel",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 430,
     "name": "flash-cannon",
     "japaneseName": "ラスターカノン",
-    "type": "steel"
+    "type": "steel",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 431,
     "name": "rock-climb",
     "japaneseName": "ロッククライム",
-    "type": "normal"
+    "type": "normal",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 432,
     "name": "defog",
     "japaneseName": "きりばらい",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 433,
     "name": "trick-room",
     "japaneseName": "トリックルーム",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 434,
     "name": "draco-meteor",
     "japaneseName": "りゅうせいぐん",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 435,
     "name": "discharge",
     "japaneseName": "ほうでん",
-    "type": "electric"
+    "type": "electric",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 436,
     "name": "lava-plume",
     "japaneseName": "ふんえん",
-    "type": "fire"
+    "type": "fire",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 437,
     "name": "leaf-storm",
     "japaneseName": "リーフストーム",
-    "type": "grass"
+    "type": "grass",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 438,
     "name": "power-whip",
     "japaneseName": "パワーウィップ",
-    "type": "grass"
+    "type": "grass",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 439,
     "name": "rock-wrecker",
     "japaneseName": "がんせきほう",
-    "type": "rock"
+    "type": "rock",
+    "power": 150,
+    "damageClass": "physical"
   },
   {
     "id": 440,
     "name": "cross-poison",
     "japaneseName": "クロスポイズン",
-    "type": "poison"
+    "type": "poison",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 441,
     "name": "gunk-shot",
     "japaneseName": "ダストシュート",
-    "type": "poison"
+    "type": "poison",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 442,
     "name": "iron-head",
     "japaneseName": "アイアンヘッド",
-    "type": "steel"
+    "type": "steel",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 443,
     "name": "magnet-bomb",
     "japaneseName": "マグネットボム",
-    "type": "steel"
+    "type": "steel",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 444,
     "name": "stone-edge",
     "japaneseName": "ストーンエッジ",
-    "type": "rock"
+    "type": "rock",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 445,
     "name": "captivate",
     "japaneseName": "ゆうわく",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 446,
     "name": "stealth-rock",
     "japaneseName": "ステルスロック",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 447,
     "name": "grass-knot",
     "japaneseName": "くさむすび",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 448,
     "name": "chatter",
     "japaneseName": "おしゃべり",
-    "type": "flying"
+    "type": "flying",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 449,
     "name": "judgment",
     "japaneseName": "さばきのつぶて",
-    "type": "normal"
+    "type": "normal",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 450,
     "name": "bug-bite",
     "japaneseName": "むしくい",
-    "type": "bug"
+    "type": "bug",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 451,
     "name": "charge-beam",
     "japaneseName": "チャージビーム",
-    "type": "electric"
+    "type": "electric",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 452,
     "name": "wood-hammer",
     "japaneseName": "ウッドハンマー",
-    "type": "grass"
+    "type": "grass",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 453,
     "name": "aqua-jet",
     "japaneseName": "アクアジェット",
-    "type": "water"
+    "type": "water",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 454,
     "name": "attack-order",
     "japaneseName": "こうげきしれい",
-    "type": "bug"
+    "type": "bug",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 455,
     "name": "defend-order",
     "japaneseName": "ぼうぎょしれい",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 456,
     "name": "heal-order",
     "japaneseName": "かいふくしれい",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 457,
     "name": "head-smash",
     "japaneseName": "もろはのずつき",
-    "type": "rock"
+    "type": "rock",
+    "power": 150,
+    "damageClass": "physical"
   },
   {
     "id": 458,
     "name": "double-hit",
     "japaneseName": "ダブルアタック",
-    "type": "normal"
+    "type": "normal",
+    "power": 35,
+    "damageClass": "physical"
   },
   {
     "id": 459,
     "name": "roar-of-time",
     "japaneseName": "ときのほうこう",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 460,
     "name": "spacial-rend",
     "japaneseName": "あくうせつだん",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 461,
     "name": "lunar-dance",
     "japaneseName": "みかづきのまい",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 462,
     "name": "crush-grip",
     "japaneseName": "にぎりつぶす",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 463,
     "name": "magma-storm",
     "japaneseName": "マグマストーム",
-    "type": "fire"
+    "type": "fire",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 464,
     "name": "dark-void",
     "japaneseName": "ダークホール",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 465,
     "name": "seed-flare",
     "japaneseName": "シードフレア",
-    "type": "grass"
+    "type": "grass",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 466,
     "name": "ominous-wind",
     "japaneseName": "あやしいかぜ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 467,
     "name": "shadow-force",
     "japaneseName": "シャドーダイブ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 468,
     "name": "hone-claws",
     "japaneseName": "つめとぎ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 469,
     "name": "wide-guard",
     "japaneseName": "ワイドガード",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 470,
     "name": "guard-split",
     "japaneseName": "ガードシェア",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 471,
     "name": "power-split",
     "japaneseName": "パワーシェア",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 472,
     "name": "wonder-room",
     "japaneseName": "ワンダールーム",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 473,
     "name": "psyshock",
     "japaneseName": "サイコショック",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 474,
     "name": "venoshock",
     "japaneseName": "ベノムショック",
-    "type": "poison"
+    "type": "poison",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 475,
     "name": "autotomize",
     "japaneseName": "ボディパージ",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 476,
     "name": "rage-powder",
     "japaneseName": "いかりのこな",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 477,
     "name": "telekinesis",
     "japaneseName": "テレキネシス",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 478,
     "name": "magic-room",
     "japaneseName": "マジックルーム",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 479,
     "name": "smack-down",
     "japaneseName": "うちおとす",
-    "type": "rock"
+    "type": "rock",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 480,
     "name": "storm-throw",
     "japaneseName": "やまあらし",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 481,
     "name": "flame-burst",
     "japaneseName": "はじけるほのお",
-    "type": "fire"
+    "type": "fire",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 482,
     "name": "sludge-wave",
     "japaneseName": "ヘドロウェーブ",
-    "type": "poison"
+    "type": "poison",
+    "power": 95,
+    "damageClass": "special"
   },
   {
     "id": 483,
     "name": "quiver-dance",
     "japaneseName": "ちょうのまい",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 484,
     "name": "heavy-slam",
     "japaneseName": "ヘビーボンバー",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 485,
     "name": "synchronoise",
     "japaneseName": "シンクロノイズ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 486,
     "name": "electro-ball",
     "japaneseName": "エレキボール",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 487,
     "name": "soak",
     "japaneseName": "みずびたし",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 488,
     "name": "flame-charge",
     "japaneseName": "ニトロチャージ",
-    "type": "fire"
+    "type": "fire",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 489,
     "name": "coil",
     "japaneseName": "とぐろをまく",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 490,
     "name": "low-sweep",
     "japaneseName": "ローキック",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 491,
     "name": "acid-spray",
     "japaneseName": "アシッドボム",
-    "type": "poison"
+    "type": "poison",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 492,
     "name": "foul-play",
     "japaneseName": "イカサマ",
-    "type": "dark"
+    "type": "dark",
+    "power": 95,
+    "damageClass": "physical"
   },
   {
     "id": 493,
     "name": "simple-beam",
     "japaneseName": "シンプルビーム",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 494,
     "name": "entrainment",
     "japaneseName": "なかまづくり",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 495,
     "name": "after-you",
     "japaneseName": "おさきにどうぞ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 496,
     "name": "round",
     "japaneseName": "りんしょう",
-    "type": "normal"
+    "type": "normal",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 497,
     "name": "echoed-voice",
     "japaneseName": "エコーボイス",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 498,
     "name": "chip-away",
     "japaneseName": "なしくずし",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 499,
     "name": "clear-smog",
     "japaneseName": "クリアスモッグ",
-    "type": "poison"
+    "type": "poison",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 500,
     "name": "stored-power",
     "japaneseName": "アシストパワー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 20,
+    "damageClass": "special"
   },
   {
     "id": 501,
     "name": "quick-guard",
     "japaneseName": "ファストガード",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 502,
     "name": "ally-switch",
     "japaneseName": "サイドチェンジ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 503,
     "name": "scald",
     "japaneseName": "ねっとう",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 504,
     "name": "shell-smash",
     "japaneseName": "からをやぶる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 505,
     "name": "heal-pulse",
     "japaneseName": "いやしのはどう",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 506,
     "name": "hex",
     "japaneseName": "たたりめ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 507,
     "name": "sky-drop",
     "japaneseName": "フリーフォール",
-    "type": "flying"
+    "type": "flying",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 508,
     "name": "shift-gear",
     "japaneseName": "ギアチェンジ",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 509,
     "name": "circle-throw",
     "japaneseName": "ともえなげ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 510,
     "name": "incinerate",
     "japaneseName": "やきつくす",
-    "type": "fire"
+    "type": "fire",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 511,
     "name": "quash",
     "japaneseName": "さきおくり",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 512,
     "name": "acrobatics",
     "japaneseName": "アクロバット",
-    "type": "flying"
+    "type": "flying",
+    "power": 55,
+    "damageClass": "physical"
   },
   {
     "id": 513,
     "name": "reflect-type",
     "japaneseName": "ミラータイプ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 514,
     "name": "retaliate",
     "japaneseName": "かたきうち",
-    "type": "normal"
+    "type": "normal",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 515,
     "name": "final-gambit",
     "japaneseName": "いのちがけ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 516,
     "name": "bestow",
     "japaneseName": "ギフトパス",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 517,
     "name": "inferno",
     "japaneseName": "れんごく",
-    "type": "fire"
+    "type": "fire",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 518,
     "name": "water-pledge",
     "japaneseName": "みずのちかい",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 519,
     "name": "fire-pledge",
     "japaneseName": "ほのおのちかい",
-    "type": "fire"
+    "type": "fire",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 520,
     "name": "grass-pledge",
     "japaneseName": "くさのちかい",
-    "type": "grass"
+    "type": "grass",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 521,
     "name": "volt-switch",
     "japaneseName": "ボルトチェンジ",
-    "type": "electric"
+    "type": "electric",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 522,
     "name": "struggle-bug",
     "japaneseName": "むしのていこう",
-    "type": "bug"
+    "type": "bug",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 523,
     "name": "bulldoze",
     "japaneseName": "じならし",
-    "type": "ground"
+    "type": "ground",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 524,
     "name": "frost-breath",
     "japaneseName": "こおりのいぶき",
-    "type": "ice"
+    "type": "ice",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 525,
     "name": "dragon-tail",
     "japaneseName": "ドラゴンテール",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 526,
     "name": "work-up",
     "japaneseName": "ふるいたてる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 527,
     "name": "electroweb",
     "japaneseName": "エレキネット",
-    "type": "electric"
+    "type": "electric",
+    "power": 55,
+    "damageClass": "special"
   },
   {
     "id": 528,
     "name": "wild-charge",
     "japaneseName": "ワイルドボルト",
-    "type": "electric"
+    "type": "electric",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 529,
     "name": "drill-run",
     "japaneseName": "ドリルライナー",
-    "type": "ground"
+    "type": "ground",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 530,
     "name": "dual-chop",
     "japaneseName": "ダブルチョップ",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 531,
     "name": "heart-stamp",
     "japaneseName": "ハートスタンプ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 532,
     "name": "horn-leech",
     "japaneseName": "ウッドホーン",
-    "type": "grass"
+    "type": "grass",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 533,
     "name": "sacred-sword",
     "japaneseName": "せいなるつるぎ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 534,
     "name": "razor-shell",
     "japaneseName": "シェルブレード",
-    "type": "water"
+    "type": "water",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 535,
     "name": "heat-crash",
     "japaneseName": "ヒートスタンプ",
-    "type": "fire"
+    "type": "fire",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 536,
     "name": "leaf-tornado",
     "japaneseName": "グラスミキサー",
-    "type": "grass"
+    "type": "grass",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 537,
     "name": "steamroller",
     "japaneseName": "ハードローラー",
-    "type": "bug"
+    "type": "bug",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 538,
     "name": "cotton-guard",
     "japaneseName": "コットンガード",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 539,
     "name": "night-daze",
     "japaneseName": "ナイトバースト",
-    "type": "dark"
+    "type": "dark",
+    "power": 85,
+    "damageClass": "special"
   },
   {
     "id": 540,
     "name": "psystrike",
     "japaneseName": "サイコブレイク",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 541,
     "name": "tail-slap",
     "japaneseName": "スイープビンタ",
-    "type": "normal"
+    "type": "normal",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 542,
     "name": "hurricane",
     "japaneseName": "ぼうふう",
-    "type": "flying"
+    "type": "flying",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 543,
     "name": "head-charge",
     "japaneseName": "アフロブレイク",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 544,
     "name": "gear-grind",
     "japaneseName": "ギアソーサー",
-    "type": "steel"
+    "type": "steel",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 545,
     "name": "searing-shot",
     "japaneseName": "かえんだん",
-    "type": "fire"
+    "type": "fire",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 546,
     "name": "techno-blast",
     "japaneseName": "テクノバスター",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 547,
     "name": "relic-song",
     "japaneseName": "いにしえのうた",
-    "type": "normal"
+    "type": "normal",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 548,
     "name": "secret-sword",
     "japaneseName": "しんぴのつるぎ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 85,
+    "damageClass": "special"
   },
   {
     "id": 549,
     "name": "glaciate",
     "japaneseName": "こごえるせかい",
-    "type": "ice"
+    "type": "ice",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 550,
     "name": "bolt-strike",
     "japaneseName": "らいげき",
-    "type": "electric"
+    "type": "electric",
+    "power": 130,
+    "damageClass": "physical"
   },
   {
     "id": 551,
     "name": "blue-flare",
     "japaneseName": "あおいほのお",
-    "type": "fire"
+    "type": "fire",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 552,
     "name": "fiery-dance",
     "japaneseName": "ほのおのまい",
-    "type": "fire"
+    "type": "fire",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 553,
     "name": "freeze-shock",
     "japaneseName": "フリーズボルト",
-    "type": "ice"
+    "type": "ice",
+    "power": 140,
+    "damageClass": "physical"
   },
   {
     "id": 554,
     "name": "ice-burn",
     "japaneseName": "コールドフレア",
-    "type": "ice"
+    "type": "ice",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 555,
     "name": "snarl",
     "japaneseName": "バークアウト",
-    "type": "dark"
+    "type": "dark",
+    "power": 55,
+    "damageClass": "special"
   },
   {
     "id": 556,
     "name": "icicle-crash",
     "japaneseName": "つららおとし",
-    "type": "ice"
+    "type": "ice",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 557,
     "name": "v-create",
     "japaneseName": "Ｖジェネレート",
-    "type": "fire"
+    "type": "fire",
+    "power": 180,
+    "damageClass": "physical"
   },
   {
     "id": 558,
     "name": "fusion-flare",
     "japaneseName": "クロスフレイム",
-    "type": "fire"
+    "type": "fire",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 559,
     "name": "fusion-bolt",
     "japaneseName": "クロスサンダー",
-    "type": "electric"
+    "type": "electric",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 560,
     "name": "flying-press",
     "japaneseName": "フライングプレス",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 561,
     "name": "mat-block",
     "japaneseName": "たたみがえし",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 562,
     "name": "belch",
     "japaneseName": "ゲップ",
-    "type": "poison"
+    "type": "poison",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 563,
     "name": "rototiller",
     "japaneseName": "たがやす",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 564,
     "name": "sticky-web",
     "japaneseName": "ねばねばネット",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 565,
     "name": "fell-stinger",
     "japaneseName": "とどめばり",
-    "type": "bug"
+    "type": "bug",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 566,
     "name": "phantom-force",
     "japaneseName": "ゴーストダイブ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 567,
     "name": "trick-or-treat",
     "japaneseName": "ハロウィン",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 568,
     "name": "noble-roar",
     "japaneseName": "おたけび",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 569,
     "name": "ion-deluge",
     "japaneseName": "プラズマシャワー",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 570,
     "name": "parabolic-charge",
     "japaneseName": "パラボラチャージ",
-    "type": "electric"
+    "type": "electric",
+    "power": 65,
+    "damageClass": "special"
   },
   {
     "id": 571,
     "name": "forests-curse",
     "japaneseName": "もりののろい",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 572,
     "name": "petal-blizzard",
     "japaneseName": "はなふぶき",
-    "type": "grass"
+    "type": "grass",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 573,
     "name": "freeze-dry",
     "japaneseName": "フリーズドライ",
-    "type": "ice"
+    "type": "ice",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 574,
     "name": "disarming-voice",
     "japaneseName": "チャームボイス",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 575,
     "name": "parting-shot",
     "japaneseName": "すてゼリフ",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 576,
     "name": "topsy-turvy",
     "japaneseName": "ひっくりかえす",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 577,
     "name": "draining-kiss",
     "japaneseName": "ドレインキッス",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 578,
     "name": "crafty-shield",
     "japaneseName": "トリックガード",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 579,
     "name": "flower-shield",
     "japaneseName": "フラワーガード",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 580,
     "name": "grassy-terrain",
     "japaneseName": "グラスフィールド",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 581,
     "name": "misty-terrain",
     "japaneseName": "ミストフィールド",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 582,
     "name": "electrify",
     "japaneseName": "そうでん",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 583,
     "name": "play-rough",
     "japaneseName": "じゃれつく",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 584,
     "name": "fairy-wind",
     "japaneseName": "ようせいのかぜ",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 585,
     "name": "moonblast",
     "japaneseName": "ムーンフォース",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 95,
+    "damageClass": "special"
   },
   {
     "id": 586,
     "name": "boomburst",
     "japaneseName": "ばくおんぱ",
-    "type": "normal"
+    "type": "normal",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 587,
     "name": "fairy-lock",
     "japaneseName": "フェアリーロック",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 588,
     "name": "kings-shield",
     "japaneseName": "キングシールド",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 589,
     "name": "play-nice",
     "japaneseName": "なかよくする",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 590,
     "name": "confide",
     "japaneseName": "ないしょばなし",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 591,
     "name": "diamond-storm",
     "japaneseName": "ダイヤストーム",
-    "type": "rock"
+    "type": "rock",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 592,
     "name": "steam-eruption",
     "japaneseName": "スチームバースト",
-    "type": "water"
+    "type": "water",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 593,
     "name": "hyperspace-hole",
     "japaneseName": "いじげんホール",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 594,
     "name": "water-shuriken",
     "japaneseName": "みずしゅりけん",
-    "type": "water"
+    "type": "water",
+    "power": 15,
+    "damageClass": "special"
   },
   {
     "id": 595,
     "name": "mystical-fire",
     "japaneseName": "マジカルフレイム",
-    "type": "fire"
+    "type": "fire",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 596,
     "name": "spiky-shield",
     "japaneseName": "ニードルガード",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 597,
     "name": "aromatic-mist",
     "japaneseName": "アロマミスト",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 598,
     "name": "eerie-impulse",
     "japaneseName": "かいでんぱ",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 599,
     "name": "venom-drench",
     "japaneseName": "ベノムトラップ",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 600,
     "name": "powder",
     "japaneseName": "ふんじん",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 601,
     "name": "geomancy",
     "japaneseName": "ジオコントロール",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 602,
     "name": "magnetic-flux",
     "japaneseName": "じばそうさ",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 603,
     "name": "happy-hour",
     "japaneseName": "ハッピータイム",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 604,
     "name": "electric-terrain",
     "japaneseName": "エレキフィールド",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 605,
     "name": "dazzling-gleam",
     "japaneseName": "マジカルシャイン",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 606,
     "name": "celebrate",
     "japaneseName": "おいわい",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 607,
     "name": "hold-hands",
     "japaneseName": "てをつなぐ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 608,
     "name": "baby-doll-eyes",
     "japaneseName": "つぶらなひとみ",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 609,
     "name": "nuzzle",
     "japaneseName": "ほっぺすりすり",
-    "type": "electric"
+    "type": "electric",
+    "power": 20,
+    "damageClass": "physical"
   },
   {
     "id": 610,
     "name": "hold-back",
     "japaneseName": "てかげん",
-    "type": "normal"
+    "type": "normal",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 611,
     "name": "infestation",
     "japaneseName": "まとわりつく",
-    "type": "bug"
+    "type": "bug",
+    "power": 20,
+    "damageClass": "special"
   },
   {
     "id": 612,
     "name": "power-up-punch",
     "japaneseName": "グロウパンチ",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 613,
     "name": "oblivion-wing",
     "japaneseName": "デスウイング",
-    "type": "flying"
+    "type": "flying",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 614,
     "name": "thousand-arrows",
     "japaneseName": "サウザンアロー",
-    "type": "ground"
+    "type": "ground",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 615,
     "name": "thousand-waves",
     "japaneseName": "サウザンウェーブ",
-    "type": "ground"
+    "type": "ground",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 616,
     "name": "lands-wrath",
     "japaneseName": "グランドフォース",
-    "type": "ground"
+    "type": "ground",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 617,
     "name": "light-of-ruin",
     "japaneseName": "はめつのひかり",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 618,
     "name": "origin-pulse",
     "japaneseName": "こんげんのはどう",
-    "type": "water"
+    "type": "water",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 619,
     "name": "precipice-blades",
     "japaneseName": "だんがいのつるぎ",
-    "type": "ground"
+    "type": "ground",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 620,
     "name": "dragon-ascent",
     "japaneseName": "ガリョウテンセイ",
-    "type": "flying"
+    "type": "flying",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 621,
     "name": "hyperspace-fury",
     "japaneseName": "いじげんラッシュ",
-    "type": "dark"
+    "type": "dark",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 622,
     "name": "breakneck-blitz--physical",
     "japaneseName": "ウルトラダッシュアタック",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 623,
     "name": "breakneck-blitz--special",
     "japaneseName": "ウルトラダッシュアタック",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 624,
     "name": "all-out-pummeling--physical",
     "japaneseName": "ぜんりょくむそうげきれつけん",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 625,
     "name": "all-out-pummeling--special",
     "japaneseName": "ぜんりょくむそうげきれつけん",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 626,
     "name": "supersonic-skystrike--physical",
     "japaneseName": "ファイナルダイブクラッシュ",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 627,
     "name": "supersonic-skystrike--special",
     "japaneseName": "ファイナルダイブクラッシュ",
-    "type": "flying"
+    "type": "flying",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 628,
     "name": "acid-downpour--physical",
     "japaneseName": "アシッドポイズンデリート",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 629,
     "name": "acid-downpour--special",
     "japaneseName": "アシッドポイズンデリート",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 630,
     "name": "tectonic-rage--physical",
     "japaneseName": "ライジングランドオーバー",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 631,
     "name": "tectonic-rage--special",
     "japaneseName": "ライジングランドオーバー",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 632,
     "name": "continental-crush--physical",
     "japaneseName": "ワールズエンドフォール",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 633,
     "name": "continental-crush--special",
     "japaneseName": "ワールズエンドフォール",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 634,
     "name": "savage-spin-out--physical",
     "japaneseName": "ぜったいほしょくかいてんざん",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 635,
     "name": "savage-spin-out--special",
     "japaneseName": "ぜったいほしょくかいてんざん",
-    "type": "bug"
+    "type": "bug",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 636,
     "name": "never-ending-nightmare--physical",
     "japaneseName": "むげんあんやへのいざない",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 637,
     "name": "never-ending-nightmare--special",
     "japaneseName": "むげんあんやへのいざない",
-    "type": "ghost"
+    "type": "ghost",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 638,
     "name": "corkscrew-crash--physical",
     "japaneseName": "ちょうぜつらせんれんげき",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 639,
     "name": "corkscrew-crash--special",
     "japaneseName": "ちょうぜつらせんれんげき",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 640,
     "name": "inferno-overdrive--physical",
     "japaneseName": "ダイナミックフルフレイム",
-    "type": "fire"
+    "type": "fire",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 641,
     "name": "inferno-overdrive--special",
     "japaneseName": "ダイナミックフルフレイム",
-    "type": "fire"
+    "type": "fire",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 642,
     "name": "hydro-vortex--physical",
     "japaneseName": "スーパーアクアトルネード",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 643,
     "name": "hydro-vortex--special",
     "japaneseName": "スーパーアクアトルネード",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 644,
     "name": "bloom-doom--physical",
     "japaneseName": "ブルームシャインエクストラ",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 645,
     "name": "bloom-doom--special",
     "japaneseName": "ブルームシャインエクストラ",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 646,
     "name": "gigavolt-havoc--physical",
     "japaneseName": "スパーキングギガボルト",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 647,
     "name": "gigavolt-havoc--special",
     "japaneseName": "スパーキングギガボルト",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 648,
     "name": "shattered-psyche--physical",
     "japaneseName": "マキシマムサイブレイカー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 649,
     "name": "shattered-psyche--special",
     "japaneseName": "マキシマムサイブレイカー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 650,
     "name": "subzero-slammer--physical",
     "japaneseName": "レイジングジオフリーズ",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 651,
     "name": "subzero-slammer--special",
     "japaneseName": "レイジングジオフリーズ",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 652,
     "name": "devastating-drake--physical",
     "japaneseName": "アルティメットドラゴンバーン",
-    "type": "dragon"
+    "type": "dragon",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 653,
     "name": "devastating-drake--special",
     "japaneseName": "アルティメットドラゴンバーン",
-    "type": "dragon"
+    "type": "dragon",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 654,
     "name": "black-hole-eclipse--physical",
     "japaneseName": "ブラックホールイクリプス",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 655,
     "name": "black-hole-eclipse--special",
     "japaneseName": "ブラックホールイクリプス",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 656,
     "name": "twinkle-tackle--physical",
     "japaneseName": "ラブリースターインパクト",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 657,
     "name": "twinkle-tackle--special",
     "japaneseName": "ラブリースターインパクト",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 658,
     "name": "catastropika",
     "japaneseName": "ひっさつのピカチュート",
-    "type": "electric"
+    "type": "electric",
+    "power": 210,
+    "damageClass": "physical"
   },
   {
     "id": 659,
     "name": "shore-up",
     "japaneseName": "すなあつめ",
-    "type": "ground"
+    "type": "ground",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 660,
     "name": "first-impression",
     "japaneseName": "であいがしら",
-    "type": "bug"
+    "type": "bug",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 661,
     "name": "baneful-bunker",
     "japaneseName": "トーチカ",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 662,
     "name": "spirit-shackle",
     "japaneseName": "かげぬい",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 663,
     "name": "darkest-lariat",
     "japaneseName": "ＤＤラリアット",
-    "type": "dark"
+    "type": "dark",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 664,
     "name": "sparkling-aria",
     "japaneseName": "うたかたのアリア",
-    "type": "water"
+    "type": "water",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 665,
     "name": "ice-hammer",
     "japaneseName": "アイスハンマー",
-    "type": "ice"
+    "type": "ice",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 666,
     "name": "floral-healing",
     "japaneseName": "フラワーヒール",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 667,
     "name": "high-horsepower",
     "japaneseName": "１０まんばりき",
-    "type": "ground"
+    "type": "ground",
+    "power": 95,
+    "damageClass": "physical"
   },
   {
     "id": 668,
     "name": "strength-sap",
     "japaneseName": "ちからをすいとる",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 669,
     "name": "solar-blade",
     "japaneseName": "ソーラーブレード",
-    "type": "grass"
+    "type": "grass",
+    "power": 125,
+    "damageClass": "physical"
   },
   {
     "id": 670,
     "name": "leafage",
     "japaneseName": "このは",
-    "type": "grass"
+    "type": "grass",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 671,
     "name": "spotlight",
     "japaneseName": "スポットライト",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 672,
     "name": "toxic-thread",
     "japaneseName": "どくのいと",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 673,
     "name": "laser-focus",
     "japaneseName": "とぎすます",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 674,
     "name": "gear-up",
     "japaneseName": "アシストギア",
-    "type": "steel"
+    "type": "steel",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 675,
     "name": "throat-chop",
     "japaneseName": "じごくづき",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 676,
     "name": "pollen-puff",
     "japaneseName": "かふんだんご",
-    "type": "bug"
+    "type": "bug",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 677,
     "name": "anchor-shot",
     "japaneseName": "アンカーショット",
-    "type": "steel"
+    "type": "steel",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 678,
     "name": "psychic-terrain",
     "japaneseName": "サイコフィールド",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 679,
     "name": "lunge",
     "japaneseName": "とびかかる",
-    "type": "bug"
+    "type": "bug",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 680,
     "name": "fire-lash",
     "japaneseName": "ほのおのムチ",
-    "type": "fire"
+    "type": "fire",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 681,
     "name": "power-trip",
     "japaneseName": "つけあがる",
-    "type": "dark"
+    "type": "dark",
+    "power": 20,
+    "damageClass": "physical"
   },
   {
     "id": 682,
     "name": "burn-up",
     "japaneseName": "もえつきる",
-    "type": "fire"
+    "type": "fire",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 683,
     "name": "speed-swap",
     "japaneseName": "スピードスワップ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 684,
     "name": "smart-strike",
     "japaneseName": "スマートホーン",
-    "type": "steel"
+    "type": "steel",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 685,
     "name": "purify",
     "japaneseName": "じょうか",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 686,
     "name": "revelation-dance",
     "japaneseName": "めざめるダンス",
-    "type": "normal"
+    "type": "normal",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 687,
     "name": "core-enforcer",
     "japaneseName": "コアパニッシャー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 688,
     "name": "trop-kick",
     "japaneseName": "トロピカルキック",
-    "type": "grass"
+    "type": "grass",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 689,
     "name": "instruct",
     "japaneseName": "さいはい",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 690,
     "name": "beak-blast",
     "japaneseName": "くちばしキャノン",
-    "type": "flying"
+    "type": "flying",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 691,
     "name": "clanging-scales",
     "japaneseName": "スケイルノイズ",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 110,
+    "damageClass": "special"
   },
   {
     "id": 692,
     "name": "dragon-hammer",
     "japaneseName": "ドラゴンハンマー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 693,
     "name": "brutal-swing",
     "japaneseName": "ぶんまわす",
-    "type": "dark"
+    "type": "dark",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 694,
     "name": "aurora-veil",
     "japaneseName": "オーロラベール",
-    "type": "ice"
+    "type": "ice",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 695,
     "name": "sinister-arrow-raid",
     "japaneseName": "シャドーアローズストライク",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 180,
+    "damageClass": "physical"
   },
   {
     "id": 696,
     "name": "malicious-moonsault",
     "japaneseName": "ハイパーダーククラッシャー",
-    "type": "dark"
+    "type": "dark",
+    "power": 180,
+    "damageClass": "physical"
   },
   {
     "id": 697,
     "name": "oceanic-operetta",
     "japaneseName": "わだつみのシンフォニア",
-    "type": "water"
+    "type": "water",
+    "power": 195,
+    "damageClass": "special"
   },
   {
     "id": 698,
     "name": "guardian-of-alola",
     "japaneseName": "ガーディアン・デ・アローラ",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 699,
     "name": "soul-stealing-7-star-strike",
     "japaneseName": "しちせいだっこんたい",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 195,
+    "damageClass": "physical"
   },
   {
     "id": 700,
     "name": "stoked-sparksurfer",
     "japaneseName": "ライトニングサーフライド",
-    "type": "electric"
+    "type": "electric",
+    "power": 175,
+    "damageClass": "special"
   },
   {
     "id": 701,
     "name": "pulverizing-pancake",
     "japaneseName": "ほんきをだす　こうげき",
-    "type": "normal"
+    "type": "normal",
+    "power": 210,
+    "damageClass": "physical"
   },
   {
     "id": 702,
     "name": "extreme-evoboost",
     "japaneseName": "ナインエボルブースト",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 703,
     "name": "genesis-supernova",
     "japaneseName": "オリジンズスーパーノヴァ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 185,
+    "damageClass": "special"
   },
   {
     "id": 704,
     "name": "shell-trap",
     "japaneseName": "トラップシェル",
-    "type": "fire"
+    "type": "fire",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 705,
     "name": "fleur-cannon",
     "japaneseName": "フルールカノン",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 706,
     "name": "psychic-fangs",
     "japaneseName": "サイコファング",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 707,
     "name": "stomping-tantrum",
     "japaneseName": "じだんだ",
-    "type": "ground"
+    "type": "ground",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 708,
     "name": "shadow-bone",
     "japaneseName": "シャドーボーン",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 709,
     "name": "accelerock",
     "japaneseName": "アクセルロック",
-    "type": "rock"
+    "type": "rock",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 710,
     "name": "liquidation",
     "japaneseName": "アクアブレイク",
-    "type": "water"
+    "type": "water",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 711,
     "name": "prismatic-laser",
     "japaneseName": "プリズムレーザー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 160,
+    "damageClass": "special"
   },
   {
     "id": 712,
     "name": "spectral-thief",
     "japaneseName": "シャドースチール",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 713,
     "name": "sunsteel-strike",
     "japaneseName": "メテオドライブ",
-    "type": "steel"
+    "type": "steel",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 714,
     "name": "moongeist-beam",
     "japaneseName": "シャドーレイ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 715,
     "name": "tearful-look",
     "japaneseName": "なみだめ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 716,
     "name": "zing-zap",
     "japaneseName": "びりびりちくちく",
-    "type": "electric"
+    "type": "electric",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 717,
     "name": "natures-madness",
     "japaneseName": "しぜんのいかり",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 718,
     "name": "multi-attack",
     "japaneseName": "マルチアタック",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 719,
     "name": "10-000-000-volt-thunderbolt",
     "japaneseName": "１０００まんボルト",
-    "type": "electric"
+    "type": "electric",
+    "power": 195,
+    "damageClass": "special"
   },
   {
     "id": 720,
     "name": "mind-blown",
     "japaneseName": "ビックリヘッド",
-    "type": "fire"
+    "type": "fire",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 721,
     "name": "plasma-fists",
     "japaneseName": "プラズマフィスト",
-    "type": "electric"
+    "type": "electric",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 722,
     "name": "photon-geyser",
     "japaneseName": "フォトンゲイザー",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 723,
     "name": "light-that-burns-the-sky",
     "japaneseName": "てんこがすめつぼうのひかり",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 200,
+    "damageClass": "special"
   },
   {
     "id": 724,
     "name": "searing-sunraze-smash",
     "japaneseName": "サンシャインスマッシャー",
-    "type": "steel"
+    "type": "steel",
+    "power": 200,
+    "damageClass": "physical"
   },
   {
     "id": 725,
     "name": "menacing-moonraze-maelstrom",
     "japaneseName": "ムーンライトブラスター",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 200,
+    "damageClass": "special"
   },
   {
     "id": 726,
     "name": "lets-snuggle-forever",
     "japaneseName": "ぽかぼかフレンドタイム",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 190,
+    "damageClass": "physical"
   },
   {
     "id": 727,
     "name": "splintered-stormshards",
     "japaneseName": "ラジアルエッジストーム",
-    "type": "rock"
+    "type": "rock",
+    "power": 190,
+    "damageClass": "physical"
   },
   {
     "id": 728,
     "name": "clangorous-soulblaze",
     "japaneseName": "ブレイジングソウルビート",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 185,
+    "damageClass": "special"
   },
   {
     "id": 729,
     "name": "zippy-zap",
     "japaneseName": "ばちばちアクセル",
-    "type": "electric"
+    "type": "electric",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 730,
     "name": "splishy-splash",
     "japaneseName": "ざぶざぶサーフ",
-    "type": "water"
+    "type": "water",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 731,
     "name": "floaty-fall",
     "japaneseName": "ふわふわフォール",
-    "type": "flying"
+    "type": "flying",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 732,
     "name": "pika-papow",
     "japaneseName": "ピカピカサンダー",
-    "type": "electric"
+    "type": "electric",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 733,
     "name": "bouncy-bubble",
     "japaneseName": "いきいきバブル",
-    "type": "water"
+    "type": "water",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 734,
     "name": "buzzy-buzz",
     "japaneseName": "びりびりエレキ",
-    "type": "electric"
+    "type": "electric",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 735,
     "name": "sizzly-slide",
     "japaneseName": "めらめらバーン",
-    "type": "fire"
+    "type": "fire",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 736,
     "name": "glitzy-glow",
     "japaneseName": "どばどばオーラ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 737,
     "name": "baddy-bad",
     "japaneseName": "わるわるゾーン",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 738,
     "name": "sappy-seed",
     "japaneseName": "すくすくボンバー",
-    "type": "grass"
+    "type": "grass",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 739,
     "name": "freezy-frost",
     "japaneseName": "こちこちフロスト",
-    "type": "ice"
+    "type": "ice",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 740,
     "name": "sparkly-swirl",
     "japaneseName": "きらきらストーム",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 741,
     "name": "veevee-volley",
     "japaneseName": "ブイブイブレイク",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "physical"
   },
   {
     "id": 742,
     "name": "double-iron-bash",
     "japaneseName": "ダブルパンツァー",
-    "type": "steel"
+    "type": "steel",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 743,
     "name": "max-guard",
     "japaneseName": "ダイウォール",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 744,
     "name": "dynamax-cannon",
     "japaneseName": "ダイマックスほう",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 745,
     "name": "snipe-shot",
     "japaneseName": "ねらいうち",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 746,
     "name": "jaw-lock",
     "japaneseName": "くらいつく",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 747,
     "name": "stuff-cheeks",
     "japaneseName": "ほおばる",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 748,
     "name": "no-retreat",
     "japaneseName": "はいすいのじん",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 749,
     "name": "tar-shot",
     "japaneseName": "タールショット",
-    "type": "rock"
+    "type": "rock",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 750,
     "name": "magic-powder",
     "japaneseName": "まほうのこな",
-    "type": "psychic"
+    "type": "psychic",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 751,
     "name": "dragon-darts",
     "japaneseName": "ドラゴンアロー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 752,
     "name": "teatime",
     "japaneseName": "おちゃかい",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 753,
     "name": "octolock",
     "japaneseName": "たこがため",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 754,
     "name": "bolt-beak",
     "japaneseName": "でんげきくちばし",
-    "type": "electric"
+    "type": "electric",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 755,
     "name": "fishious-rend",
     "japaneseName": "エラがみ",
-    "type": "water"
+    "type": "water",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 756,
     "name": "court-change",
     "japaneseName": "コートチェンジ",
-    "type": "normal"
+    "type": "normal",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 757,
     "name": "max-flare",
     "japaneseName": "ダイバーン",
-    "type": "fire"
+    "type": "fire",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 758,
     "name": "max-flutterby",
     "japaneseName": "ダイワーム",
-    "type": "bug"
+    "type": "bug",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 759,
     "name": "max-lightning",
     "japaneseName": "ダイサンダー",
-    "type": "electric"
+    "type": "electric",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 760,
     "name": "max-strike",
     "japaneseName": "ダイアタック",
-    "type": "normal"
+    "type": "normal",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 761,
     "name": "max-knuckle",
     "japaneseName": "ダイナックル",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 762,
     "name": "max-phantasm",
     "japaneseName": "ダイホロウ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 763,
     "name": "max-hailstorm",
     "japaneseName": "ダイアイス",
-    "type": "ice"
+    "type": "ice",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 764,
     "name": "max-ooze",
     "japaneseName": "ダイアシッド",
-    "type": "poison"
+    "type": "poison",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 765,
     "name": "max-geyser",
     "japaneseName": "ダイストリーム",
-    "type": "water"
+    "type": "water",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 766,
     "name": "max-airstream",
     "japaneseName": "ダイジェット",
-    "type": "flying"
+    "type": "flying",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 767,
     "name": "max-starfall",
     "japaneseName": "ダイフェアリー",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 768,
     "name": "max-wyrmwind",
     "japaneseName": "ダイドラグーン",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 769,
     "name": "max-mindstorm",
     "japaneseName": "ダイサイコ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 770,
     "name": "max-rockfall",
     "japaneseName": "ダイロック",
-    "type": "rock"
+    "type": "rock",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 771,
     "name": "max-quake",
     "japaneseName": "ダイアース",
-    "type": "ground"
+    "type": "ground",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 772,
     "name": "max-darkness",
     "japaneseName": "ダイアーク",
-    "type": "dark"
+    "type": "dark",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 773,
     "name": "max-overgrowth",
     "japaneseName": "ダイソウゲン",
-    "type": "grass"
+    "type": "grass",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 774,
     "name": "max-steelspike",
     "japaneseName": "ダイスチル",
-    "type": "steel"
+    "type": "steel",
+    "power": 10,
+    "damageClass": "physical"
   },
   {
     "id": 775,
     "name": "clangorous-soul",
     "japaneseName": "ソウルビート",
-    "type": "dragon"
+    "type": "dragon",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 776,
     "name": "body-press",
     "japaneseName": "ボディプレス",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 777,
     "name": "decorate",
     "japaneseName": "デコレーション",
-    "type": "fairy"
+    "type": "fairy",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 778,
     "name": "drum-beating",
     "japaneseName": "ドラムアタック",
-    "type": "grass"
+    "type": "grass",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 779,
     "name": "snap-trap",
     "japaneseName": "トラバサミ",
-    "type": "grass"
+    "type": "grass",
+    "power": 35,
+    "damageClass": "physical"
   },
   {
     "id": 780,
     "name": "pyro-ball",
     "japaneseName": "かえんボール",
-    "type": "fire"
+    "type": "fire",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 781,
     "name": "behemoth-blade",
     "japaneseName": "きょじゅうざん",
-    "type": "steel"
+    "type": "steel",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 782,
     "name": "behemoth-bash",
     "japaneseName": "きょじゅうだん",
-    "type": "steel"
+    "type": "steel",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 783,
     "name": "aura-wheel",
     "japaneseName": "オーラぐるま",
-    "type": "electric"
+    "type": "electric",
+    "power": 110,
+    "damageClass": "physical"
   },
   {
     "id": 784,
     "name": "breaking-swipe",
     "japaneseName": "ワイドブレイカー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 785,
     "name": "branch-poke",
     "japaneseName": "えだづき",
-    "type": "grass"
+    "type": "grass",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 786,
     "name": "overdrive",
     "japaneseName": "オーバードライブ",
-    "type": "electric"
+    "type": "electric",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 787,
     "name": "apple-acid",
     "japaneseName": "りんごさん",
-    "type": "grass"
+    "type": "grass",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 788,
     "name": "grav-apple",
     "japaneseName": "Ｇのちから",
-    "type": "grass"
+    "type": "grass",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 789,
     "name": "spirit-break",
     "japaneseName": "ソウルクラッシュ",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 790,
     "name": "strange-steam",
     "japaneseName": "ワンダースチーム",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 791,
     "name": "life-dew",
     "japaneseName": "いのちのしずく",
-    "type": "water"
+    "type": "water",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 792,
     "name": "obstruct",
     "japaneseName": "ブロッキング",
-    "type": "dark"
+    "type": "dark",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 793,
     "name": "false-surrender",
     "japaneseName": "どげざつき",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 794,
     "name": "meteor-assault",
     "japaneseName": "スターアサルト",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 150,
+    "damageClass": "physical"
   },
   {
     "id": 795,
     "name": "eternabeam",
     "japaneseName": "ムゲンダイビーム",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 160,
+    "damageClass": "special"
   },
   {
     "id": 796,
     "name": "steel-beam",
     "japaneseName": "てっていこうせん",
-    "type": "steel"
+    "type": "steel",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 797,
     "name": "expanding-force",
     "japaneseName": "ワイドフォース",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 798,
     "name": "steel-roller",
     "japaneseName": "アイアンローラー",
-    "type": "steel"
+    "type": "steel",
+    "power": 130,
+    "damageClass": "physical"
   },
   {
     "id": 799,
     "name": "scale-shot",
     "japaneseName": "スケイルショット",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 800,
     "name": "meteor-beam",
     "japaneseName": "メテオビーム",
-    "type": "rock"
+    "type": "rock",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 801,
     "name": "shell-side-arm",
     "japaneseName": "シェルアームズ",
-    "type": "poison"
+    "type": "poison",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 802,
     "name": "misty-explosion",
     "japaneseName": "ミストバースト",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 803,
     "name": "grassy-glide",
     "japaneseName": "グラススライダー",
-    "type": "grass"
+    "type": "grass",
+    "power": 55,
+    "damageClass": "physical"
   },
   {
     "id": 804,
     "name": "rising-voltage",
     "japaneseName": "ライジングボルト",
-    "type": "electric"
+    "type": "electric",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 805,
     "name": "terrain-pulse",
     "japaneseName": "だいちのはどう",
-    "type": "normal"
+    "type": "normal",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 806,
     "name": "skitter-smack",
     "japaneseName": "はいよるいちげき",
-    "type": "bug"
+    "type": "bug",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 807,
     "name": "burning-jealousy",
     "japaneseName": "しっとのほのお",
-    "type": "fire"
+    "type": "fire",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 808,
     "name": "lash-out",
     "japaneseName": "うっぷんばらし",
-    "type": "dark"
+    "type": "dark",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 809,
     "name": "poltergeist",
     "japaneseName": "ポルターガイスト",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 110,
+    "damageClass": "physical"
   },
   {
     "id": 810,
     "name": "corrosive-gas",
     "japaneseName": "ふしょくガス",
-    "type": "poison"
+    "type": "poison",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 811,
     "name": "coaching",
     "japaneseName": "コーチング",
-    "type": "fighting"
+    "type": "fighting",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 812,
     "name": "flip-turn",
     "japaneseName": "クイックターン",
-    "type": "water"
+    "type": "water",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 813,
     "name": "triple-axel",
     "japaneseName": "トリプルアクセル",
-    "type": "ice"
+    "type": "ice",
+    "power": 20,
+    "damageClass": "physical"
   },
   {
     "id": 814,
     "name": "dual-wingbeat",
     "japaneseName": "ダブルウイング",
-    "type": "flying"
+    "type": "flying",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 815,
     "name": "scorching-sands",
     "japaneseName": "ねっさのだいち",
-    "type": "ground"
+    "type": "ground",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 816,
     "name": "jungle-healing",
     "japaneseName": "ジャングルヒール",
-    "type": "grass"
+    "type": "grass",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 817,
     "name": "wicked-blow",
     "japaneseName": "あんこくきょうだ",
-    "type": "dark"
+    "type": "dark",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 818,
     "name": "surging-strikes",
     "japaneseName": "すいりゅうれんだ",
-    "type": "water"
+    "type": "water",
+    "power": 25,
+    "damageClass": "physical"
   },
   {
     "id": 819,
     "name": "thunder-cage",
     "japaneseName": "サンダープリズン",
-    "type": "electric"
+    "type": "electric",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 820,
     "name": "dragon-energy",
     "japaneseName": "ドラゴンエナジー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 821,
     "name": "freezing-glare",
     "japaneseName": "いてつくしせん",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 822,
     "name": "fiery-wrath",
     "japaneseName": "もえあがるいかり",
-    "type": "dark"
+    "type": "dark",
+    "power": 90,
+    "damageClass": "special"
   },
   {
     "id": 823,
     "name": "thunderous-kick",
     "japaneseName": "らいめいげり",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 824,
     "name": "glacial-lance",
     "japaneseName": "ブリザードランス",
-    "type": "ice"
+    "type": "ice",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 825,
     "name": "astral-barrage",
     "japaneseName": "アストラルビット",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 826,
     "name": "eerie-spell",
     "japaneseName": "ぶきみなじゅもん",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 827,
     "name": "dire-claw",
     "japaneseName": "フェイタルクロー",
-    "type": "poison"
+    "type": "poison",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 828,
     "name": "psyshield-bash",
     "japaneseName": "バリアーラッシュ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 829,
     "name": "power-shift",
     "japaneseName": "パワーシフト",
-    "type": "normal"
+    "type": "normal",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 830,
     "name": "stone-axe",
     "japaneseName": "がんせきアックス",
-    "type": "rock"
+    "type": "rock",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 831,
     "name": "springtide-storm",
     "japaneseName": "はるのあらし",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 832,
     "name": "mystical-power",
     "japaneseName": "しんぴのちから",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 833,
     "name": "raging-fury",
     "japaneseName": "だいふんげき",
-    "type": "fire"
+    "type": "fire",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 834,
     "name": "wave-crash",
     "japaneseName": "ウェーブタックル",
-    "type": "water"
+    "type": "water",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 835,
     "name": "chloroblast",
     "japaneseName": "クロロブラスト",
-    "type": "grass"
+    "type": "grass",
+    "power": 150,
+    "damageClass": "special"
   },
   {
     "id": 836,
     "name": "mountain-gale",
     "japaneseName": "ひょうざんおろし",
-    "type": "ice"
+    "type": "ice",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 837,
     "name": "victory-dance",
     "japaneseName": "しょうりのまい",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 838,
     "name": "headlong-rush",
     "japaneseName": "ぶちかまし",
-    "type": "ground"
+    "type": "ground",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 839,
     "name": "barb-barrage",
     "japaneseName": "どくばりセンボン",
-    "type": "poison"
+    "type": "poison",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 840,
     "name": "esper-wing",
     "japaneseName": "オーラウイング",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 841,
     "name": "bitter-malice",
     "japaneseName": "うらみつらみ",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 842,
     "name": "shelter",
     "japaneseName": "たてこもる",
-    "type": "steel"
+    "type": "steel",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 843,
     "name": "triple-arrows",
     "japaneseName": "３ぼんのや",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 844,
     "name": "infernal-parade",
     "japaneseName": "ひゃっきやこう",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 845,
     "name": "ceaseless-edge",
     "japaneseName": "ひけん・ちえなみ",
-    "type": "dark"
+    "type": "dark",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 846,
     "name": "bleakwind-storm",
     "japaneseName": "こがらしあらし",
-    "type": "flying"
+    "type": "flying",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 847,
     "name": "wildbolt-storm",
     "japaneseName": "かみなりあらし",
-    "type": "electric"
+    "type": "electric",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 848,
     "name": "sandsear-storm",
     "japaneseName": "ねっさのあらし",
-    "type": "ground"
+    "type": "ground",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 849,
     "name": "lunar-blessing",
     "japaneseName": "みかづきのいのり",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 850,
     "name": "take-heart",
     "japaneseName": "ブレイブチャージ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 851,
     "name": "tera-blast",
     "japaneseName": "テラバースト",
-    "type": "normal"
+    "type": "normal",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 852,
     "name": "silk-trap",
     "japaneseName": "スレッドトラップ",
-    "type": "bug"
+    "type": "bug",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 853,
     "name": "axe-kick",
     "japaneseName": "かかとおとし",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 854,
     "name": "last-respects",
     "japaneseName": "おはかまいり",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 855,
     "name": "lumina-crash",
     "japaneseName": "ルミナコリジョン",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 856,
     "name": "order-up",
     "japaneseName": "いっちょうあがり",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 857,
     "name": "jet-punch",
     "japaneseName": "ジェットパンチ",
-    "type": "water"
+    "type": "water",
+    "power": 60,
+    "damageClass": "physical"
   },
   {
     "id": 858,
     "name": "spicy-extract",
     "japaneseName": "ハバネロエキス",
-    "type": "grass"
+    "type": "grass",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 859,
     "name": "spin-out",
     "japaneseName": "ホイールスピン",
-    "type": "steel"
+    "type": "steel",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 860,
     "name": "population-bomb",
     "japaneseName": "ネズミざん",
-    "type": "normal"
+    "type": "normal",
+    "power": 20,
+    "damageClass": "physical"
   },
   {
     "id": 861,
     "name": "ice-spinner",
     "japaneseName": "アイススピナー",
-    "type": "ice"
+    "type": "ice",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 862,
     "name": "glaive-rush",
     "japaneseName": "きょけんとつげき",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 863,
     "name": "revival-blessing",
     "japaneseName": "さいきのいのり",
-    "type": "normal"
+    "type": "normal",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 864,
     "name": "salt-cure",
     "japaneseName": "しおづけ",
-    "type": "rock"
+    "type": "rock",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 865,
     "name": "triple-dive",
     "japaneseName": "トリプルダイブ",
-    "type": "water"
+    "type": "water",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 866,
     "name": "mortal-spin",
     "japaneseName": "キラースピン",
-    "type": "poison"
+    "type": "poison",
+    "power": 30,
+    "damageClass": "physical"
   },
   {
     "id": 867,
     "name": "doodle",
     "japaneseName": "うつしえ",
-    "type": "normal"
+    "type": "normal",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 868,
     "name": "fillet-away",
     "japaneseName": "みをけずる",
-    "type": "normal"
+    "type": "normal",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 869,
     "name": "kowtow-cleave",
     "japaneseName": "ドゲザン",
-    "type": "dark"
+    "type": "dark",
+    "power": 85,
+    "damageClass": "physical"
   },
   {
     "id": 870,
     "name": "flower-trick",
     "japaneseName": "トリックフラワー",
-    "type": "grass"
+    "type": "grass",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 871,
     "name": "torch-song",
     "japaneseName": "フレアソング",
-    "type": "fire"
+    "type": "fire",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 872,
     "name": "aqua-step",
     "japaneseName": "アクアステップ",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 873,
     "name": "raging-bull",
     "japaneseName": "レイジングブル",
-    "type": "normal"
+    "type": "normal",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 874,
     "name": "make-it-rain",
     "japaneseName": "ゴールドラッシュ",
-    "type": "steel"
+    "type": "steel",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 875,
     "name": "psyblade",
     "japaneseName": "サイコブレイド ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 876,
     "name": "hydro-steam",
     "japaneseName": "ハイドロスチーム",
-    "type": "water"
+    "type": "water",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 877,
     "name": "ruination",
     "japaneseName": "カタストロフィ",
-    "type": "dark"
+    "type": "dark",
+    "power": 1,
+    "damageClass": "special"
   },
   {
     "id": 878,
     "name": "collision-course",
     "japaneseName": "アクセルブレイク",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 879,
     "name": "electro-drift",
     "japaneseName": "イナズマドライブ",
-    "type": "electric"
+    "type": "electric",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 880,
     "name": "shed-tail",
     "japaneseName": "しっぽきり",
-    "type": "normal"
+    "type": "normal",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 881,
     "name": "chilly-reception",
     "japaneseName": "さむいギャグ",
-    "type": "ice"
+    "type": "ice",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 882,
     "name": "tidy-up",
     "japaneseName": "おかたづけ",
-    "type": "normal"
+    "type": "normal",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 883,
     "name": "snowscape",
     "japaneseName": "ゆきげしき",
-    "type": "ice"
+    "type": "ice",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 884,
     "name": "pounce",
     "japaneseName": "とびつく",
-    "type": "bug"
+    "type": "bug",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 885,
     "name": "trailblaze",
     "japaneseName": "くさわけ",
-    "type": "grass"
+    "type": "grass",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 886,
     "name": "chilling-water",
     "japaneseName": "ひやみず",
-    "type": "water"
+    "type": "water",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 887,
     "name": "hyper-drill",
     "japaneseName": "ハイパードリル",
-    "type": "normal"
+    "type": "normal",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 888,
     "name": "twin-beam",
     "japaneseName": "ツインビーム",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 40,
+    "damageClass": "special"
   },
   {
     "id": 889,
     "name": "rage-fist",
     "japaneseName": "ふんどのこぶし",
-    "type": "ghost"
+    "type": "ghost",
+    "power": 50,
+    "damageClass": "physical"
   },
   {
     "id": 890,
     "name": "armor-cannon",
     "japaneseName": "アーマーキャノン",
-    "type": "fire"
+    "type": "fire",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 891,
     "name": "bitter-blade",
     "japaneseName": "むねんのつるぎ",
-    "type": "fire"
+    "type": "fire",
+    "power": 90,
+    "damageClass": "physical"
   },
   {
     "id": 892,
     "name": "double-shock",
     "japaneseName": "でんこうそうげき",
-    "type": "electric"
+    "type": "electric",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 893,
     "name": "gigaton-hammer",
     "japaneseName": "デカハンマー",
-    "type": "steel"
+    "type": "steel",
+    "power": 160,
+    "damageClass": "physical"
   },
   {
     "id": 894,
     "name": "comeuppance",
     "japaneseName": "ほうふく",
-    "type": "dark"
+    "type": "dark",
+    "power": 1,
+    "damageClass": "physical"
   },
   {
     "id": 895,
     "name": "aqua-cutter",
     "japaneseName": "アクアカッター",
-    "type": "water"
+    "type": "water",
+    "power": 70,
+    "damageClass": "physical"
   },
   {
     "id": 896,
     "name": "blazing-torque",
     "japaneseName": "バーンアクセル",
-    "type": "fire"
+    "type": "fire",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 897,
     "name": "wicked-torque",
     "japaneseName": "ダークアクセル",
-    "type": "dark"
+    "type": "dark",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 898,
     "name": "noxious-torque",
     "japaneseName": "ポイズンアクセル",
-    "type": "poison"
+    "type": "poison",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 899,
     "name": "combat-torque",
     "japaneseName": "ファイトアクセル",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 900,
     "name": "magical-torque",
     "japaneseName": "マジカルアクセル",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 901,
     "name": "blood-moon",
     "japaneseName": "ブラッドムーン",
-    "type": "normal"
+    "type": "normal",
+    "power": 140,
+    "damageClass": "special"
   },
   {
     "id": 902,
     "name": "matcha-gotcha",
     "japaneseName": "シャカシャカほう",
-    "type": "grass"
+    "type": "grass",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 903,
     "name": "syrup-bomb",
     "japaneseName": "みずあめボム",
-    "type": "grass"
+    "type": "grass",
+    "power": 60,
+    "damageClass": "special"
   },
   {
     "id": 904,
     "name": "ivy-cudgel",
     "japaneseName": "ツタこんぼう",
-    "type": "grass"
+    "type": "grass",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 905,
     "name": "electro-shot",
     "japaneseName": "エレクトロビーム",
-    "type": "electric"
+    "type": "electric",
+    "power": 130,
+    "damageClass": "special"
   },
   {
     "id": 906,
     "name": "tera-starstorm",
     "japaneseName": "テラクラスター",
-    "type": "normal"
+    "type": "normal",
+    "power": 120,
+    "damageClass": "special"
   },
   {
     "id": 907,
     "name": "fickle-beam",
     "japaneseName": "きまぐレーザー",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 908,
     "name": "burning-bulwark",
     "japaneseName": "かえんのまもり",
-    "type": "fire"
+    "type": "fire",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 909,
     "name": "thunderclap",
     "japaneseName": "じんらい",
-    "type": "electric"
+    "type": "electric",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 910,
     "name": "mighty-cleave",
     "japaneseName": "パワフルエッジ",
-    "type": "rock"
+    "type": "rock",
+    "power": 95,
+    "damageClass": "physical"
   },
   {
     "id": 911,
     "name": "tachyon-cutter",
     "japaneseName": "タキオンカッター",
-    "type": "steel"
+    "type": "steel",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 912,
     "name": "hard-press",
     "japaneseName": "ハードプレス",
-    "type": "steel"
+    "type": "steel",
+    "power": 0,
+    "damageClass": "physical"
   },
   {
     "id": 913,
     "name": "dragon-cheer",
     "japaneseName": "ドラゴンエール",
-    "type": "dragon"
+    "type": "dragon",
+    "power": 0,
+    "damageClass": "status"
   },
   {
     "id": 914,
     "name": "alluring-voice",
     "japaneseName": "みわくのボイス",
-    "type": "fairy"
+    "type": "fairy",
+    "power": 80,
+    "damageClass": "special"
   },
   {
     "id": 915,
     "name": "temper-flare",
     "japaneseName": "やけっぱち",
-    "type": "fire"
+    "type": "fire",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 916,
     "name": "supercell-slam",
     "japaneseName": "サンダーダイブ",
-    "type": "electric"
+    "type": "electric",
+    "power": 100,
+    "damageClass": "physical"
   },
   {
     "id": 917,
     "name": "psychic-noise",
     "japaneseName": "サイコノイズ",
-    "type": "psychic"
+    "type": "psychic",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 918,
     "name": "upper-hand",
     "japaneseName": "はやてがえし",
-    "type": "fighting"
+    "type": "fighting",
+    "power": 65,
+    "damageClass": "physical"
   },
   {
     "id": 919,
     "name": "malignant-chain",
     "japaneseName": "じゃどくのくさり",
-    "type": "poison"
+    "type": "poison",
+    "power": 100,
+    "damageClass": "special"
   },
   {
     "id": 10001,
     "name": "shadow-rush",
     "japaneseName": "ダークラッシュ",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 55,
+    "damageClass": "physical"
   },
   {
     "id": 10002,
     "name": "shadow-blast",
     "japaneseName": "ダークブラスト",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 80,
+    "damageClass": "physical"
   },
   {
     "id": 10003,
     "name": "shadow-blitz",
     "japaneseName": "ダークアタック",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 40,
+    "damageClass": "physical"
   },
   {
     "id": 10004,
     "name": "shadow-bolt",
     "japaneseName": "ダークサンダー",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 10005,
     "name": "shadow-break",
     "japaneseName": "ダークブレイク",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 75,
+    "damageClass": "physical"
   },
   {
     "id": 10006,
     "name": "shadow-chill",
     "japaneseName": "ダークフリーズ",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 10007,
     "name": "shadow-end",
     "japaneseName": "ダークエンド",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 120,
+    "damageClass": "physical"
   },
   {
     "id": 10008,
     "name": "shadow-fire",
     "japaneseName": "ダークファイア",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 75,
+    "damageClass": "special"
   },
   {
     "id": 10009,
     "name": "shadow-rave",
     "japaneseName": "ダークレイブ",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 70,
+    "damageClass": "special"
   },
   {
     "id": 10010,
     "name": "shadow-storm",
     "japaneseName": "ダークストーム",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 95,
+    "damageClass": "special"
   },
   {
     "id": 10011,
     "name": "shadow-wave",
     "japaneseName": "ダークウェーブ",
-    "type": "shadow"
+    "type": "shadow",
+    "power": 50,
+    "damageClass": "special"
   },
   {
     "id": 10012,
     "name": "shadow-down",
     "japaneseName": "ダークダウン",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 10013,
     "name": "shadow-half",
     "japaneseName": "ダークハーフ",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "special"
   },
   {
     "id": 10014,
     "name": "shadow-hold",
     "japaneseName": "ダークホールド",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 10015,
     "name": "shadow-mist",
     "japaneseName": "ダークミスト",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 10016,
     "name": "shadow-panic",
     "japaneseName": "ダークパニック",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 10017,
     "name": "shadow-shed",
     "japaneseName": "ダークリムーブ",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "status"
   },
   {
     "id": 10018,
     "name": "shadow-sky",
     "japaneseName": "ダークウェザー",
-    "type": "shadow"
+    "type": "shadow",
+    "power": null,
+    "damageClass": "status"
   }
 ]

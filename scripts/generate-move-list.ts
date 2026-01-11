@@ -8,6 +8,8 @@ interface MoveEntry {
   name: string;
   japaneseName: string;
   type: string;
+  power: number | null;
+  damageClass: "physical" | "special" | "status";
 }
 
 interface PokeAPIMoveListResponse {
@@ -19,6 +21,10 @@ interface PokeAPIMoveDetail {
   id: number;
   name: string;
   type: {
+    name: string;
+  };
+  power: number | null;
+  damage_class: {
     name: string;
   };
   names: {
@@ -66,6 +72,8 @@ async function fetchMoveDetail(url: string): Promise<MoveEntry | null> {
       name: data.name,
       japaneseName,
       type: data.type.name,
+      power: data.power,
+      damageClass: data.damage_class.name as "physical" | "special" | "status",
     };
   } catch (error) {
     console.error(`Error fetching move: ${url}`, error);

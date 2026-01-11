@@ -17,10 +17,10 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Operation（v5完成）
+Construction（v6）
 
 ### Active Unit
-N/A
+Unit 11: 技の入れ替え機能
 
 ### Completed Units
 | Unit | 機能 | 状態 |

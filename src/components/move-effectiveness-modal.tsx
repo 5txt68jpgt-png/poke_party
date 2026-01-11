@@ -15,16 +15,31 @@ interface MoveEffectivenessModalProps {
   move: Move | null;
   isOpen: boolean;
   onClose: () => void;
+  opponentPokemon?: PokemonEntry | null;
+  onOpponentChange?: (pokemon: PokemonEntry | null) => void;
 }
 
 export function MoveEffectivenessModal({
   move,
   isOpen,
   onClose,
+  opponentPokemon,
+  onOpponentChange,
 }: MoveEffectivenessModalProps) {
   const [selectedTypes, setSelectedTypes] = useState<PokemonTypeName[]>([]);
-  const [selectedPokemon, setSelectedPokemon] = useState<PokemonEntry | null>(null);
+  const [localPokemon, setLocalPokemon] = useState<PokemonEntry | null>(null);
   const [result, setResult] = useState<EffectivenessResultType | null>(null);
+
+  // 外部から渡された相手ポケモンがある場合は使用
+  const selectedPokemon = opponentPokemon !== undefined ? opponentPokemon : localPokemon;
+  const setSelectedPokemon = onOpponentChange || setLocalPokemon;
+
+  // モーダルを開いた時に外部の相手ポケモンでタイプを初期化
+  useEffect(() => {
+    if (isOpen && opponentPokemon) {
+      setSelectedTypes(opponentPokemon.types);
+    }
+  }, [isOpen, opponentPokemon]);
 
   // ポケモン選択時にタイプを自動設定
   const handlePokemonSelect = (pokemon: PokemonEntry) => {
@@ -51,14 +66,18 @@ export function MoveEffectivenessModal({
     }
   }, [selectedTypes, move]);
 
-  // モーダルを閉じるときにリセット
+  // モーダルを閉じるときにローカル状態のみリセット（外部管理の場合はリセットしない）
   useEffect(() => {
     if (!isOpen) {
+      // タイプと結果はリセット（次に開いたときに再計算される）
       setSelectedTypes([]);
-      setSelectedPokemon(null);
       setResult(null);
+      // ローカル管理の場合のみポケモンもリセット
+      if (opponentPokemon === undefined) {
+        setLocalPokemon(null);
+      }
     }
-  }, [isOpen]);
+  }, [isOpen, opponentPokemon]);
 
   if (!isOpen || !move) {
     return null;

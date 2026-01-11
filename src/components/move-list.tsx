@@ -5,12 +5,15 @@ import { Move } from "@/lib/pokemon/types";
 import { TypeBadge } from "./type-badge";
 import { MoveEffectivenessModal } from "./move-effectiveness-modal";
 import { DAMAGE_CLASS_JAPANESE } from "@/data/type-data";
+import type { PokemonEntry } from "@/lib/pokemon/search";
 
 interface MoveListProps {
   moves: Move[];
+  opponentPokemon?: PokemonEntry | null;
+  onOpponentChange?: (pokemon: PokemonEntry | null) => void;
 }
 
-export function MoveList({ moves }: MoveListProps) {
+export function MoveList({ moves, opponentPokemon, onOpponentChange }: MoveListProps) {
   const [selectedMove, setSelectedMove] = useState<Move | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -57,6 +60,8 @@ export function MoveList({ moves }: MoveListProps) {
         move={selectedMove}
         isOpen={isModalOpen}
         onClose={handleCloseModal}
+        opponentPokemon={opponentPokemon}
+        onOpponentChange={onOpponentChange}
       />
     </>
   );

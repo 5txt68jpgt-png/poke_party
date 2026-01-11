@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Party, PartyPokemon } from "@/lib/party/types";
 import { TypeBadge } from "./type-badge";
 import { MoveList } from "./move-list";
+import type { PokemonEntry } from "@/lib/pokemon/search";
 
 interface PartyDisplayProps {
   party: Party;
@@ -18,6 +19,7 @@ export function PartyDisplay({
   isLoading,
 }: PartyDisplayProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [opponentPokemon, setOpponentPokemon] = useState<PokemonEntry | null>(null);
   const selectedMember = party.members[selectedIndex];
 
   return (
@@ -58,7 +60,11 @@ export function PartyDisplay({
 
       {/* 選択中のポケモン詳細 */}
       {selectedMember && (
-        <PokemonDetail member={selectedMember} />
+        <PokemonDetail
+          member={selectedMember}
+          opponentPokemon={opponentPokemon}
+          onOpponentChange={setOpponentPokemon}
+        />
       )}
 
       {/* 再生成ボタン */}
@@ -73,7 +79,13 @@ export function PartyDisplay({
   );
 }
 
-function PokemonDetail({ member }: { member: PartyPokemon }) {
+interface PokemonDetailProps {
+  member: PartyPokemon;
+  opponentPokemon: PokemonEntry | null;
+  onOpponentChange: (pokemon: PokemonEntry | null) => void;
+}
+
+function PokemonDetail({ member, opponentPokemon, onOpponentChange }: PokemonDetailProps) {
   return (
     <div className="bg-white rounded-pokemon shadow-pokemon-card overflow-hidden border-2 border-pokemon-blue-200">
       {/* ポケモン画像 */}
@@ -109,7 +121,11 @@ function PokemonDetail({ member }: { member: PartyPokemon }) {
 
         <div className="border-t-2 border-pokemon-blue-100 pt-4">
           <h3 className="text-sm font-medium text-pokemon-blue-600 mb-2">わざ</h3>
-          <MoveList moves={member.selectedMoves} />
+          <MoveList
+            moves={member.selectedMoves}
+            opponentPokemon={opponentPokemon}
+            onOpponentChange={onOpponentChange}
+          />
         </div>
       </div>
     </div>

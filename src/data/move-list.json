@@ -1,0 +1,5624 @@
+[
+  {
+    "id": 1,
+    "name": "pound",
+    "japaneseName": "はたく",
+    "type": "normal"
+  },
+  {
+    "id": 2,
+    "name": "karate-chop",
+    "japaneseName": "からてチョップ",
+    "type": "fighting"
+  },
+  {
+    "id": 3,
+    "name": "double-slap",
+    "japaneseName": "おうふくビンタ",
+    "type": "normal"
+  },
+  {
+    "id": 4,
+    "name": "comet-punch",
+    "japaneseName": "れんぞくパンチ",
+    "type": "normal"
+  },
+  {
+    "id": 5,
+    "name": "mega-punch",
+    "japaneseName": "メガトンパンチ",
+    "type": "normal"
+  },
+  {
+    "id": 6,
+    "name": "pay-day",
+    "japaneseName": "ネコにこばん",
+    "type": "normal"
+  },
+  {
+    "id": 7,
+    "name": "fire-punch",
+    "japaneseName": "ほのおのパンチ",
+    "type": "fire"
+  },
+  {
+    "id": 8,
+    "name": "ice-punch",
+    "japaneseName": "れいとうパンチ",
+    "type": "ice"
+  },
+  {
+    "id": 9,
+    "name": "thunder-punch",
+    "japaneseName": "かみなりパンチ",
+    "type": "electric"
+  },
+  {
+    "id": 10,
+    "name": "scratch",
+    "japaneseName": "ひっかく",
+    "type": "normal"
+  },
+  {
+    "id": 11,
+    "name": "vice-grip",
+    "japaneseName": "はさむ",
+    "type": "normal"
+  },
+  {
+    "id": 12,
+    "name": "guillotine",
+    "japaneseName": "ハサミギロチン",
+    "type": "normal"
+  },
+  {
+    "id": 13,
+    "name": "razor-wind",
+    "japaneseName": "かまいたち",
+    "type": "normal"
+  },
+  {
+    "id": 14,
+    "name": "swords-dance",
+    "japaneseName": "つるぎのまい",
+    "type": "normal"
+  },
+  {
+    "id": 15,
+    "name": "cut",
+    "japaneseName": "いあいぎり",
+    "type": "normal"
+  },
+  {
+    "id": 16,
+    "name": "gust",
+    "japaneseName": "かぜおこし",
+    "type": "flying"
+  },
+  {
+    "id": 17,
+    "name": "wing-attack",
+    "japaneseName": "つばさでうつ",
+    "type": "flying"
+  },
+  {
+    "id": 18,
+    "name": "whirlwind",
+    "japaneseName": "ふきとばし",
+    "type": "normal"
+  },
+  {
+    "id": 19,
+    "name": "fly",
+    "japaneseName": "そらをとぶ",
+    "type": "flying"
+  },
+  {
+    "id": 20,
+    "name": "bind",
+    "japaneseName": "しめつける",
+    "type": "normal"
+  },
+  {
+    "id": 21,
+    "name": "slam",
+    "japaneseName": "たたきつける",
+    "type": "normal"
+  },
+  {
+    "id": 22,
+    "name": "vine-whip",
+    "japaneseName": "つるのムチ",
+    "type": "grass"
+  },
+  {
+    "id": 23,
+    "name": "stomp",
+    "japaneseName": "ふみつけ",
+    "type": "normal"
+  },
+  {
+    "id": 24,
+    "name": "double-kick",
+    "japaneseName": "にどげり",
+    "type": "fighting"
+  },
+  {
+    "id": 25,
+    "name": "mega-kick",
+    "japaneseName": "メガトンキック",
+    "type": "normal"
+  },
+  {
+    "id": 26,
+    "name": "jump-kick",
+    "japaneseName": "とびげり",
+    "type": "fighting"
+  },
+  {
+    "id": 27,
+    "name": "rolling-kick",
+    "japaneseName": "まわしげり",
+    "type": "fighting"
+  },
+  {
+    "id": 28,
+    "name": "sand-attack",
+    "japaneseName": "すなかけ",
+    "type": "ground"
+  },
+  {
+    "id": 29,
+    "name": "headbutt",
+    "japaneseName": "ずつき",
+    "type": "normal"
+  },
+  {
+    "id": 30,
+    "name": "horn-attack",
+    "japaneseName": "つのでつく",
+    "type": "normal"
+  },
+  {
+    "id": 31,
+    "name": "fury-attack",
+    "japaneseName": "みだれづき",
+    "type": "normal"
+  },
+  {
+    "id": 32,
+    "name": "horn-drill",
+    "japaneseName": "つのドリル",
+    "type": "normal"
+  },
+  {
+    "id": 33,
+    "name": "tackle",
+    "japaneseName": "たいあたり",
+    "type": "normal"
+  },
+  {
+    "id": 34,
+    "name": "body-slam",
+    "japaneseName": "のしかかり",
+    "type": "normal"
+  },
+  {
+    "id": 35,
+    "name": "wrap",
+    "japaneseName": "まきつく",
+    "type": "normal"
+  },
+  {
+    "id": 36,
+    "name": "take-down",
+    "japaneseName": "とっしん",
+    "type": "normal"
+  },
+  {
+    "id": 37,
+    "name": "thrash",
+    "japaneseName": "あばれる",
+    "type": "normal"
+  },
+  {
+    "id": 38,
+    "name": "double-edge",
+    "japaneseName": "すてみタックル",
+    "type": "normal"
+  },
+  {
+    "id": 39,
+    "name": "tail-whip",
+    "japaneseName": "しっぽをふる",
+    "type": "normal"
+  },
+  {
+    "id": 40,
+    "name": "poison-sting",
+    "japaneseName": "どくばり",
+    "type": "poison"
+  },
+  {
+    "id": 41,
+    "name": "twineedle",
+    "japaneseName": "ダブルニードル",
+    "type": "bug"
+  },
+  {
+    "id": 42,
+    "name": "pin-missile",
+    "japaneseName": "ミサイルばり",
+    "type": "bug"
+  },
+  {
+    "id": 43,
+    "name": "leer",
+    "japaneseName": "にらみつける",
+    "type": "normal"
+  },
+  {
+    "id": 44,
+    "name": "bite",
+    "japaneseName": "かみつく",
+    "type": "dark"
+  },
+  {
+    "id": 45,
+    "name": "growl",
+    "japaneseName": "なきごえ",
+    "type": "normal"
+  },
+  {
+    "id": 46,
+    "name": "roar",
+    "japaneseName": "ほえる",
+    "type": "normal"
+  },
+  {
+    "id": 47,
+    "name": "sing",
+    "japaneseName": "うたう",
+    "type": "normal"
+  },
+  {
+    "id": 48,
+    "name": "supersonic",
+    "japaneseName": "ちょうおんぱ",
+    "type": "normal"
+  },
+  {
+    "id": 49,
+    "name": "sonic-boom",
+    "japaneseName": "ソニックブーム",
+    "type": "normal"
+  },
+  {
+    "id": 50,
+    "name": "disable",
+    "japaneseName": "かなしばり",
+    "type": "normal"
+  },
+  {
+    "id": 51,
+    "name": "acid",
+    "japaneseName": "ようかいえき",
+    "type": "poison"
+  },
+  {
+    "id": 52,
+    "name": "ember",
+    "japaneseName": "ひのこ",
+    "type": "fire"
+  },
+  {
+    "id": 53,
+    "name": "flamethrower",
+    "japaneseName": "かえんほうしゃ",
+    "type": "fire"
+  },
+  {
+    "id": 54,
+    "name": "mist",
+    "japaneseName": "しろいきり",
+    "type": "ice"
+  },
+  {
+    "id": 55,
+    "name": "water-gun",
+    "japaneseName": "みずでっぽう",
+    "type": "water"
+  },
+  {
+    "id": 56,
+    "name": "hydro-pump",
+    "japaneseName": "ハイドロポンプ",
+    "type": "water"
+  },
+  {
+    "id": 57,
+    "name": "surf",
+    "japaneseName": "なみのり",
+    "type": "water"
+  },
+  {
+    "id": 58,
+    "name": "ice-beam",
+    "japaneseName": "れいとうビーム",
+    "type": "ice"
+  },
+  {
+    "id": 59,
+    "name": "blizzard",
+    "japaneseName": "ふぶき",
+    "type": "ice"
+  },
+  {
+    "id": 60,
+    "name": "psybeam",
+    "japaneseName": "サイケこうせん",
+    "type": "psychic"
+  },
+  {
+    "id": 61,
+    "name": "bubble-beam",
+    "japaneseName": "バブルこうせん",
+    "type": "water"
+  },
+  {
+    "id": 62,
+    "name": "aurora-beam",
+    "japaneseName": "オーロラビーム",
+    "type": "ice"
+  },
+  {
+    "id": 63,
+    "name": "hyper-beam",
+    "japaneseName": "はかいこうせん",
+    "type": "normal"
+  },
+  {
+    "id": 64,
+    "name": "peck",
+    "japaneseName": "つつく",
+    "type": "flying"
+  },
+  {
+    "id": 65,
+    "name": "drill-peck",
+    "japaneseName": "ドリルくちばし",
+    "type": "flying"
+  },
+  {
+    "id": 66,
+    "name": "submission",
+    "japaneseName": "じごくぐるま",
+    "type": "fighting"
+  },
+  {
+    "id": 67,
+    "name": "low-kick",
+    "japaneseName": "けたぐり",
+    "type": "fighting"
+  },
+  {
+    "id": 68,
+    "name": "counter",
+    "japaneseName": "カウンター",
+    "type": "fighting"
+  },
+  {
+    "id": 69,
+    "name": "seismic-toss",
+    "japaneseName": "ちきゅうなげ",
+    "type": "fighting"
+  },
+  {
+    "id": 70,
+    "name": "strength",
+    "japaneseName": "かいりき",
+    "type": "normal"
+  },
+  {
+    "id": 71,
+    "name": "absorb",
+    "japaneseName": "すいとる",
+    "type": "grass"
+  },
+  {
+    "id": 72,
+    "name": "mega-drain",
+    "japaneseName": "メガドレイン",
+    "type": "grass"
+  },
+  {
+    "id": 73,
+    "name": "leech-seed",
+    "japaneseName": "やどりぎのタネ",
+    "type": "grass"
+  },
+  {
+    "id": 74,
+    "name": "growth",
+    "japaneseName": "せいちょう",
+    "type": "normal"
+  },
+  {
+    "id": 75,
+    "name": "razor-leaf",
+    "japaneseName": "はっぱカッター",
+    "type": "grass"
+  },
+  {
+    "id": 76,
+    "name": "solar-beam",
+    "japaneseName": "ソーラービーム",
+    "type": "grass"
+  },
+  {
+    "id": 77,
+    "name": "poison-powder",
+    "japaneseName": "どくのこな",
+    "type": "poison"
+  },
+  {
+    "id": 78,
+    "name": "stun-spore",
+    "japaneseName": "しびれごな",
+    "type": "grass"
+  },
+  {
+    "id": 79,
+    "name": "sleep-powder",
+    "japaneseName": "ねむりごな",
+    "type": "grass"
+  },
+  {
+    "id": 80,
+    "name": "petal-dance",
+    "japaneseName": "はなびらのまい",
+    "type": "grass"
+  },
+  {
+    "id": 81,
+    "name": "string-shot",
+    "japaneseName": "いとをはく",
+    "type": "bug"
+  },
+  {
+    "id": 82,
+    "name": "dragon-rage",
+    "japaneseName": "りゅうのいかり",
+    "type": "dragon"
+  },
+  {
+    "id": 83,
+    "name": "fire-spin",
+    "japaneseName": "ほのおのうず",
+    "type": "fire"
+  },
+  {
+    "id": 84,
+    "name": "thunder-shock",
+    "japaneseName": "でんきショック",
+    "type": "electric"
+  },
+  {
+    "id": 85,
+    "name": "thunderbolt",
+    "japaneseName": "１０まんボルト",
+    "type": "electric"
+  },
+  {
+    "id": 86,
+    "name": "thunder-wave",
+    "japaneseName": "でんじは",
+    "type": "electric"
+  },
+  {
+    "id": 87,
+    "name": "thunder",
+    "japaneseName": "かみなり",
+    "type": "electric"
+  },
+  {
+    "id": 88,
+    "name": "rock-throw",
+    "japaneseName": "いわおとし",
+    "type": "rock"
+  },
+  {
+    "id": 89,
+    "name": "earthquake",
+    "japaneseName": "じしん",
+    "type": "ground"
+  },
+  {
+    "id": 90,
+    "name": "fissure",
+    "japaneseName": "じわれ",
+    "type": "ground"
+  },
+  {
+    "id": 91,
+    "name": "dig",
+    "japaneseName": "あなをほる",
+    "type": "ground"
+  },
+  {
+    "id": 92,
+    "name": "toxic",
+    "japaneseName": "どくどく",
+    "type": "poison"
+  },
+  {
+    "id": 93,
+    "name": "confusion",
+    "japaneseName": "ねんりき",
+    "type": "psychic"
+  },
+  {
+    "id": 94,
+    "name": "psychic",
+    "japaneseName": "サイコキネシス",
+    "type": "psychic"
+  },
+  {
+    "id": 95,
+    "name": "hypnosis",
+    "japaneseName": "さいみんじゅつ",
+    "type": "psychic"
+  },
+  {
+    "id": 96,
+    "name": "meditate",
+    "japaneseName": "ヨガのポーズ",
+    "type": "psychic"
+  },
+  {
+    "id": 97,
+    "name": "agility",
+    "japaneseName": "こうそくいどう",
+    "type": "psychic"
+  },
+  {
+    "id": 98,
+    "name": "quick-attack",
+    "japaneseName": "でんこうせっか",
+    "type": "normal"
+  },
+  {
+    "id": 99,
+    "name": "rage",
+    "japaneseName": "いかり",
+    "type": "normal"
+  },
+  {
+    "id": 100,
+    "name": "teleport",
+    "japaneseName": "テレポート",
+    "type": "psychic"
+  },
+  {
+    "id": 101,
+    "name": "night-shade",
+    "japaneseName": "ナイトヘッド",
+    "type": "ghost"
+  },
+  {
+    "id": 102,
+    "name": "mimic",
+    "japaneseName": "ものまね",
+    "type": "normal"
+  },
+  {
+    "id": 103,
+    "name": "screech",
+    "japaneseName": "いやなおと",
+    "type": "normal"
+  },
+  {
+    "id": 104,
+    "name": "double-team",
+    "japaneseName": "かげぶんしん",
+    "type": "normal"
+  },
+  {
+    "id": 105,
+    "name": "recover",
+    "japaneseName": "じこさいせい",
+    "type": "normal"
+  },
+  {
+    "id": 106,
+    "name": "harden",
+    "japaneseName": "かたくなる",
+    "type": "normal"
+  },
+  {
+    "id": 107,
+    "name": "minimize",
+    "japaneseName": "ちいさくなる",
+    "type": "normal"
+  },
+  {
+    "id": 108,
+    "name": "smokescreen",
+    "japaneseName": "えんまく",
+    "type": "normal"
+  },
+  {
+    "id": 109,
+    "name": "confuse-ray",
+    "japaneseName": "あやしいひかり",
+    "type": "ghost"
+  },
+  {
+    "id": 110,
+    "name": "withdraw",
+    "japaneseName": "からにこもる",
+    "type": "water"
+  },
+  {
+    "id": 111,
+    "name": "defense-curl",
+    "japaneseName": "まるくなる",
+    "type": "normal"
+  },
+  {
+    "id": 112,
+    "name": "barrier",
+    "japaneseName": "バリアー",
+    "type": "psychic"
+  },
+  {
+    "id": 113,
+    "name": "light-screen",
+    "japaneseName": "ひかりのかべ",
+    "type": "psychic"
+  },
+  {
+    "id": 114,
+    "name": "haze",
+    "japaneseName": "くろいきり",
+    "type": "ice"
+  },
+  {
+    "id": 115,
+    "name": "reflect",
+    "japaneseName": "リフレクター",
+    "type": "psychic"
+  },
+  {
+    "id": 116,
+    "name": "focus-energy",
+    "japaneseName": "きあいだめ",
+    "type": "normal"
+  },
+  {
+    "id": 117,
+    "name": "bide",
+    "japaneseName": "がまん",
+    "type": "normal"
+  },
+  {
+    "id": 118,
+    "name": "metronome",
+    "japaneseName": "ゆびをふる",
+    "type": "normal"
+  },
+  {
+    "id": 119,
+    "name": "mirror-move",
+    "japaneseName": "オウムがえし",
+    "type": "flying"
+  },
+  {
+    "id": 120,
+    "name": "self-destruct",
+    "japaneseName": "じばく",
+    "type": "normal"
+  },
+  {
+    "id": 121,
+    "name": "egg-bomb",
+    "japaneseName": "タマゴばくだん",
+    "type": "normal"
+  },
+  {
+    "id": 122,
+    "name": "lick",
+    "japaneseName": "したでなめる",
+    "type": "ghost"
+  },
+  {
+    "id": 123,
+    "name": "smog",
+    "japaneseName": "スモッグ",
+    "type": "poison"
+  },
+  {
+    "id": 124,
+    "name": "sludge",
+    "japaneseName": "ヘドロこうげき",
+    "type": "poison"
+  },
+  {
+    "id": 125,
+    "name": "bone-club",
+    "japaneseName": "ホネこんぼう",
+    "type": "ground"
+  },
+  {
+    "id": 126,
+    "name": "fire-blast",
+    "japaneseName": "だいもんじ",
+    "type": "fire"
+  },
+  {
+    "id": 127,
+    "name": "waterfall",
+    "japaneseName": "たきのぼり",
+    "type": "water"
+  },
+  {
+    "id": 128,
+    "name": "clamp",
+    "japaneseName": "からではさむ",
+    "type": "water"
+  },
+  {
+    "id": 129,
+    "name": "swift",
+    "japaneseName": "スピードスター",
+    "type": "normal"
+  },
+  {
+    "id": 130,
+    "name": "skull-bash",
+    "japaneseName": "ロケットずつき",
+    "type": "normal"
+  },
+  {
+    "id": 131,
+    "name": "spike-cannon",
+    "japaneseName": "とげキャノン",
+    "type": "normal"
+  },
+  {
+    "id": 132,
+    "name": "constrict",
+    "japaneseName": "からみつく",
+    "type": "normal"
+  },
+  {
+    "id": 133,
+    "name": "amnesia",
+    "japaneseName": "ドわすれ",
+    "type": "psychic"
+  },
+  {
+    "id": 134,
+    "name": "kinesis",
+    "japaneseName": "スプーンまげ",
+    "type": "psychic"
+  },
+  {
+    "id": 135,
+    "name": "soft-boiled",
+    "japaneseName": "タマゴうみ",
+    "type": "normal"
+  },
+  {
+    "id": 136,
+    "name": "high-jump-kick",
+    "japaneseName": "とびひざげり",
+    "type": "fighting"
+  },
+  {
+    "id": 137,
+    "name": "glare",
+    "japaneseName": "へびにらみ",
+    "type": "normal"
+  },
+  {
+    "id": 138,
+    "name": "dream-eater",
+    "japaneseName": "ゆめくい",
+    "type": "psychic"
+  },
+  {
+    "id": 139,
+    "name": "poison-gas",
+    "japaneseName": "どくガス",
+    "type": "poison"
+  },
+  {
+    "id": 140,
+    "name": "barrage",
+    "japaneseName": "たまなげ",
+    "type": "normal"
+  },
+  {
+    "id": 141,
+    "name": "leech-life",
+    "japaneseName": "きゅうけつ",
+    "type": "bug"
+  },
+  {
+    "id": 142,
+    "name": "lovely-kiss",
+    "japaneseName": "あくまのキッス",
+    "type": "normal"
+  },
+  {
+    "id": 143,
+    "name": "sky-attack",
+    "japaneseName": "ゴッドバード",
+    "type": "flying"
+  },
+  {
+    "id": 144,
+    "name": "transform",
+    "japaneseName": "へんしん",
+    "type": "normal"
+  },
+  {
+    "id": 145,
+    "name": "bubble",
+    "japaneseName": "あわ",
+    "type": "water"
+  },
+  {
+    "id": 146,
+    "name": "dizzy-punch",
+    "japaneseName": "ピヨピヨパンチ",
+    "type": "normal"
+  },
+  {
+    "id": 147,
+    "name": "spore",
+    "japaneseName": "キノコのほうし",
+    "type": "grass"
+  },
+  {
+    "id": 148,
+    "name": "flash",
+    "japaneseName": "フラッシュ",
+    "type": "normal"
+  },
+  {
+    "id": 149,
+    "name": "psywave",
+    "japaneseName": "サイコウェーブ",
+    "type": "psychic"
+  },
+  {
+    "id": 150,
+    "name": "splash",
+    "japaneseName": "はねる",
+    "type": "normal"
+  },
+  {
+    "id": 151,
+    "name": "acid-armor",
+    "japaneseName": "とける",
+    "type": "poison"
+  },
+  {
+    "id": 152,
+    "name": "crabhammer",
+    "japaneseName": "クラブハンマー",
+    "type": "water"
+  },
+  {
+    "id": 153,
+    "name": "explosion",
+    "japaneseName": "だいばくはつ",
+    "type": "normal"
+  },
+  {
+    "id": 154,
+    "name": "fury-swipes",
+    "japaneseName": "みだれひっかき",
+    "type": "normal"
+  },
+  {
+    "id": 155,
+    "name": "bonemerang",
+    "japaneseName": "ホネブーメラン",
+    "type": "ground"
+  },
+  {
+    "id": 156,
+    "name": "rest",
+    "japaneseName": "ねむる",
+    "type": "psychic"
+  },
+  {
+    "id": 157,
+    "name": "rock-slide",
+    "japaneseName": "いわなだれ",
+    "type": "rock"
+  },
+  {
+    "id": 158,
+    "name": "hyper-fang",
+    "japaneseName": "ひっさつまえば",
+    "type": "normal"
+  },
+  {
+    "id": 159,
+    "name": "sharpen",
+    "japaneseName": "かくばる",
+    "type": "normal"
+  },
+  {
+    "id": 160,
+    "name": "conversion",
+    "japaneseName": "テクスチャー",
+    "type": "normal"
+  },
+  {
+    "id": 161,
+    "name": "tri-attack",
+    "japaneseName": "トライアタック",
+    "type": "normal"
+  },
+  {
+    "id": 162,
+    "name": "super-fang",
+    "japaneseName": "いかりのまえば",
+    "type": "normal"
+  },
+  {
+    "id": 163,
+    "name": "slash",
+    "japaneseName": "きりさく",
+    "type": "normal"
+  },
+  {
+    "id": 164,
+    "name": "substitute",
+    "japaneseName": "みがわり",
+    "type": "normal"
+  },
+  {
+    "id": 165,
+    "name": "struggle",
+    "japaneseName": "わるあがき",
+    "type": "normal"
+  },
+  {
+    "id": 166,
+    "name": "sketch",
+    "japaneseName": "スケッチ",
+    "type": "normal"
+  },
+  {
+    "id": 167,
+    "name": "triple-kick",
+    "japaneseName": "トリプルキック",
+    "type": "fighting"
+  },
+  {
+    "id": 168,
+    "name": "thief",
+    "japaneseName": "どろぼう",
+    "type": "dark"
+  },
+  {
+    "id": 169,
+    "name": "spider-web",
+    "japaneseName": "クモのす",
+    "type": "bug"
+  },
+  {
+    "id": 170,
+    "name": "mind-reader",
+    "japaneseName": "こころのめ",
+    "type": "normal"
+  },
+  {
+    "id": 171,
+    "name": "nightmare",
+    "japaneseName": "あくむ",
+    "type": "ghost"
+  },
+  {
+    "id": 172,
+    "name": "flame-wheel",
+    "japaneseName": "かえんぐるま",
+    "type": "fire"
+  },
+  {
+    "id": 173,
+    "name": "snore",
+    "japaneseName": "いびき",
+    "type": "normal"
+  },
+  {
+    "id": 174,
+    "name": "curse",
+    "japaneseName": "のろい",
+    "type": "ghost"
+  },
+  {
+    "id": 175,
+    "name": "flail",
+    "japaneseName": "じたばた",
+    "type": "normal"
+  },
+  {
+    "id": 176,
+    "name": "conversion-2",
+    "japaneseName": "テクスチャー２",
+    "type": "normal"
+  },
+  {
+    "id": 177,
+    "name": "aeroblast",
+    "japaneseName": "エアロブラスト",
+    "type": "flying"
+  },
+  {
+    "id": 178,
+    "name": "cotton-spore",
+    "japaneseName": "わたほうし",
+    "type": "grass"
+  },
+  {
+    "id": 179,
+    "name": "reversal",
+    "japaneseName": "きしかいせい",
+    "type": "fighting"
+  },
+  {
+    "id": 180,
+    "name": "spite",
+    "japaneseName": "うらみ",
+    "type": "ghost"
+  },
+  {
+    "id": 181,
+    "name": "powder-snow",
+    "japaneseName": "こなゆき",
+    "type": "ice"
+  },
+  {
+    "id": 182,
+    "name": "protect",
+    "japaneseName": "まもる",
+    "type": "normal"
+  },
+  {
+    "id": 183,
+    "name": "mach-punch",
+    "japaneseName": "マッハパンチ",
+    "type": "fighting"
+  },
+  {
+    "id": 184,
+    "name": "scary-face",
+    "japaneseName": "こわいかお",
+    "type": "normal"
+  },
+  {
+    "id": 185,
+    "name": "feint-attack",
+    "japaneseName": "だましうち",
+    "type": "dark"
+  },
+  {
+    "id": 186,
+    "name": "sweet-kiss",
+    "japaneseName": "てんしのキッス",
+    "type": "fairy"
+  },
+  {
+    "id": 187,
+    "name": "belly-drum",
+    "japaneseName": "はらだいこ",
+    "type": "normal"
+  },
+  {
+    "id": 188,
+    "name": "sludge-bomb",
+    "japaneseName": "ヘドロばくだん",
+    "type": "poison"
+  },
+  {
+    "id": 189,
+    "name": "mud-slap",
+    "japaneseName": "どろかけ",
+    "type": "ground"
+  },
+  {
+    "id": 190,
+    "name": "octazooka",
+    "japaneseName": "オクタンほう",
+    "type": "water"
+  },
+  {
+    "id": 191,
+    "name": "spikes",
+    "japaneseName": "まきびし",
+    "type": "ground"
+  },
+  {
+    "id": 192,
+    "name": "zap-cannon",
+    "japaneseName": "でんじほう",
+    "type": "electric"
+  },
+  {
+    "id": 193,
+    "name": "foresight",
+    "japaneseName": "みやぶる",
+    "type": "normal"
+  },
+  {
+    "id": 194,
+    "name": "destiny-bond",
+    "japaneseName": "みちづれ",
+    "type": "ghost"
+  },
+  {
+    "id": 195,
+    "name": "perish-song",
+    "japaneseName": "ほろびのうた",
+    "type": "normal"
+  },
+  {
+    "id": 196,
+    "name": "icy-wind",
+    "japaneseName": "こごえるかぜ",
+    "type": "ice"
+  },
+  {
+    "id": 197,
+    "name": "detect",
+    "japaneseName": "みきり",
+    "type": "fighting"
+  },
+  {
+    "id": 198,
+    "name": "bone-rush",
+    "japaneseName": "ボーンラッシュ",
+    "type": "ground"
+  },
+  {
+    "id": 199,
+    "name": "lock-on",
+    "japaneseName": "ロックオン",
+    "type": "normal"
+  },
+  {
+    "id": 200,
+    "name": "outrage",
+    "japaneseName": "げきりん",
+    "type": "dragon"
+  },
+  {
+    "id": 201,
+    "name": "sandstorm",
+    "japaneseName": "すなあらし",
+    "type": "rock"
+  },
+  {
+    "id": 202,
+    "name": "giga-drain",
+    "japaneseName": "ギガドレイン",
+    "type": "grass"
+  },
+  {
+    "id": 203,
+    "name": "endure",
+    "japaneseName": "こらえる",
+    "type": "normal"
+  },
+  {
+    "id": 204,
+    "name": "charm",
+    "japaneseName": "あまえる",
+    "type": "fairy"
+  },
+  {
+    "id": 205,
+    "name": "rollout",
+    "japaneseName": "ころがる",
+    "type": "rock"
+  },
+  {
+    "id": 206,
+    "name": "false-swipe",
+    "japaneseName": "みねうち",
+    "type": "normal"
+  },
+  {
+    "id": 207,
+    "name": "swagger",
+    "japaneseName": "いばる",
+    "type": "normal"
+  },
+  {
+    "id": 208,
+    "name": "milk-drink",
+    "japaneseName": "ミルクのみ",
+    "type": "normal"
+  },
+  {
+    "id": 209,
+    "name": "spark",
+    "japaneseName": "スパーク",
+    "type": "electric"
+  },
+  {
+    "id": 210,
+    "name": "fury-cutter",
+    "japaneseName": "れんぞくぎり",
+    "type": "bug"
+  },
+  {
+    "id": 211,
+    "name": "steel-wing",
+    "japaneseName": "はがねのつばさ",
+    "type": "steel"
+  },
+  {
+    "id": 212,
+    "name": "mean-look",
+    "japaneseName": "くろいまなざし",
+    "type": "normal"
+  },
+  {
+    "id": 213,
+    "name": "attract",
+    "japaneseName": "メロメロ",
+    "type": "normal"
+  },
+  {
+    "id": 214,
+    "name": "sleep-talk",
+    "japaneseName": "ねごと",
+    "type": "normal"
+  },
+  {
+    "id": 215,
+    "name": "heal-bell",
+    "japaneseName": "いやしのすず",
+    "type": "normal"
+  },
+  {
+    "id": 216,
+    "name": "return",
+    "japaneseName": "おんがえし",
+    "type": "normal"
+  },
+  {
+    "id": 217,
+    "name": "present",
+    "japaneseName": "プレゼント",
+    "type": "normal"
+  },
+  {
+    "id": 218,
+    "name": "frustration",
+    "japaneseName": "やつあたり",
+    "type": "normal"
+  },
+  {
+    "id": 219,
+    "name": "safeguard",
+    "japaneseName": "しんぴのまもり",
+    "type": "normal"
+  },
+  {
+    "id": 220,
+    "name": "pain-split",
+    "japaneseName": "いたみわけ",
+    "type": "normal"
+  },
+  {
+    "id": 221,
+    "name": "sacred-fire",
+    "japaneseName": "せいなるほのお",
+    "type": "fire"
+  },
+  {
+    "id": 222,
+    "name": "magnitude",
+    "japaneseName": "マグニチュード",
+    "type": "ground"
+  },
+  {
+    "id": 223,
+    "name": "dynamic-punch",
+    "japaneseName": "ばくれつパンチ",
+    "type": "fighting"
+  },
+  {
+    "id": 224,
+    "name": "megahorn",
+    "japaneseName": "メガホーン",
+    "type": "bug"
+  },
+  {
+    "id": 225,
+    "name": "dragon-breath",
+    "japaneseName": "りゅうのいぶき",
+    "type": "dragon"
+  },
+  {
+    "id": 226,
+    "name": "baton-pass",
+    "japaneseName": "バトンタッチ",
+    "type": "normal"
+  },
+  {
+    "id": 227,
+    "name": "encore",
+    "japaneseName": "アンコール",
+    "type": "normal"
+  },
+  {
+    "id": 228,
+    "name": "pursuit",
+    "japaneseName": "おいうち",
+    "type": "dark"
+  },
+  {
+    "id": 229,
+    "name": "rapid-spin",
+    "japaneseName": "こうそくスピン",
+    "type": "normal"
+  },
+  {
+    "id": 230,
+    "name": "sweet-scent",
+    "japaneseName": "あまいかおり",
+    "type": "normal"
+  },
+  {
+    "id": 231,
+    "name": "iron-tail",
+    "japaneseName": "アイアンテール",
+    "type": "steel"
+  },
+  {
+    "id": 232,
+    "name": "metal-claw",
+    "japaneseName": "メタルクロー",
+    "type": "steel"
+  },
+  {
+    "id": 233,
+    "name": "vital-throw",
+    "japaneseName": "あてみなげ",
+    "type": "fighting"
+  },
+  {
+    "id": 234,
+    "name": "morning-sun",
+    "japaneseName": "あさのひざし",
+    "type": "normal"
+  },
+  {
+    "id": 235,
+    "name": "synthesis",
+    "japaneseName": "こうごうせい",
+    "type": "grass"
+  },
+  {
+    "id": 236,
+    "name": "moonlight",
+    "japaneseName": "つきのひかり",
+    "type": "fairy"
+  },
+  {
+    "id": 237,
+    "name": "hidden-power",
+    "japaneseName": "めざめるパワー",
+    "type": "normal"
+  },
+  {
+    "id": 238,
+    "name": "cross-chop",
+    "japaneseName": "クロスチョップ",
+    "type": "fighting"
+  },
+  {
+    "id": 239,
+    "name": "twister",
+    "japaneseName": "たつまき",
+    "type": "dragon"
+  },
+  {
+    "id": 240,
+    "name": "rain-dance",
+    "japaneseName": "あまごい",
+    "type": "water"
+  },
+  {
+    "id": 241,
+    "name": "sunny-day",
+    "japaneseName": "にほんばれ",
+    "type": "fire"
+  },
+  {
+    "id": 242,
+    "name": "crunch",
+    "japaneseName": "かみくだく",
+    "type": "dark"
+  },
+  {
+    "id": 243,
+    "name": "mirror-coat",
+    "japaneseName": "ミラーコート",
+    "type": "psychic"
+  },
+  {
+    "id": 244,
+    "name": "psych-up",
+    "japaneseName": "じこあんじ",
+    "type": "normal"
+  },
+  {
+    "id": 245,
+    "name": "extreme-speed",
+    "japaneseName": "しんそく",
+    "type": "normal"
+  },
+  {
+    "id": 246,
+    "name": "ancient-power",
+    "japaneseName": "げんしのちから",
+    "type": "rock"
+  },
+  {
+    "id": 247,
+    "name": "shadow-ball",
+    "japaneseName": "シャドーボール",
+    "type": "ghost"
+  },
+  {
+    "id": 248,
+    "name": "future-sight",
+    "japaneseName": "みらいよち",
+    "type": "psychic"
+  },
+  {
+    "id": 249,
+    "name": "rock-smash",
+    "japaneseName": "いわくだき",
+    "type": "fighting"
+  },
+  {
+    "id": 250,
+    "name": "whirlpool",
+    "japaneseName": "うずしお",
+    "type": "water"
+  },
+  {
+    "id": 251,
+    "name": "beat-up",
+    "japaneseName": "ふくろだたき",
+    "type": "dark"
+  },
+  {
+    "id": 252,
+    "name": "fake-out",
+    "japaneseName": "ねこだまし",
+    "type": "normal"
+  },
+  {
+    "id": 253,
+    "name": "uproar",
+    "japaneseName": "さわぐ",
+    "type": "normal"
+  },
+  {
+    "id": 254,
+    "name": "stockpile",
+    "japaneseName": "たくわえる",
+    "type": "normal"
+  },
+  {
+    "id": 255,
+    "name": "spit-up",
+    "japaneseName": "はきだす",
+    "type": "normal"
+  },
+  {
+    "id": 256,
+    "name": "swallow",
+    "japaneseName": "のみこむ",
+    "type": "normal"
+  },
+  {
+    "id": 257,
+    "name": "heat-wave",
+    "japaneseName": "ねっぷう",
+    "type": "fire"
+  },
+  {
+    "id": 258,
+    "name": "hail",
+    "japaneseName": "あられ",
+    "type": "ice"
+  },
+  {
+    "id": 259,
+    "name": "torment",
+    "japaneseName": "いちゃもん",
+    "type": "dark"
+  },
+  {
+    "id": 260,
+    "name": "flatter",
+    "japaneseName": "おだてる",
+    "type": "dark"
+  },
+  {
+    "id": 261,
+    "name": "will-o-wisp",
+    "japaneseName": "おにび",
+    "type": "fire"
+  },
+  {
+    "id": 262,
+    "name": "memento",
+    "japaneseName": "おきみやげ",
+    "type": "dark"
+  },
+  {
+    "id": 263,
+    "name": "facade",
+    "japaneseName": "からげんき",
+    "type": "normal"
+  },
+  {
+    "id": 264,
+    "name": "focus-punch",
+    "japaneseName": "きあいパンチ",
+    "type": "fighting"
+  },
+  {
+    "id": 265,
+    "name": "smelling-salts",
+    "japaneseName": "きつけ",
+    "type": "normal"
+  },
+  {
+    "id": 266,
+    "name": "follow-me",
+    "japaneseName": "このゆびとまれ",
+    "type": "normal"
+  },
+  {
+    "id": 267,
+    "name": "nature-power",
+    "japaneseName": "しぜんのちから",
+    "type": "normal"
+  },
+  {
+    "id": 268,
+    "name": "charge",
+    "japaneseName": "じゅうでん",
+    "type": "electric"
+  },
+  {
+    "id": 269,
+    "name": "taunt",
+    "japaneseName": "ちょうはつ",
+    "type": "dark"
+  },
+  {
+    "id": 270,
+    "name": "helping-hand",
+    "japaneseName": "てだすけ",
+    "type": "normal"
+  },
+  {
+    "id": 271,
+    "name": "trick",
+    "japaneseName": "トリック",
+    "type": "psychic"
+  },
+  {
+    "id": 272,
+    "name": "role-play",
+    "japaneseName": "なりきり",
+    "type": "psychic"
+  },
+  {
+    "id": 273,
+    "name": "wish",
+    "japaneseName": "ねがいごと",
+    "type": "normal"
+  },
+  {
+    "id": 274,
+    "name": "assist",
+    "japaneseName": "ねこのて",
+    "type": "normal"
+  },
+  {
+    "id": 275,
+    "name": "ingrain",
+    "japaneseName": "ねをはる",
+    "type": "grass"
+  },
+  {
+    "id": 276,
+    "name": "superpower",
+    "japaneseName": "ばかぢから",
+    "type": "fighting"
+  },
+  {
+    "id": 277,
+    "name": "magic-coat",
+    "japaneseName": "マジックコート",
+    "type": "psychic"
+  },
+  {
+    "id": 278,
+    "name": "recycle",
+    "japaneseName": "リサイクル",
+    "type": "normal"
+  },
+  {
+    "id": 279,
+    "name": "revenge",
+    "japaneseName": "リベンジ",
+    "type": "fighting"
+  },
+  {
+    "id": 280,
+    "name": "brick-break",
+    "japaneseName": "かわらわり",
+    "type": "fighting"
+  },
+  {
+    "id": 281,
+    "name": "yawn",
+    "japaneseName": "あくび",
+    "type": "normal"
+  },
+  {
+    "id": 282,
+    "name": "knock-off",
+    "japaneseName": "はたきおとす",
+    "type": "dark"
+  },
+  {
+    "id": 283,
+    "name": "endeavor",
+    "japaneseName": "がむしゃら",
+    "type": "normal"
+  },
+  {
+    "id": 284,
+    "name": "eruption",
+    "japaneseName": "ふんか",
+    "type": "fire"
+  },
+  {
+    "id": 285,
+    "name": "skill-swap",
+    "japaneseName": "スキルスワップ",
+    "type": "psychic"
+  },
+  {
+    "id": 286,
+    "name": "imprison",
+    "japaneseName": "ふういん",
+    "type": "psychic"
+  },
+  {
+    "id": 287,
+    "name": "refresh",
+    "japaneseName": "リフレッシュ",
+    "type": "normal"
+  },
+  {
+    "id": 288,
+    "name": "grudge",
+    "japaneseName": "おんねん",
+    "type": "ghost"
+  },
+  {
+    "id": 289,
+    "name": "snatch",
+    "japaneseName": "よこどり",
+    "type": "dark"
+  },
+  {
+    "id": 290,
+    "name": "secret-power",
+    "japaneseName": "ひみつのちから",
+    "type": "normal"
+  },
+  {
+    "id": 291,
+    "name": "dive",
+    "japaneseName": "ダイビング",
+    "type": "water"
+  },
+  {
+    "id": 292,
+    "name": "arm-thrust",
+    "japaneseName": "つっぱり",
+    "type": "fighting"
+  },
+  {
+    "id": 293,
+    "name": "camouflage",
+    "japaneseName": "ほごしょく",
+    "type": "normal"
+  },
+  {
+    "id": 294,
+    "name": "tail-glow",
+    "japaneseName": "ほたるび",
+    "type": "bug"
+  },
+  {
+    "id": 295,
+    "name": "luster-purge",
+    "japaneseName": "ラスターパージ",
+    "type": "psychic"
+  },
+  {
+    "id": 296,
+    "name": "mist-ball",
+    "japaneseName": "ミストボール",
+    "type": "psychic"
+  },
+  {
+    "id": 297,
+    "name": "feather-dance",
+    "japaneseName": "フェザーダンス",
+    "type": "flying"
+  },
+  {
+    "id": 298,
+    "name": "teeter-dance",
+    "japaneseName": "フラフラダンス",
+    "type": "normal"
+  },
+  {
+    "id": 299,
+    "name": "blaze-kick",
+    "japaneseName": "ブレイズキック",
+    "type": "fire"
+  },
+  {
+    "id": 300,
+    "name": "mud-sport",
+    "japaneseName": "どろあそび",
+    "type": "ground"
+  },
+  {
+    "id": 301,
+    "name": "ice-ball",
+    "japaneseName": "アイスボール",
+    "type": "ice"
+  },
+  {
+    "id": 302,
+    "name": "needle-arm",
+    "japaneseName": "ニードルアーム",
+    "type": "grass"
+  },
+  {
+    "id": 303,
+    "name": "slack-off",
+    "japaneseName": "なまける",
+    "type": "normal"
+  },
+  {
+    "id": 304,
+    "name": "hyper-voice",
+    "japaneseName": "ハイパーボイス",
+    "type": "normal"
+  },
+  {
+    "id": 305,
+    "name": "poison-fang",
+    "japaneseName": "どくどくのキバ",
+    "type": "poison"
+  },
+  {
+    "id": 306,
+    "name": "crush-claw",
+    "japaneseName": "ブレイククロー",
+    "type": "normal"
+  },
+  {
+    "id": 307,
+    "name": "blast-burn",
+    "japaneseName": "ブラストバーン",
+    "type": "fire"
+  },
+  {
+    "id": 308,
+    "name": "hydro-cannon",
+    "japaneseName": "ハイドロカノン",
+    "type": "water"
+  },
+  {
+    "id": 309,
+    "name": "meteor-mash",
+    "japaneseName": "コメットパンチ",
+    "type": "steel"
+  },
+  {
+    "id": 310,
+    "name": "astonish",
+    "japaneseName": "おどろかす",
+    "type": "ghost"
+  },
+  {
+    "id": 311,
+    "name": "weather-ball",
+    "japaneseName": "ウェザーボール",
+    "type": "normal"
+  },
+  {
+    "id": 312,
+    "name": "aromatherapy",
+    "japaneseName": "アロマセラピー",
+    "type": "grass"
+  },
+  {
+    "id": 313,
+    "name": "fake-tears",
+    "japaneseName": "うそなき",
+    "type": "dark"
+  },
+  {
+    "id": 314,
+    "name": "air-cutter",
+    "japaneseName": "エアカッター",
+    "type": "flying"
+  },
+  {
+    "id": 315,
+    "name": "overheat",
+    "japaneseName": "オーバーヒート",
+    "type": "fire"
+  },
+  {
+    "id": 316,
+    "name": "odor-sleuth",
+    "japaneseName": "かぎわける",
+    "type": "normal"
+  },
+  {
+    "id": 317,
+    "name": "rock-tomb",
+    "japaneseName": "がんせきふうじ",
+    "type": "rock"
+  },
+  {
+    "id": 318,
+    "name": "silver-wind",
+    "japaneseName": "ぎんいろのかぜ",
+    "type": "bug"
+  },
+  {
+    "id": 319,
+    "name": "metal-sound",
+    "japaneseName": "きんぞくおん",
+    "type": "steel"
+  },
+  {
+    "id": 320,
+    "name": "grass-whistle",
+    "japaneseName": "くさぶえ",
+    "type": "grass"
+  },
+  {
+    "id": 321,
+    "name": "tickle",
+    "japaneseName": "くすぐる",
+    "type": "normal"
+  },
+  {
+    "id": 322,
+    "name": "cosmic-power",
+    "japaneseName": "コスモパワー",
+    "type": "psychic"
+  },
+  {
+    "id": 323,
+    "name": "water-spout",
+    "japaneseName": "しおふき",
+    "type": "water"
+  },
+  {
+    "id": 324,
+    "name": "signal-beam",
+    "japaneseName": "シグナルビーム",
+    "type": "bug"
+  },
+  {
+    "id": 325,
+    "name": "shadow-punch",
+    "japaneseName": "シャドーパンチ",
+    "type": "ghost"
+  },
+  {
+    "id": 326,
+    "name": "extrasensory",
+    "japaneseName": "じんつうりき",
+    "type": "psychic"
+  },
+  {
+    "id": 327,
+    "name": "sky-uppercut",
+    "japaneseName": "スカイアッパー",
+    "type": "fighting"
+  },
+  {
+    "id": 328,
+    "name": "sand-tomb",
+    "japaneseName": "すなじごく",
+    "type": "ground"
+  },
+  {
+    "id": 329,
+    "name": "sheer-cold",
+    "japaneseName": "ぜったいれいど",
+    "type": "ice"
+  },
+  {
+    "id": 330,
+    "name": "muddy-water",
+    "japaneseName": "だくりゅう",
+    "type": "water"
+  },
+  {
+    "id": 331,
+    "name": "bullet-seed",
+    "japaneseName": "タネマシンガン",
+    "type": "grass"
+  },
+  {
+    "id": 332,
+    "name": "aerial-ace",
+    "japaneseName": "つばめがえし",
+    "type": "flying"
+  },
+  {
+    "id": 333,
+    "name": "icicle-spear",
+    "japaneseName": "つららばり",
+    "type": "ice"
+  },
+  {
+    "id": 334,
+    "name": "iron-defense",
+    "japaneseName": "てっぺき",
+    "type": "steel"
+  },
+  {
+    "id": 335,
+    "name": "block",
+    "japaneseName": "とおせんぼう",
+    "type": "normal"
+  },
+  {
+    "id": 336,
+    "name": "howl",
+    "japaneseName": "とおぼえ",
+    "type": "normal"
+  },
+  {
+    "id": 337,
+    "name": "dragon-claw",
+    "japaneseName": "ドラゴンクロー",
+    "type": "dragon"
+  },
+  {
+    "id": 338,
+    "name": "frenzy-plant",
+    "japaneseName": "ハードプラント",
+    "type": "grass"
+  },
+  {
+    "id": 339,
+    "name": "bulk-up",
+    "japaneseName": "ビルドアップ",
+    "type": "fighting"
+  },
+  {
+    "id": 340,
+    "name": "bounce",
+    "japaneseName": "とびはねる",
+    "type": "flying"
+  },
+  {
+    "id": 341,
+    "name": "mud-shot",
+    "japaneseName": "マッドショット",
+    "type": "ground"
+  },
+  {
+    "id": 342,
+    "name": "poison-tail",
+    "japaneseName": "ポイズンテール",
+    "type": "poison"
+  },
+  {
+    "id": 343,
+    "name": "covet",
+    "japaneseName": "ほしがる",
+    "type": "normal"
+  },
+  {
+    "id": 344,
+    "name": "volt-tackle",
+    "japaneseName": "ボルテッカー",
+    "type": "electric"
+  },
+  {
+    "id": 345,
+    "name": "magical-leaf",
+    "japaneseName": "マジカルリーフ",
+    "type": "grass"
+  },
+  {
+    "id": 346,
+    "name": "water-sport",
+    "japaneseName": "みずあそび",
+    "type": "water"
+  },
+  {
+    "id": 347,
+    "name": "calm-mind",
+    "japaneseName": "めいそう",
+    "type": "psychic"
+  },
+  {
+    "id": 348,
+    "name": "leaf-blade",
+    "japaneseName": "リーフブレード",
+    "type": "grass"
+  },
+  {
+    "id": 349,
+    "name": "dragon-dance",
+    "japaneseName": "りゅうのまい",
+    "type": "dragon"
+  },
+  {
+    "id": 350,
+    "name": "rock-blast",
+    "japaneseName": "ロックブラスト",
+    "type": "rock"
+  },
+  {
+    "id": 351,
+    "name": "shock-wave",
+    "japaneseName": "でんげきは",
+    "type": "electric"
+  },
+  {
+    "id": 352,
+    "name": "water-pulse",
+    "japaneseName": "みずのはどう",
+    "type": "water"
+  },
+  {
+    "id": 353,
+    "name": "doom-desire",
+    "japaneseName": "はめつのねがい",
+    "type": "steel"
+  },
+  {
+    "id": 354,
+    "name": "psycho-boost",
+    "japaneseName": "サイコブースト",
+    "type": "psychic"
+  },
+  {
+    "id": 355,
+    "name": "roost",
+    "japaneseName": "はねやすめ",
+    "type": "flying"
+  },
+  {
+    "id": 356,
+    "name": "gravity",
+    "japaneseName": "じゅうりょく",
+    "type": "psychic"
+  },
+  {
+    "id": 357,
+    "name": "miracle-eye",
+    "japaneseName": "ミラクルアイ",
+    "type": "psychic"
+  },
+  {
+    "id": 358,
+    "name": "wake-up-slap",
+    "japaneseName": "めざましビンタ",
+    "type": "fighting"
+  },
+  {
+    "id": 359,
+    "name": "hammer-arm",
+    "japaneseName": "アームハンマー",
+    "type": "fighting"
+  },
+  {
+    "id": 360,
+    "name": "gyro-ball",
+    "japaneseName": "ジャイロボール",
+    "type": "steel"
+  },
+  {
+    "id": 361,
+    "name": "healing-wish",
+    "japaneseName": "いやしのねがい",
+    "type": "psychic"
+  },
+  {
+    "id": 362,
+    "name": "brine",
+    "japaneseName": "しおみず",
+    "type": "water"
+  },
+  {
+    "id": 363,
+    "name": "natural-gift",
+    "japaneseName": "しぜんのめぐみ",
+    "type": "normal"
+  },
+  {
+    "id": 364,
+    "name": "feint",
+    "japaneseName": "フェイント",
+    "type": "normal"
+  },
+  {
+    "id": 365,
+    "name": "pluck",
+    "japaneseName": "ついばむ",
+    "type": "flying"
+  },
+  {
+    "id": 366,
+    "name": "tailwind",
+    "japaneseName": "おいかぜ",
+    "type": "flying"
+  },
+  {
+    "id": 367,
+    "name": "acupressure",
+    "japaneseName": "つぼをつく",
+    "type": "normal"
+  },
+  {
+    "id": 368,
+    "name": "metal-burst",
+    "japaneseName": "メタルバースト",
+    "type": "steel"
+  },
+  {
+    "id": 369,
+    "name": "u-turn",
+    "japaneseName": "とんぼがえり",
+    "type": "bug"
+  },
+  {
+    "id": 370,
+    "name": "close-combat",
+    "japaneseName": "インファイト",
+    "type": "fighting"
+  },
+  {
+    "id": 371,
+    "name": "payback",
+    "japaneseName": "しっぺがえし",
+    "type": "dark"
+  },
+  {
+    "id": 372,
+    "name": "assurance",
+    "japaneseName": "ダメおし",
+    "type": "dark"
+  },
+  {
+    "id": 373,
+    "name": "embargo",
+    "japaneseName": "さしおさえ",
+    "type": "dark"
+  },
+  {
+    "id": 374,
+    "name": "fling",
+    "japaneseName": "なげつける",
+    "type": "dark"
+  },
+  {
+    "id": 375,
+    "name": "psycho-shift",
+    "japaneseName": "サイコシフト",
+    "type": "psychic"
+  },
+  {
+    "id": 376,
+    "name": "trump-card",
+    "japaneseName": "きりふだ",
+    "type": "normal"
+  },
+  {
+    "id": 377,
+    "name": "heal-block",
+    "japaneseName": "かいふくふうじ",
+    "type": "psychic"
+  },
+  {
+    "id": 378,
+    "name": "wring-out",
+    "japaneseName": "しぼりとる",
+    "type": "normal"
+  },
+  {
+    "id": 379,
+    "name": "power-trick",
+    "japaneseName": "パワートリック",
+    "type": "psychic"
+  },
+  {
+    "id": 380,
+    "name": "gastro-acid",
+    "japaneseName": "いえき",
+    "type": "poison"
+  },
+  {
+    "id": 381,
+    "name": "lucky-chant",
+    "japaneseName": "おまじない",
+    "type": "normal"
+  },
+  {
+    "id": 382,
+    "name": "me-first",
+    "japaneseName": "さきどり",
+    "type": "normal"
+  },
+  {
+    "id": 383,
+    "name": "copycat",
+    "japaneseName": "まねっこ",
+    "type": "normal"
+  },
+  {
+    "id": 384,
+    "name": "power-swap",
+    "japaneseName": "パワースワップ",
+    "type": "psychic"
+  },
+  {
+    "id": 385,
+    "name": "guard-swap",
+    "japaneseName": "ガードスワップ",
+    "type": "psychic"
+  },
+  {
+    "id": 386,
+    "name": "punishment",
+    "japaneseName": "おしおき",
+    "type": "dark"
+  },
+  {
+    "id": 387,
+    "name": "last-resort",
+    "japaneseName": "とっておき",
+    "type": "normal"
+  },
+  {
+    "id": 388,
+    "name": "worry-seed",
+    "japaneseName": "なやみのタネ",
+    "type": "grass"
+  },
+  {
+    "id": 389,
+    "name": "sucker-punch",
+    "japaneseName": "ふいうち",
+    "type": "dark"
+  },
+  {
+    "id": 390,
+    "name": "toxic-spikes",
+    "japaneseName": "どくびし",
+    "type": "poison"
+  },
+  {
+    "id": 391,
+    "name": "heart-swap",
+    "japaneseName": "ハートスワップ",
+    "type": "psychic"
+  },
+  {
+    "id": 392,
+    "name": "aqua-ring",
+    "japaneseName": "アクアリング",
+    "type": "water"
+  },
+  {
+    "id": 393,
+    "name": "magnet-rise",
+    "japaneseName": "でんじふゆう",
+    "type": "electric"
+  },
+  {
+    "id": 394,
+    "name": "flare-blitz",
+    "japaneseName": "フレアドライブ",
+    "type": "fire"
+  },
+  {
+    "id": 395,
+    "name": "force-palm",
+    "japaneseName": "はっけい",
+    "type": "fighting"
+  },
+  {
+    "id": 396,
+    "name": "aura-sphere",
+    "japaneseName": "はどうだん",
+    "type": "fighting"
+  },
+  {
+    "id": 397,
+    "name": "rock-polish",
+    "japaneseName": "ロックカット",
+    "type": "rock"
+  },
+  {
+    "id": 398,
+    "name": "poison-jab",
+    "japaneseName": "どくづき",
+    "type": "poison"
+  },
+  {
+    "id": 399,
+    "name": "dark-pulse",
+    "japaneseName": "あくのはどう",
+    "type": "dark"
+  },
+  {
+    "id": 400,
+    "name": "night-slash",
+    "japaneseName": "つじぎり",
+    "type": "dark"
+  },
+  {
+    "id": 401,
+    "name": "aqua-tail",
+    "japaneseName": "アクアテール",
+    "type": "water"
+  },
+  {
+    "id": 402,
+    "name": "seed-bomb",
+    "japaneseName": "タネばくだん",
+    "type": "grass"
+  },
+  {
+    "id": 403,
+    "name": "air-slash",
+    "japaneseName": "エアスラッシュ",
+    "type": "flying"
+  },
+  {
+    "id": 404,
+    "name": "x-scissor",
+    "japaneseName": "シザークロス",
+    "type": "bug"
+  },
+  {
+    "id": 405,
+    "name": "bug-buzz",
+    "japaneseName": "むしのさざめき",
+    "type": "bug"
+  },
+  {
+    "id": 406,
+    "name": "dragon-pulse",
+    "japaneseName": "りゅうのはどう",
+    "type": "dragon"
+  },
+  {
+    "id": 407,
+    "name": "dragon-rush",
+    "japaneseName": "ドラゴンダイブ",
+    "type": "dragon"
+  },
+  {
+    "id": 408,
+    "name": "power-gem",
+    "japaneseName": "パワージェム",
+    "type": "rock"
+  },
+  {
+    "id": 409,
+    "name": "drain-punch",
+    "japaneseName": "ドレインパンチ",
+    "type": "fighting"
+  },
+  {
+    "id": 410,
+    "name": "vacuum-wave",
+    "japaneseName": "しんくうは",
+    "type": "fighting"
+  },
+  {
+    "id": 411,
+    "name": "focus-blast",
+    "japaneseName": "きあいだま",
+    "type": "fighting"
+  },
+  {
+    "id": 412,
+    "name": "energy-ball",
+    "japaneseName": "エナジーボール",
+    "type": "grass"
+  },
+  {
+    "id": 413,
+    "name": "brave-bird",
+    "japaneseName": "ブレイブバード",
+    "type": "flying"
+  },
+  {
+    "id": 414,
+    "name": "earth-power",
+    "japaneseName": "だいちのちから",
+    "type": "ground"
+  },
+  {
+    "id": 415,
+    "name": "switcheroo",
+    "japaneseName": "すりかえ",
+    "type": "dark"
+  },
+  {
+    "id": 416,
+    "name": "giga-impact",
+    "japaneseName": "ギガインパクト",
+    "type": "normal"
+  },
+  {
+    "id": 417,
+    "name": "nasty-plot",
+    "japaneseName": "わるだくみ",
+    "type": "dark"
+  },
+  {
+    "id": 418,
+    "name": "bullet-punch",
+    "japaneseName": "バレットパンチ",
+    "type": "steel"
+  },
+  {
+    "id": 419,
+    "name": "avalanche",
+    "japaneseName": "ゆきなだれ",
+    "type": "ice"
+  },
+  {
+    "id": 420,
+    "name": "ice-shard",
+    "japaneseName": "こおりのつぶて",
+    "type": "ice"
+  },
+  {
+    "id": 421,
+    "name": "shadow-claw",
+    "japaneseName": "シャドークロー",
+    "type": "ghost"
+  },
+  {
+    "id": 422,
+    "name": "thunder-fang",
+    "japaneseName": "かみなりのキバ",
+    "type": "electric"
+  },
+  {
+    "id": 423,
+    "name": "ice-fang",
+    "japaneseName": "こおりのキバ",
+    "type": "ice"
+  },
+  {
+    "id": 424,
+    "name": "fire-fang",
+    "japaneseName": "ほのおのキバ",
+    "type": "fire"
+  },
+  {
+    "id": 425,
+    "name": "shadow-sneak",
+    "japaneseName": "かげうち",
+    "type": "ghost"
+  },
+  {
+    "id": 426,
+    "name": "mud-bomb",
+    "japaneseName": "どろばくだん",
+    "type": "ground"
+  },
+  {
+    "id": 427,
+    "name": "psycho-cut",
+    "japaneseName": "サイコカッター",
+    "type": "psychic"
+  },
+  {
+    "id": 428,
+    "name": "zen-headbutt",
+    "japaneseName": "しねんのずつき",
+    "type": "psychic"
+  },
+  {
+    "id": 429,
+    "name": "mirror-shot",
+    "japaneseName": "ミラーショット",
+    "type": "steel"
+  },
+  {
+    "id": 430,
+    "name": "flash-cannon",
+    "japaneseName": "ラスターカノン",
+    "type": "steel"
+  },
+  {
+    "id": 431,
+    "name": "rock-climb",
+    "japaneseName": "ロッククライム",
+    "type": "normal"
+  },
+  {
+    "id": 432,
+    "name": "defog",
+    "japaneseName": "きりばらい",
+    "type": "flying"
+  },
+  {
+    "id": 433,
+    "name": "trick-room",
+    "japaneseName": "トリックルーム",
+    "type": "psychic"
+  },
+  {
+    "id": 434,
+    "name": "draco-meteor",
+    "japaneseName": "りゅうせいぐん",
+    "type": "dragon"
+  },
+  {
+    "id": 435,
+    "name": "discharge",
+    "japaneseName": "ほうでん",
+    "type": "electric"
+  },
+  {
+    "id": 436,
+    "name": "lava-plume",
+    "japaneseName": "ふんえん",
+    "type": "fire"
+  },
+  {
+    "id": 437,
+    "name": "leaf-storm",
+    "japaneseName": "リーフストーム",
+    "type": "grass"
+  },
+  {
+    "id": 438,
+    "name": "power-whip",
+    "japaneseName": "パワーウィップ",
+    "type": "grass"
+  },
+  {
+    "id": 439,
+    "name": "rock-wrecker",
+    "japaneseName": "がんせきほう",
+    "type": "rock"
+  },
+  {
+    "id": 440,
+    "name": "cross-poison",
+    "japaneseName": "クロスポイズン",
+    "type": "poison"
+  },
+  {
+    "id": 441,
+    "name": "gunk-shot",
+    "japaneseName": "ダストシュート",
+    "type": "poison"
+  },
+  {
+    "id": 442,
+    "name": "iron-head",
+    "japaneseName": "アイアンヘッド",
+    "type": "steel"
+  },
+  {
+    "id": 443,
+    "name": "magnet-bomb",
+    "japaneseName": "マグネットボム",
+    "type": "steel"
+  },
+  {
+    "id": 444,
+    "name": "stone-edge",
+    "japaneseName": "ストーンエッジ",
+    "type": "rock"
+  },
+  {
+    "id": 445,
+    "name": "captivate",
+    "japaneseName": "ゆうわく",
+    "type": "normal"
+  },
+  {
+    "id": 446,
+    "name": "stealth-rock",
+    "japaneseName": "ステルスロック",
+    "type": "rock"
+  },
+  {
+    "id": 447,
+    "name": "grass-knot",
+    "japaneseName": "くさむすび",
+    "type": "grass"
+  },
+  {
+    "id": 448,
+    "name": "chatter",
+    "japaneseName": "おしゃべり",
+    "type": "flying"
+  },
+  {
+    "id": 449,
+    "name": "judgment",
+    "japaneseName": "さばきのつぶて",
+    "type": "normal"
+  },
+  {
+    "id": 450,
+    "name": "bug-bite",
+    "japaneseName": "むしくい",
+    "type": "bug"
+  },
+  {
+    "id": 451,
+    "name": "charge-beam",
+    "japaneseName": "チャージビーム",
+    "type": "electric"
+  },
+  {
+    "id": 452,
+    "name": "wood-hammer",
+    "japaneseName": "ウッドハンマー",
+    "type": "grass"
+  },
+  {
+    "id": 453,
+    "name": "aqua-jet",
+    "japaneseName": "アクアジェット",
+    "type": "water"
+  },
+  {
+    "id": 454,
+    "name": "attack-order",
+    "japaneseName": "こうげきしれい",
+    "type": "bug"
+  },
+  {
+    "id": 455,
+    "name": "defend-order",
+    "japaneseName": "ぼうぎょしれい",
+    "type": "bug"
+  },
+  {
+    "id": 456,
+    "name": "heal-order",
+    "japaneseName": "かいふくしれい",
+    "type": "bug"
+  },
+  {
+    "id": 457,
+    "name": "head-smash",
+    "japaneseName": "もろはのずつき",
+    "type": "rock"
+  },
+  {
+    "id": 458,
+    "name": "double-hit",
+    "japaneseName": "ダブルアタック",
+    "type": "normal"
+  },
+  {
+    "id": 459,
+    "name": "roar-of-time",
+    "japaneseName": "ときのほうこう",
+    "type": "dragon"
+  },
+  {
+    "id": 460,
+    "name": "spacial-rend",
+    "japaneseName": "あくうせつだん",
+    "type": "dragon"
+  },
+  {
+    "id": 461,
+    "name": "lunar-dance",
+    "japaneseName": "みかづきのまい",
+    "type": "psychic"
+  },
+  {
+    "id": 462,
+    "name": "crush-grip",
+    "japaneseName": "にぎりつぶす",
+    "type": "normal"
+  },
+  {
+    "id": 463,
+    "name": "magma-storm",
+    "japaneseName": "マグマストーム",
+    "type": "fire"
+  },
+  {
+    "id": 464,
+    "name": "dark-void",
+    "japaneseName": "ダークホール",
+    "type": "dark"
+  },
+  {
+    "id": 465,
+    "name": "seed-flare",
+    "japaneseName": "シードフレア",
+    "type": "grass"
+  },
+  {
+    "id": 466,
+    "name": "ominous-wind",
+    "japaneseName": "あやしいかぜ",
+    "type": "ghost"
+  },
+  {
+    "id": 467,
+    "name": "shadow-force",
+    "japaneseName": "シャドーダイブ",
+    "type": "ghost"
+  },
+  {
+    "id": 468,
+    "name": "hone-claws",
+    "japaneseName": "つめとぎ",
+    "type": "dark"
+  },
+  {
+    "id": 469,
+    "name": "wide-guard",
+    "japaneseName": "ワイドガード",
+    "type": "rock"
+  },
+  {
+    "id": 470,
+    "name": "guard-split",
+    "japaneseName": "ガードシェア",
+    "type": "psychic"
+  },
+  {
+    "id": 471,
+    "name": "power-split",
+    "japaneseName": "パワーシェア",
+    "type": "psychic"
+  },
+  {
+    "id": 472,
+    "name": "wonder-room",
+    "japaneseName": "ワンダールーム",
+    "type": "psychic"
+  },
+  {
+    "id": 473,
+    "name": "psyshock",
+    "japaneseName": "サイコショック",
+    "type": "psychic"
+  },
+  {
+    "id": 474,
+    "name": "venoshock",
+    "japaneseName": "ベノムショック",
+    "type": "poison"
+  },
+  {
+    "id": 475,
+    "name": "autotomize",
+    "japaneseName": "ボディパージ",
+    "type": "steel"
+  },
+  {
+    "id": 476,
+    "name": "rage-powder",
+    "japaneseName": "いかりのこな",
+    "type": "bug"
+  },
+  {
+    "id": 477,
+    "name": "telekinesis",
+    "japaneseName": "テレキネシス",
+    "type": "psychic"
+  },
+  {
+    "id": 478,
+    "name": "magic-room",
+    "japaneseName": "マジックルーム",
+    "type": "psychic"
+  },
+  {
+    "id": 479,
+    "name": "smack-down",
+    "japaneseName": "うちおとす",
+    "type": "rock"
+  },
+  {
+    "id": 480,
+    "name": "storm-throw",
+    "japaneseName": "やまあらし",
+    "type": "fighting"
+  },
+  {
+    "id": 481,
+    "name": "flame-burst",
+    "japaneseName": "はじけるほのお",
+    "type": "fire"
+  },
+  {
+    "id": 482,
+    "name": "sludge-wave",
+    "japaneseName": "ヘドロウェーブ",
+    "type": "poison"
+  },
+  {
+    "id": 483,
+    "name": "quiver-dance",
+    "japaneseName": "ちょうのまい",
+    "type": "bug"
+  },
+  {
+    "id": 484,
+    "name": "heavy-slam",
+    "japaneseName": "ヘビーボンバー",
+    "type": "steel"
+  },
+  {
+    "id": 485,
+    "name": "synchronoise",
+    "japaneseName": "シンクロノイズ",
+    "type": "psychic"
+  },
+  {
+    "id": 486,
+    "name": "electro-ball",
+    "japaneseName": "エレキボール",
+    "type": "electric"
+  },
+  {
+    "id": 487,
+    "name": "soak",
+    "japaneseName": "みずびたし",
+    "type": "water"
+  },
+  {
+    "id": 488,
+    "name": "flame-charge",
+    "japaneseName": "ニトロチャージ",
+    "type": "fire"
+  },
+  {
+    "id": 489,
+    "name": "coil",
+    "japaneseName": "とぐろをまく",
+    "type": "poison"
+  },
+  {
+    "id": 490,
+    "name": "low-sweep",
+    "japaneseName": "ローキック",
+    "type": "fighting"
+  },
+  {
+    "id": 491,
+    "name": "acid-spray",
+    "japaneseName": "アシッドボム",
+    "type": "poison"
+  },
+  {
+    "id": 492,
+    "name": "foul-play",
+    "japaneseName": "イカサマ",
+    "type": "dark"
+  },
+  {
+    "id": 493,
+    "name": "simple-beam",
+    "japaneseName": "シンプルビーム",
+    "type": "normal"
+  },
+  {
+    "id": 494,
+    "name": "entrainment",
+    "japaneseName": "なかまづくり",
+    "type": "normal"
+  },
+  {
+    "id": 495,
+    "name": "after-you",
+    "japaneseName": "おさきにどうぞ",
+    "type": "normal"
+  },
+  {
+    "id": 496,
+    "name": "round",
+    "japaneseName": "りんしょう",
+    "type": "normal"
+  },
+  {
+    "id": 497,
+    "name": "echoed-voice",
+    "japaneseName": "エコーボイス",
+    "type": "normal"
+  },
+  {
+    "id": 498,
+    "name": "chip-away",
+    "japaneseName": "なしくずし",
+    "type": "normal"
+  },
+  {
+    "id": 499,
+    "name": "clear-smog",
+    "japaneseName": "クリアスモッグ",
+    "type": "poison"
+  },
+  {
+    "id": 500,
+    "name": "stored-power",
+    "japaneseName": "アシストパワー",
+    "type": "psychic"
+  },
+  {
+    "id": 501,
+    "name": "quick-guard",
+    "japaneseName": "ファストガード",
+    "type": "fighting"
+  },
+  {
+    "id": 502,
+    "name": "ally-switch",
+    "japaneseName": "サイドチェンジ",
+    "type": "psychic"
+  },
+  {
+    "id": 503,
+    "name": "scald",
+    "japaneseName": "ねっとう",
+    "type": "water"
+  },
+  {
+    "id": 504,
+    "name": "shell-smash",
+    "japaneseName": "からをやぶる",
+    "type": "normal"
+  },
+  {
+    "id": 505,
+    "name": "heal-pulse",
+    "japaneseName": "いやしのはどう",
+    "type": "psychic"
+  },
+  {
+    "id": 506,
+    "name": "hex",
+    "japaneseName": "たたりめ",
+    "type": "ghost"
+  },
+  {
+    "id": 507,
+    "name": "sky-drop",
+    "japaneseName": "フリーフォール",
+    "type": "flying"
+  },
+  {
+    "id": 508,
+    "name": "shift-gear",
+    "japaneseName": "ギアチェンジ",
+    "type": "steel"
+  },
+  {
+    "id": 509,
+    "name": "circle-throw",
+    "japaneseName": "ともえなげ",
+    "type": "fighting"
+  },
+  {
+    "id": 510,
+    "name": "incinerate",
+    "japaneseName": "やきつくす",
+    "type": "fire"
+  },
+  {
+    "id": 511,
+    "name": "quash",
+    "japaneseName": "さきおくり",
+    "type": "dark"
+  },
+  {
+    "id": 512,
+    "name": "acrobatics",
+    "japaneseName": "アクロバット",
+    "type": "flying"
+  },
+  {
+    "id": 513,
+    "name": "reflect-type",
+    "japaneseName": "ミラータイプ",
+    "type": "normal"
+  },
+  {
+    "id": 514,
+    "name": "retaliate",
+    "japaneseName": "かたきうち",
+    "type": "normal"
+  },
+  {
+    "id": 515,
+    "name": "final-gambit",
+    "japaneseName": "いのちがけ",
+    "type": "fighting"
+  },
+  {
+    "id": 516,
+    "name": "bestow",
+    "japaneseName": "ギフトパス",
+    "type": "normal"
+  },
+  {
+    "id": 517,
+    "name": "inferno",
+    "japaneseName": "れんごく",
+    "type": "fire"
+  },
+  {
+    "id": 518,
+    "name": "water-pledge",
+    "japaneseName": "みずのちかい",
+    "type": "water"
+  },
+  {
+    "id": 519,
+    "name": "fire-pledge",
+    "japaneseName": "ほのおのちかい",
+    "type": "fire"
+  },
+  {
+    "id": 520,
+    "name": "grass-pledge",
+    "japaneseName": "くさのちかい",
+    "type": "grass"
+  },
+  {
+    "id": 521,
+    "name": "volt-switch",
+    "japaneseName": "ボルトチェンジ",
+    "type": "electric"
+  },
+  {
+    "id": 522,
+    "name": "struggle-bug",
+    "japaneseName": "むしのていこう",
+    "type": "bug"
+  },
+  {
+    "id": 523,
+    "name": "bulldoze",
+    "japaneseName": "じならし",
+    "type": "ground"
+  },
+  {
+    "id": 524,
+    "name": "frost-breath",
+    "japaneseName": "こおりのいぶき",
+    "type": "ice"
+  },
+  {
+    "id": 525,
+    "name": "dragon-tail",
+    "japaneseName": "ドラゴンテール",
+    "type": "dragon"
+  },
+  {
+    "id": 526,
+    "name": "work-up",
+    "japaneseName": "ふるいたてる",
+    "type": "normal"
+  },
+  {
+    "id": 527,
+    "name": "electroweb",
+    "japaneseName": "エレキネット",
+    "type": "electric"
+  },
+  {
+    "id": 528,
+    "name": "wild-charge",
+    "japaneseName": "ワイルドボルト",
+    "type": "electric"
+  },
+  {
+    "id": 529,
+    "name": "drill-run",
+    "japaneseName": "ドリルライナー",
+    "type": "ground"
+  },
+  {
+    "id": 530,
+    "name": "dual-chop",
+    "japaneseName": "ダブルチョップ",
+    "type": "dragon"
+  },
+  {
+    "id": 531,
+    "name": "heart-stamp",
+    "japaneseName": "ハートスタンプ",
+    "type": "psychic"
+  },
+  {
+    "id": 532,
+    "name": "horn-leech",
+    "japaneseName": "ウッドホーン",
+    "type": "grass"
+  },
+  {
+    "id": 533,
+    "name": "sacred-sword",
+    "japaneseName": "せいなるつるぎ",
+    "type": "fighting"
+  },
+  {
+    "id": 534,
+    "name": "razor-shell",
+    "japaneseName": "シェルブレード",
+    "type": "water"
+  },
+  {
+    "id": 535,
+    "name": "heat-crash",
+    "japaneseName": "ヒートスタンプ",
+    "type": "fire"
+  },
+  {
+    "id": 536,
+    "name": "leaf-tornado",
+    "japaneseName": "グラスミキサー",
+    "type": "grass"
+  },
+  {
+    "id": 537,
+    "name": "steamroller",
+    "japaneseName": "ハードローラー",
+    "type": "bug"
+  },
+  {
+    "id": 538,
+    "name": "cotton-guard",
+    "japaneseName": "コットンガード",
+    "type": "grass"
+  },
+  {
+    "id": 539,
+    "name": "night-daze",
+    "japaneseName": "ナイトバースト",
+    "type": "dark"
+  },
+  {
+    "id": 540,
+    "name": "psystrike",
+    "japaneseName": "サイコブレイク",
+    "type": "psychic"
+  },
+  {
+    "id": 541,
+    "name": "tail-slap",
+    "japaneseName": "スイープビンタ",
+    "type": "normal"
+  },
+  {
+    "id": 542,
+    "name": "hurricane",
+    "japaneseName": "ぼうふう",
+    "type": "flying"
+  },
+  {
+    "id": 543,
+    "name": "head-charge",
+    "japaneseName": "アフロブレイク",
+    "type": "normal"
+  },
+  {
+    "id": 544,
+    "name": "gear-grind",
+    "japaneseName": "ギアソーサー",
+    "type": "steel"
+  },
+  {
+    "id": 545,
+    "name": "searing-shot",
+    "japaneseName": "かえんだん",
+    "type": "fire"
+  },
+  {
+    "id": 546,
+    "name": "techno-blast",
+    "japaneseName": "テクノバスター",
+    "type": "normal"
+  },
+  {
+    "id": 547,
+    "name": "relic-song",
+    "japaneseName": "いにしえのうた",
+    "type": "normal"
+  },
+  {
+    "id": 548,
+    "name": "secret-sword",
+    "japaneseName": "しんぴのつるぎ",
+    "type": "fighting"
+  },
+  {
+    "id": 549,
+    "name": "glaciate",
+    "japaneseName": "こごえるせかい",
+    "type": "ice"
+  },
+  {
+    "id": 550,
+    "name": "bolt-strike",
+    "japaneseName": "らいげき",
+    "type": "electric"
+  },
+  {
+    "id": 551,
+    "name": "blue-flare",
+    "japaneseName": "あおいほのお",
+    "type": "fire"
+  },
+  {
+    "id": 552,
+    "name": "fiery-dance",
+    "japaneseName": "ほのおのまい",
+    "type": "fire"
+  },
+  {
+    "id": 553,
+    "name": "freeze-shock",
+    "japaneseName": "フリーズボルト",
+    "type": "ice"
+  },
+  {
+    "id": 554,
+    "name": "ice-burn",
+    "japaneseName": "コールドフレア",
+    "type": "ice"
+  },
+  {
+    "id": 555,
+    "name": "snarl",
+    "japaneseName": "バークアウト",
+    "type": "dark"
+  },
+  {
+    "id": 556,
+    "name": "icicle-crash",
+    "japaneseName": "つららおとし",
+    "type": "ice"
+  },
+  {
+    "id": 557,
+    "name": "v-create",
+    "japaneseName": "Ｖジェネレート",
+    "type": "fire"
+  },
+  {
+    "id": 558,
+    "name": "fusion-flare",
+    "japaneseName": "クロスフレイム",
+    "type": "fire"
+  },
+  {
+    "id": 559,
+    "name": "fusion-bolt",
+    "japaneseName": "クロスサンダー",
+    "type": "electric"
+  },
+  {
+    "id": 560,
+    "name": "flying-press",
+    "japaneseName": "フライングプレス",
+    "type": "fighting"
+  },
+  {
+    "id": 561,
+    "name": "mat-block",
+    "japaneseName": "たたみがえし",
+    "type": "fighting"
+  },
+  {
+    "id": 562,
+    "name": "belch",
+    "japaneseName": "ゲップ",
+    "type": "poison"
+  },
+  {
+    "id": 563,
+    "name": "rototiller",
+    "japaneseName": "たがやす",
+    "type": "ground"
+  },
+  {
+    "id": 564,
+    "name": "sticky-web",
+    "japaneseName": "ねばねばネット",
+    "type": "bug"
+  },
+  {
+    "id": 565,
+    "name": "fell-stinger",
+    "japaneseName": "とどめばり",
+    "type": "bug"
+  },
+  {
+    "id": 566,
+    "name": "phantom-force",
+    "japaneseName": "ゴーストダイブ",
+    "type": "ghost"
+  },
+  {
+    "id": 567,
+    "name": "trick-or-treat",
+    "japaneseName": "ハロウィン",
+    "type": "ghost"
+  },
+  {
+    "id": 568,
+    "name": "noble-roar",
+    "japaneseName": "おたけび",
+    "type": "normal"
+  },
+  {
+    "id": 569,
+    "name": "ion-deluge",
+    "japaneseName": "プラズマシャワー",
+    "type": "electric"
+  },
+  {
+    "id": 570,
+    "name": "parabolic-charge",
+    "japaneseName": "パラボラチャージ",
+    "type": "electric"
+  },
+  {
+    "id": 571,
+    "name": "forests-curse",
+    "japaneseName": "もりののろい",
+    "type": "grass"
+  },
+  {
+    "id": 572,
+    "name": "petal-blizzard",
+    "japaneseName": "はなふぶき",
+    "type": "grass"
+  },
+  {
+    "id": 573,
+    "name": "freeze-dry",
+    "japaneseName": "フリーズドライ",
+    "type": "ice"
+  },
+  {
+    "id": 574,
+    "name": "disarming-voice",
+    "japaneseName": "チャームボイス",
+    "type": "fairy"
+  },
+  {
+    "id": 575,
+    "name": "parting-shot",
+    "japaneseName": "すてゼリフ",
+    "type": "dark"
+  },
+  {
+    "id": 576,
+    "name": "topsy-turvy",
+    "japaneseName": "ひっくりかえす",
+    "type": "dark"
+  },
+  {
+    "id": 577,
+    "name": "draining-kiss",
+    "japaneseName": "ドレインキッス",
+    "type": "fairy"
+  },
+  {
+    "id": 578,
+    "name": "crafty-shield",
+    "japaneseName": "トリックガード",
+    "type": "fairy"
+  },
+  {
+    "id": 579,
+    "name": "flower-shield",
+    "japaneseName": "フラワーガード",
+    "type": "fairy"
+  },
+  {
+    "id": 580,
+    "name": "grassy-terrain",
+    "japaneseName": "グラスフィールド",
+    "type": "grass"
+  },
+  {
+    "id": 581,
+    "name": "misty-terrain",
+    "japaneseName": "ミストフィールド",
+    "type": "fairy"
+  },
+  {
+    "id": 582,
+    "name": "electrify",
+    "japaneseName": "そうでん",
+    "type": "electric"
+  },
+  {
+    "id": 583,
+    "name": "play-rough",
+    "japaneseName": "じゃれつく",
+    "type": "fairy"
+  },
+  {
+    "id": 584,
+    "name": "fairy-wind",
+    "japaneseName": "ようせいのかぜ",
+    "type": "fairy"
+  },
+  {
+    "id": 585,
+    "name": "moonblast",
+    "japaneseName": "ムーンフォース",
+    "type": "fairy"
+  },
+  {
+    "id": 586,
+    "name": "boomburst",
+    "japaneseName": "ばくおんぱ",
+    "type": "normal"
+  },
+  {
+    "id": 587,
+    "name": "fairy-lock",
+    "japaneseName": "フェアリーロック",
+    "type": "fairy"
+  },
+  {
+    "id": 588,
+    "name": "kings-shield",
+    "japaneseName": "キングシールド",
+    "type": "steel"
+  },
+  {
+    "id": 589,
+    "name": "play-nice",
+    "japaneseName": "なかよくする",
+    "type": "normal"
+  },
+  {
+    "id": 590,
+    "name": "confide",
+    "japaneseName": "ないしょばなし",
+    "type": "normal"
+  },
+  {
+    "id": 591,
+    "name": "diamond-storm",
+    "japaneseName": "ダイヤストーム",
+    "type": "rock"
+  },
+  {
+    "id": 592,
+    "name": "steam-eruption",
+    "japaneseName": "スチームバースト",
+    "type": "water"
+  },
+  {
+    "id": 593,
+    "name": "hyperspace-hole",
+    "japaneseName": "いじげんホール",
+    "type": "psychic"
+  },
+  {
+    "id": 594,
+    "name": "water-shuriken",
+    "japaneseName": "みずしゅりけん",
+    "type": "water"
+  },
+  {
+    "id": 595,
+    "name": "mystical-fire",
+    "japaneseName": "マジカルフレイム",
+    "type": "fire"
+  },
+  {
+    "id": 596,
+    "name": "spiky-shield",
+    "japaneseName": "ニードルガード",
+    "type": "grass"
+  },
+  {
+    "id": 597,
+    "name": "aromatic-mist",
+    "japaneseName": "アロマミスト",
+    "type": "fairy"
+  },
+  {
+    "id": 598,
+    "name": "eerie-impulse",
+    "japaneseName": "かいでんぱ",
+    "type": "electric"
+  },
+  {
+    "id": 599,
+    "name": "venom-drench",
+    "japaneseName": "ベノムトラップ",
+    "type": "poison"
+  },
+  {
+    "id": 600,
+    "name": "powder",
+    "japaneseName": "ふんじん",
+    "type": "bug"
+  },
+  {
+    "id": 601,
+    "name": "geomancy",
+    "japaneseName": "ジオコントロール",
+    "type": "fairy"
+  },
+  {
+    "id": 602,
+    "name": "magnetic-flux",
+    "japaneseName": "じばそうさ",
+    "type": "electric"
+  },
+  {
+    "id": 603,
+    "name": "happy-hour",
+    "japaneseName": "ハッピータイム",
+    "type": "normal"
+  },
+  {
+    "id": 604,
+    "name": "electric-terrain",
+    "japaneseName": "エレキフィールド",
+    "type": "electric"
+  },
+  {
+    "id": 605,
+    "name": "dazzling-gleam",
+    "japaneseName": "マジカルシャイン",
+    "type": "fairy"
+  },
+  {
+    "id": 606,
+    "name": "celebrate",
+    "japaneseName": "おいわい",
+    "type": "normal"
+  },
+  {
+    "id": 607,
+    "name": "hold-hands",
+    "japaneseName": "てをつなぐ",
+    "type": "normal"
+  },
+  {
+    "id": 608,
+    "name": "baby-doll-eyes",
+    "japaneseName": "つぶらなひとみ",
+    "type": "fairy"
+  },
+  {
+    "id": 609,
+    "name": "nuzzle",
+    "japaneseName": "ほっぺすりすり",
+    "type": "electric"
+  },
+  {
+    "id": 610,
+    "name": "hold-back",
+    "japaneseName": "てかげん",
+    "type": "normal"
+  },
+  {
+    "id": 611,
+    "name": "infestation",
+    "japaneseName": "まとわりつく",
+    "type": "bug"
+  },
+  {
+    "id": 612,
+    "name": "power-up-punch",
+    "japaneseName": "グロウパンチ",
+    "type": "fighting"
+  },
+  {
+    "id": 613,
+    "name": "oblivion-wing",
+    "japaneseName": "デスウイング",
+    "type": "flying"
+  },
+  {
+    "id": 614,
+    "name": "thousand-arrows",
+    "japaneseName": "サウザンアロー",
+    "type": "ground"
+  },
+  {
+    "id": 615,
+    "name": "thousand-waves",
+    "japaneseName": "サウザンウェーブ",
+    "type": "ground"
+  },
+  {
+    "id": 616,
+    "name": "lands-wrath",
+    "japaneseName": "グランドフォース",
+    "type": "ground"
+  },
+  {
+    "id": 617,
+    "name": "light-of-ruin",
+    "japaneseName": "はめつのひかり",
+    "type": "fairy"
+  },
+  {
+    "id": 618,
+    "name": "origin-pulse",
+    "japaneseName": "こんげんのはどう",
+    "type": "water"
+  },
+  {
+    "id": 619,
+    "name": "precipice-blades",
+    "japaneseName": "だんがいのつるぎ",
+    "type": "ground"
+  },
+  {
+    "id": 620,
+    "name": "dragon-ascent",
+    "japaneseName": "ガリョウテンセイ",
+    "type": "flying"
+  },
+  {
+    "id": 621,
+    "name": "hyperspace-fury",
+    "japaneseName": "いじげんラッシュ",
+    "type": "dark"
+  },
+  {
+    "id": 622,
+    "name": "breakneck-blitz--physical",
+    "japaneseName": "ウルトラダッシュアタック",
+    "type": "normal"
+  },
+  {
+    "id": 623,
+    "name": "breakneck-blitz--special",
+    "japaneseName": "ウルトラダッシュアタック",
+    "type": "normal"
+  },
+  {
+    "id": 624,
+    "name": "all-out-pummeling--physical",
+    "japaneseName": "ぜんりょくむそうげきれつけん",
+    "type": "fighting"
+  },
+  {
+    "id": 625,
+    "name": "all-out-pummeling--special",
+    "japaneseName": "ぜんりょくむそうげきれつけん",
+    "type": "fighting"
+  },
+  {
+    "id": 626,
+    "name": "supersonic-skystrike--physical",
+    "japaneseName": "ファイナルダイブクラッシュ",
+    "type": "flying"
+  },
+  {
+    "id": 627,
+    "name": "supersonic-skystrike--special",
+    "japaneseName": "ファイナルダイブクラッシュ",
+    "type": "flying"
+  },
+  {
+    "id": 628,
+    "name": "acid-downpour--physical",
+    "japaneseName": "アシッドポイズンデリート",
+    "type": "poison"
+  },
+  {
+    "id": 629,
+    "name": "acid-downpour--special",
+    "japaneseName": "アシッドポイズンデリート",
+    "type": "poison"
+  },
+  {
+    "id": 630,
+    "name": "tectonic-rage--physical",
+    "japaneseName": "ライジングランドオーバー",
+    "type": "ground"
+  },
+  {
+    "id": 631,
+    "name": "tectonic-rage--special",
+    "japaneseName": "ライジングランドオーバー",
+    "type": "ground"
+  },
+  {
+    "id": 632,
+    "name": "continental-crush--physical",
+    "japaneseName": "ワールズエンドフォール",
+    "type": "rock"
+  },
+  {
+    "id": 633,
+    "name": "continental-crush--special",
+    "japaneseName": "ワールズエンドフォール",
+    "type": "rock"
+  },
+  {
+    "id": 634,
+    "name": "savage-spin-out--physical",
+    "japaneseName": "ぜったいほしょくかいてんざん",
+    "type": "bug"
+  },
+  {
+    "id": 635,
+    "name": "savage-spin-out--special",
+    "japaneseName": "ぜったいほしょくかいてんざん",
+    "type": "bug"
+  },
+  {
+    "id": 636,
+    "name": "never-ending-nightmare--physical",
+    "japaneseName": "むげんあんやへのいざない",
+    "type": "ghost"
+  },
+  {
+    "id": 637,
+    "name": "never-ending-nightmare--special",
+    "japaneseName": "むげんあんやへのいざない",
+    "type": "ghost"
+  },
+  {
+    "id": 638,
+    "name": "corkscrew-crash--physical",
+    "japaneseName": "ちょうぜつらせんれんげき",
+    "type": "steel"
+  },
+  {
+    "id": 639,
+    "name": "corkscrew-crash--special",
+    "japaneseName": "ちょうぜつらせんれんげき",
+    "type": "steel"
+  },
+  {
+    "id": 640,
+    "name": "inferno-overdrive--physical",
+    "japaneseName": "ダイナミックフルフレイム",
+    "type": "fire"
+  },
+  {
+    "id": 641,
+    "name": "inferno-overdrive--special",
+    "japaneseName": "ダイナミックフルフレイム",
+    "type": "fire"
+  },
+  {
+    "id": 642,
+    "name": "hydro-vortex--physical",
+    "japaneseName": "スーパーアクアトルネード",
+    "type": "water"
+  },
+  {
+    "id": 643,
+    "name": "hydro-vortex--special",
+    "japaneseName": "スーパーアクアトルネード",
+    "type": "water"
+  },
+  {
+    "id": 644,
+    "name": "bloom-doom--physical",
+    "japaneseName": "ブルームシャインエクストラ",
+    "type": "grass"
+  },
+  {
+    "id": 645,
+    "name": "bloom-doom--special",
+    "japaneseName": "ブルームシャインエクストラ",
+    "type": "grass"
+  },
+  {
+    "id": 646,
+    "name": "gigavolt-havoc--physical",
+    "japaneseName": "スパーキングギガボルト",
+    "type": "electric"
+  },
+  {
+    "id": 647,
+    "name": "gigavolt-havoc--special",
+    "japaneseName": "スパーキングギガボルト",
+    "type": "electric"
+  },
+  {
+    "id": 648,
+    "name": "shattered-psyche--physical",
+    "japaneseName": "マキシマムサイブレイカー",
+    "type": "psychic"
+  },
+  {
+    "id": 649,
+    "name": "shattered-psyche--special",
+    "japaneseName": "マキシマムサイブレイカー",
+    "type": "psychic"
+  },
+  {
+    "id": 650,
+    "name": "subzero-slammer--physical",
+    "japaneseName": "レイジングジオフリーズ",
+    "type": "ice"
+  },
+  {
+    "id": 651,
+    "name": "subzero-slammer--special",
+    "japaneseName": "レイジングジオフリーズ",
+    "type": "ice"
+  },
+  {
+    "id": 652,
+    "name": "devastating-drake--physical",
+    "japaneseName": "アルティメットドラゴンバーン",
+    "type": "dragon"
+  },
+  {
+    "id": 653,
+    "name": "devastating-drake--special",
+    "japaneseName": "アルティメットドラゴンバーン",
+    "type": "dragon"
+  },
+  {
+    "id": 654,
+    "name": "black-hole-eclipse--physical",
+    "japaneseName": "ブラックホールイクリプス",
+    "type": "dark"
+  },
+  {
+    "id": 655,
+    "name": "black-hole-eclipse--special",
+    "japaneseName": "ブラックホールイクリプス",
+    "type": "dark"
+  },
+  {
+    "id": 656,
+    "name": "twinkle-tackle--physical",
+    "japaneseName": "ラブリースターインパクト",
+    "type": "fairy"
+  },
+  {
+    "id": 657,
+    "name": "twinkle-tackle--special",
+    "japaneseName": "ラブリースターインパクト",
+    "type": "fairy"
+  },
+  {
+    "id": 658,
+    "name": "catastropika",
+    "japaneseName": "ひっさつのピカチュート",
+    "type": "electric"
+  },
+  {
+    "id": 659,
+    "name": "shore-up",
+    "japaneseName": "すなあつめ",
+    "type": "ground"
+  },
+  {
+    "id": 660,
+    "name": "first-impression",
+    "japaneseName": "であいがしら",
+    "type": "bug"
+  },
+  {
+    "id": 661,
+    "name": "baneful-bunker",
+    "japaneseName": "トーチカ",
+    "type": "poison"
+  },
+  {
+    "id": 662,
+    "name": "spirit-shackle",
+    "japaneseName": "かげぬい",
+    "type": "ghost"
+  },
+  {
+    "id": 663,
+    "name": "darkest-lariat",
+    "japaneseName": "ＤＤラリアット",
+    "type": "dark"
+  },
+  {
+    "id": 664,
+    "name": "sparkling-aria",
+    "japaneseName": "うたかたのアリア",
+    "type": "water"
+  },
+  {
+    "id": 665,
+    "name": "ice-hammer",
+    "japaneseName": "アイスハンマー",
+    "type": "ice"
+  },
+  {
+    "id": 666,
+    "name": "floral-healing",
+    "japaneseName": "フラワーヒール",
+    "type": "fairy"
+  },
+  {
+    "id": 667,
+    "name": "high-horsepower",
+    "japaneseName": "１０まんばりき",
+    "type": "ground"
+  },
+  {
+    "id": 668,
+    "name": "strength-sap",
+    "japaneseName": "ちからをすいとる",
+    "type": "grass"
+  },
+  {
+    "id": 669,
+    "name": "solar-blade",
+    "japaneseName": "ソーラーブレード",
+    "type": "grass"
+  },
+  {
+    "id": 670,
+    "name": "leafage",
+    "japaneseName": "このは",
+    "type": "grass"
+  },
+  {
+    "id": 671,
+    "name": "spotlight",
+    "japaneseName": "スポットライト",
+    "type": "normal"
+  },
+  {
+    "id": 672,
+    "name": "toxic-thread",
+    "japaneseName": "どくのいと",
+    "type": "poison"
+  },
+  {
+    "id": 673,
+    "name": "laser-focus",
+    "japaneseName": "とぎすます",
+    "type": "normal"
+  },
+  {
+    "id": 674,
+    "name": "gear-up",
+    "japaneseName": "アシストギア",
+    "type": "steel"
+  },
+  {
+    "id": 675,
+    "name": "throat-chop",
+    "japaneseName": "じごくづき",
+    "type": "dark"
+  },
+  {
+    "id": 676,
+    "name": "pollen-puff",
+    "japaneseName": "かふんだんご",
+    "type": "bug"
+  },
+  {
+    "id": 677,
+    "name": "anchor-shot",
+    "japaneseName": "アンカーショット",
+    "type": "steel"
+  },
+  {
+    "id": 678,
+    "name": "psychic-terrain",
+    "japaneseName": "サイコフィールド",
+    "type": "psychic"
+  },
+  {
+    "id": 679,
+    "name": "lunge",
+    "japaneseName": "とびかかる",
+    "type": "bug"
+  },
+  {
+    "id": 680,
+    "name": "fire-lash",
+    "japaneseName": "ほのおのムチ",
+    "type": "fire"
+  },
+  {
+    "id": 681,
+    "name": "power-trip",
+    "japaneseName": "つけあがる",
+    "type": "dark"
+  },
+  {
+    "id": 682,
+    "name": "burn-up",
+    "japaneseName": "もえつきる",
+    "type": "fire"
+  },
+  {
+    "id": 683,
+    "name": "speed-swap",
+    "japaneseName": "スピードスワップ",
+    "type": "psychic"
+  },
+  {
+    "id": 684,
+    "name": "smart-strike",
+    "japaneseName": "スマートホーン",
+    "type": "steel"
+  },
+  {
+    "id": 685,
+    "name": "purify",
+    "japaneseName": "じょうか",
+    "type": "poison"
+  },
+  {
+    "id": 686,
+    "name": "revelation-dance",
+    "japaneseName": "めざめるダンス",
+    "type": "normal"
+  },
+  {
+    "id": 687,
+    "name": "core-enforcer",
+    "japaneseName": "コアパニッシャー",
+    "type": "dragon"
+  },
+  {
+    "id": 688,
+    "name": "trop-kick",
+    "japaneseName": "トロピカルキック",
+    "type": "grass"
+  },
+  {
+    "id": 689,
+    "name": "instruct",
+    "japaneseName": "さいはい",
+    "type": "psychic"
+  },
+  {
+    "id": 690,
+    "name": "beak-blast",
+    "japaneseName": "くちばしキャノン",
+    "type": "flying"
+  },
+  {
+    "id": 691,
+    "name": "clanging-scales",
+    "japaneseName": "スケイルノイズ",
+    "type": "dragon"
+  },
+  {
+    "id": 692,
+    "name": "dragon-hammer",
+    "japaneseName": "ドラゴンハンマー",
+    "type": "dragon"
+  },
+  {
+    "id": 693,
+    "name": "brutal-swing",
+    "japaneseName": "ぶんまわす",
+    "type": "dark"
+  },
+  {
+    "id": 694,
+    "name": "aurora-veil",
+    "japaneseName": "オーロラベール",
+    "type": "ice"
+  },
+  {
+    "id": 695,
+    "name": "sinister-arrow-raid",
+    "japaneseName": "シャドーアローズストライク",
+    "type": "ghost"
+  },
+  {
+    "id": 696,
+    "name": "malicious-moonsault",
+    "japaneseName": "ハイパーダーククラッシャー",
+    "type": "dark"
+  },
+  {
+    "id": 697,
+    "name": "oceanic-operetta",
+    "japaneseName": "わだつみのシンフォニア",
+    "type": "water"
+  },
+  {
+    "id": 698,
+    "name": "guardian-of-alola",
+    "japaneseName": "ガーディアン・デ・アローラ",
+    "type": "fairy"
+  },
+  {
+    "id": 699,
+    "name": "soul-stealing-7-star-strike",
+    "japaneseName": "しちせいだっこんたい",
+    "type": "ghost"
+  },
+  {
+    "id": 700,
+    "name": "stoked-sparksurfer",
+    "japaneseName": "ライトニングサーフライド",
+    "type": "electric"
+  },
+  {
+    "id": 701,
+    "name": "pulverizing-pancake",
+    "japaneseName": "ほんきをだす　こうげき",
+    "type": "normal"
+  },
+  {
+    "id": 702,
+    "name": "extreme-evoboost",
+    "japaneseName": "ナインエボルブースト",
+    "type": "normal"
+  },
+  {
+    "id": 703,
+    "name": "genesis-supernova",
+    "japaneseName": "オリジンズスーパーノヴァ",
+    "type": "psychic"
+  },
+  {
+    "id": 704,
+    "name": "shell-trap",
+    "japaneseName": "トラップシェル",
+    "type": "fire"
+  },
+  {
+    "id": 705,
+    "name": "fleur-cannon",
+    "japaneseName": "フルールカノン",
+    "type": "fairy"
+  },
+  {
+    "id": 706,
+    "name": "psychic-fangs",
+    "japaneseName": "サイコファング",
+    "type": "psychic"
+  },
+  {
+    "id": 707,
+    "name": "stomping-tantrum",
+    "japaneseName": "じだんだ",
+    "type": "ground"
+  },
+  {
+    "id": 708,
+    "name": "shadow-bone",
+    "japaneseName": "シャドーボーン",
+    "type": "ghost"
+  },
+  {
+    "id": 709,
+    "name": "accelerock",
+    "japaneseName": "アクセルロック",
+    "type": "rock"
+  },
+  {
+    "id": 710,
+    "name": "liquidation",
+    "japaneseName": "アクアブレイク",
+    "type": "water"
+  },
+  {
+    "id": 711,
+    "name": "prismatic-laser",
+    "japaneseName": "プリズムレーザー",
+    "type": "psychic"
+  },
+  {
+    "id": 712,
+    "name": "spectral-thief",
+    "japaneseName": "シャドースチール",
+    "type": "ghost"
+  },
+  {
+    "id": 713,
+    "name": "sunsteel-strike",
+    "japaneseName": "メテオドライブ",
+    "type": "steel"
+  },
+  {
+    "id": 714,
+    "name": "moongeist-beam",
+    "japaneseName": "シャドーレイ",
+    "type": "ghost"
+  },
+  {
+    "id": 715,
+    "name": "tearful-look",
+    "japaneseName": "なみだめ",
+    "type": "normal"
+  },
+  {
+    "id": 716,
+    "name": "zing-zap",
+    "japaneseName": "びりびりちくちく",
+    "type": "electric"
+  },
+  {
+    "id": 717,
+    "name": "natures-madness",
+    "japaneseName": "しぜんのいかり",
+    "type": "fairy"
+  },
+  {
+    "id": 718,
+    "name": "multi-attack",
+    "japaneseName": "マルチアタック",
+    "type": "normal"
+  },
+  {
+    "id": 719,
+    "name": "10-000-000-volt-thunderbolt",
+    "japaneseName": "１０００まんボルト",
+    "type": "electric"
+  },
+  {
+    "id": 720,
+    "name": "mind-blown",
+    "japaneseName": "ビックリヘッド",
+    "type": "fire"
+  },
+  {
+    "id": 721,
+    "name": "plasma-fists",
+    "japaneseName": "プラズマフィスト",
+    "type": "electric"
+  },
+  {
+    "id": 722,
+    "name": "photon-geyser",
+    "japaneseName": "フォトンゲイザー",
+    "type": "psychic"
+  },
+  {
+    "id": 723,
+    "name": "light-that-burns-the-sky",
+    "japaneseName": "てんこがすめつぼうのひかり",
+    "type": "psychic"
+  },
+  {
+    "id": 724,
+    "name": "searing-sunraze-smash",
+    "japaneseName": "サンシャインスマッシャー",
+    "type": "steel"
+  },
+  {
+    "id": 725,
+    "name": "menacing-moonraze-maelstrom",
+    "japaneseName": "ムーンライトブラスター",
+    "type": "ghost"
+  },
+  {
+    "id": 726,
+    "name": "lets-snuggle-forever",
+    "japaneseName": "ぽかぼかフレンドタイム",
+    "type": "fairy"
+  },
+  {
+    "id": 727,
+    "name": "splintered-stormshards",
+    "japaneseName": "ラジアルエッジストーム",
+    "type": "rock"
+  },
+  {
+    "id": 728,
+    "name": "clangorous-soulblaze",
+    "japaneseName": "ブレイジングソウルビート",
+    "type": "dragon"
+  },
+  {
+    "id": 729,
+    "name": "zippy-zap",
+    "japaneseName": "ばちばちアクセル",
+    "type": "electric"
+  },
+  {
+    "id": 730,
+    "name": "splishy-splash",
+    "japaneseName": "ざぶざぶサーフ",
+    "type": "water"
+  },
+  {
+    "id": 731,
+    "name": "floaty-fall",
+    "japaneseName": "ふわふわフォール",
+    "type": "flying"
+  },
+  {
+    "id": 732,
+    "name": "pika-papow",
+    "japaneseName": "ピカピカサンダー",
+    "type": "electric"
+  },
+  {
+    "id": 733,
+    "name": "bouncy-bubble",
+    "japaneseName": "いきいきバブル",
+    "type": "water"
+  },
+  {
+    "id": 734,
+    "name": "buzzy-buzz",
+    "japaneseName": "びりびりエレキ",
+    "type": "electric"
+  },
+  {
+    "id": 735,
+    "name": "sizzly-slide",
+    "japaneseName": "めらめらバーン",
+    "type": "fire"
+  },
+  {
+    "id": 736,
+    "name": "glitzy-glow",
+    "japaneseName": "どばどばオーラ",
+    "type": "psychic"
+  },
+  {
+    "id": 737,
+    "name": "baddy-bad",
+    "japaneseName": "わるわるゾーン",
+    "type": "dark"
+  },
+  {
+    "id": 738,
+    "name": "sappy-seed",
+    "japaneseName": "すくすくボンバー",
+    "type": "grass"
+  },
+  {
+    "id": 739,
+    "name": "freezy-frost",
+    "japaneseName": "こちこちフロスト",
+    "type": "ice"
+  },
+  {
+    "id": 740,
+    "name": "sparkly-swirl",
+    "japaneseName": "きらきらストーム",
+    "type": "fairy"
+  },
+  {
+    "id": 741,
+    "name": "veevee-volley",
+    "japaneseName": "ブイブイブレイク",
+    "type": "normal"
+  },
+  {
+    "id": 742,
+    "name": "double-iron-bash",
+    "japaneseName": "ダブルパンツァー",
+    "type": "steel"
+  },
+  {
+    "id": 743,
+    "name": "max-guard",
+    "japaneseName": "ダイウォール",
+    "type": "normal"
+  },
+  {
+    "id": 744,
+    "name": "dynamax-cannon",
+    "japaneseName": "ダイマックスほう",
+    "type": "dragon"
+  },
+  {
+    "id": 745,
+    "name": "snipe-shot",
+    "japaneseName": "ねらいうち",
+    "type": "water"
+  },
+  {
+    "id": 746,
+    "name": "jaw-lock",
+    "japaneseName": "くらいつく",
+    "type": "dark"
+  },
+  {
+    "id": 747,
+    "name": "stuff-cheeks",
+    "japaneseName": "ほおばる",
+    "type": "normal"
+  },
+  {
+    "id": 748,
+    "name": "no-retreat",
+    "japaneseName": "はいすいのじん",
+    "type": "fighting"
+  },
+  {
+    "id": 749,
+    "name": "tar-shot",
+    "japaneseName": "タールショット",
+    "type": "rock"
+  },
+  {
+    "id": 750,
+    "name": "magic-powder",
+    "japaneseName": "まほうのこな",
+    "type": "psychic"
+  },
+  {
+    "id": 751,
+    "name": "dragon-darts",
+    "japaneseName": "ドラゴンアロー",
+    "type": "dragon"
+  },
+  {
+    "id": 752,
+    "name": "teatime",
+    "japaneseName": "おちゃかい",
+    "type": "normal"
+  },
+  {
+    "id": 753,
+    "name": "octolock",
+    "japaneseName": "たこがため",
+    "type": "fighting"
+  },
+  {
+    "id": 754,
+    "name": "bolt-beak",
+    "japaneseName": "でんげきくちばし",
+    "type": "electric"
+  },
+  {
+    "id": 755,
+    "name": "fishious-rend",
+    "japaneseName": "エラがみ",
+    "type": "water"
+  },
+  {
+    "id": 756,
+    "name": "court-change",
+    "japaneseName": "コートチェンジ",
+    "type": "normal"
+  },
+  {
+    "id": 757,
+    "name": "max-flare",
+    "japaneseName": "ダイバーン",
+    "type": "fire"
+  },
+  {
+    "id": 758,
+    "name": "max-flutterby",
+    "japaneseName": "ダイワーム",
+    "type": "bug"
+  },
+  {
+    "id": 759,
+    "name": "max-lightning",
+    "japaneseName": "ダイサンダー",
+    "type": "electric"
+  },
+  {
+    "id": 760,
+    "name": "max-strike",
+    "japaneseName": "ダイアタック",
+    "type": "normal"
+  },
+  {
+    "id": 761,
+    "name": "max-knuckle",
+    "japaneseName": "ダイナックル",
+    "type": "fighting"
+  },
+  {
+    "id": 762,
+    "name": "max-phantasm",
+    "japaneseName": "ダイホロウ",
+    "type": "ghost"
+  },
+  {
+    "id": 763,
+    "name": "max-hailstorm",
+    "japaneseName": "ダイアイス",
+    "type": "ice"
+  },
+  {
+    "id": 764,
+    "name": "max-ooze",
+    "japaneseName": "ダイアシッド",
+    "type": "poison"
+  },
+  {
+    "id": 765,
+    "name": "max-geyser",
+    "japaneseName": "ダイストリーム",
+    "type": "water"
+  },
+  {
+    "id": 766,
+    "name": "max-airstream",
+    "japaneseName": "ダイジェット",
+    "type": "flying"
+  },
+  {
+    "id": 767,
+    "name": "max-starfall",
+    "japaneseName": "ダイフェアリー",
+    "type": "fairy"
+  },
+  {
+    "id": 768,
+    "name": "max-wyrmwind",
+    "japaneseName": "ダイドラグーン",
+    "type": "dragon"
+  },
+  {
+    "id": 769,
+    "name": "max-mindstorm",
+    "japaneseName": "ダイサイコ",
+    "type": "psychic"
+  },
+  {
+    "id": 770,
+    "name": "max-rockfall",
+    "japaneseName": "ダイロック",
+    "type": "rock"
+  },
+  {
+    "id": 771,
+    "name": "max-quake",
+    "japaneseName": "ダイアース",
+    "type": "ground"
+  },
+  {
+    "id": 772,
+    "name": "max-darkness",
+    "japaneseName": "ダイアーク",
+    "type": "dark"
+  },
+  {
+    "id": 773,
+    "name": "max-overgrowth",
+    "japaneseName": "ダイソウゲン",
+    "type": "grass"
+  },
+  {
+    "id": 774,
+    "name": "max-steelspike",
+    "japaneseName": "ダイスチル",
+    "type": "steel"
+  },
+  {
+    "id": 775,
+    "name": "clangorous-soul",
+    "japaneseName": "ソウルビート",
+    "type": "dragon"
+  },
+  {
+    "id": 776,
+    "name": "body-press",
+    "japaneseName": "ボディプレス",
+    "type": "fighting"
+  },
+  {
+    "id": 777,
+    "name": "decorate",
+    "japaneseName": "デコレーション",
+    "type": "fairy"
+  },
+  {
+    "id": 778,
+    "name": "drum-beating",
+    "japaneseName": "ドラムアタック",
+    "type": "grass"
+  },
+  {
+    "id": 779,
+    "name": "snap-trap",
+    "japaneseName": "トラバサミ",
+    "type": "grass"
+  },
+  {
+    "id": 780,
+    "name": "pyro-ball",
+    "japaneseName": "かえんボール",
+    "type": "fire"
+  },
+  {
+    "id": 781,
+    "name": "behemoth-blade",
+    "japaneseName": "きょじゅうざん",
+    "type": "steel"
+  },
+  {
+    "id": 782,
+    "name": "behemoth-bash",
+    "japaneseName": "きょじゅうだん",
+    "type": "steel"
+  },
+  {
+    "id": 783,
+    "name": "aura-wheel",
+    "japaneseName": "オーラぐるま",
+    "type": "electric"
+  },
+  {
+    "id": 784,
+    "name": "breaking-swipe",
+    "japaneseName": "ワイドブレイカー",
+    "type": "dragon"
+  },
+  {
+    "id": 785,
+    "name": "branch-poke",
+    "japaneseName": "えだづき",
+    "type": "grass"
+  },
+  {
+    "id": 786,
+    "name": "overdrive",
+    "japaneseName": "オーバードライブ",
+    "type": "electric"
+  },
+  {
+    "id": 787,
+    "name": "apple-acid",
+    "japaneseName": "りんごさん",
+    "type": "grass"
+  },
+  {
+    "id": 788,
+    "name": "grav-apple",
+    "japaneseName": "Ｇのちから",
+    "type": "grass"
+  },
+  {
+    "id": 789,
+    "name": "spirit-break",
+    "japaneseName": "ソウルクラッシュ",
+    "type": "fairy"
+  },
+  {
+    "id": 790,
+    "name": "strange-steam",
+    "japaneseName": "ワンダースチーム",
+    "type": "fairy"
+  },
+  {
+    "id": 791,
+    "name": "life-dew",
+    "japaneseName": "いのちのしずく",
+    "type": "water"
+  },
+  {
+    "id": 792,
+    "name": "obstruct",
+    "japaneseName": "ブロッキング",
+    "type": "dark"
+  },
+  {
+    "id": 793,
+    "name": "false-surrender",
+    "japaneseName": "どげざつき",
+    "type": "dark"
+  },
+  {
+    "id": 794,
+    "name": "meteor-assault",
+    "japaneseName": "スターアサルト",
+    "type": "fighting"
+  },
+  {
+    "id": 795,
+    "name": "eternabeam",
+    "japaneseName": "ムゲンダイビーム",
+    "type": "dragon"
+  },
+  {
+    "id": 796,
+    "name": "steel-beam",
+    "japaneseName": "てっていこうせん",
+    "type": "steel"
+  },
+  {
+    "id": 797,
+    "name": "expanding-force",
+    "japaneseName": "ワイドフォース",
+    "type": "psychic"
+  },
+  {
+    "id": 798,
+    "name": "steel-roller",
+    "japaneseName": "アイアンローラー",
+    "type": "steel"
+  },
+  {
+    "id": 799,
+    "name": "scale-shot",
+    "japaneseName": "スケイルショット",
+    "type": "dragon"
+  },
+  {
+    "id": 800,
+    "name": "meteor-beam",
+    "japaneseName": "メテオビーム",
+    "type": "rock"
+  },
+  {
+    "id": 801,
+    "name": "shell-side-arm",
+    "japaneseName": "シェルアームズ",
+    "type": "poison"
+  },
+  {
+    "id": 802,
+    "name": "misty-explosion",
+    "japaneseName": "ミストバースト",
+    "type": "fairy"
+  },
+  {
+    "id": 803,
+    "name": "grassy-glide",
+    "japaneseName": "グラススライダー",
+    "type": "grass"
+  },
+  {
+    "id": 804,
+    "name": "rising-voltage",
+    "japaneseName": "ライジングボルト",
+    "type": "electric"
+  },
+  {
+    "id": 805,
+    "name": "terrain-pulse",
+    "japaneseName": "だいちのはどう",
+    "type": "normal"
+  },
+  {
+    "id": 806,
+    "name": "skitter-smack",
+    "japaneseName": "はいよるいちげき",
+    "type": "bug"
+  },
+  {
+    "id": 807,
+    "name": "burning-jealousy",
+    "japaneseName": "しっとのほのお",
+    "type": "fire"
+  },
+  {
+    "id": 808,
+    "name": "lash-out",
+    "japaneseName": "うっぷんばらし",
+    "type": "dark"
+  },
+  {
+    "id": 809,
+    "name": "poltergeist",
+    "japaneseName": "ポルターガイスト",
+    "type": "ghost"
+  },
+  {
+    "id": 810,
+    "name": "corrosive-gas",
+    "japaneseName": "ふしょくガス",
+    "type": "poison"
+  },
+  {
+    "id": 811,
+    "name": "coaching",
+    "japaneseName": "コーチング",
+    "type": "fighting"
+  },
+  {
+    "id": 812,
+    "name": "flip-turn",
+    "japaneseName": "クイックターン",
+    "type": "water"
+  },
+  {
+    "id": 813,
+    "name": "triple-axel",
+    "japaneseName": "トリプルアクセル",
+    "type": "ice"
+  },
+  {
+    "id": 814,
+    "name": "dual-wingbeat",
+    "japaneseName": "ダブルウイング",
+    "type": "flying"
+  },
+  {
+    "id": 815,
+    "name": "scorching-sands",
+    "japaneseName": "ねっさのだいち",
+    "type": "ground"
+  },
+  {
+    "id": 816,
+    "name": "jungle-healing",
+    "japaneseName": "ジャングルヒール",
+    "type": "grass"
+  },
+  {
+    "id": 817,
+    "name": "wicked-blow",
+    "japaneseName": "あんこくきょうだ",
+    "type": "dark"
+  },
+  {
+    "id": 818,
+    "name": "surging-strikes",
+    "japaneseName": "すいりゅうれんだ",
+    "type": "water"
+  },
+  {
+    "id": 819,
+    "name": "thunder-cage",
+    "japaneseName": "サンダープリズン",
+    "type": "electric"
+  },
+  {
+    "id": 820,
+    "name": "dragon-energy",
+    "japaneseName": "ドラゴンエナジー",
+    "type": "dragon"
+  },
+  {
+    "id": 821,
+    "name": "freezing-glare",
+    "japaneseName": "いてつくしせん",
+    "type": "psychic"
+  },
+  {
+    "id": 822,
+    "name": "fiery-wrath",
+    "japaneseName": "もえあがるいかり",
+    "type": "dark"
+  },
+  {
+    "id": 823,
+    "name": "thunderous-kick",
+    "japaneseName": "らいめいげり",
+    "type": "fighting"
+  },
+  {
+    "id": 824,
+    "name": "glacial-lance",
+    "japaneseName": "ブリザードランス",
+    "type": "ice"
+  },
+  {
+    "id": 825,
+    "name": "astral-barrage",
+    "japaneseName": "アストラルビット",
+    "type": "ghost"
+  },
+  {
+    "id": 826,
+    "name": "eerie-spell",
+    "japaneseName": "ぶきみなじゅもん",
+    "type": "psychic"
+  },
+  {
+    "id": 827,
+    "name": "dire-claw",
+    "japaneseName": "フェイタルクロー",
+    "type": "poison"
+  },
+  {
+    "id": 828,
+    "name": "psyshield-bash",
+    "japaneseName": "バリアーラッシュ",
+    "type": "psychic"
+  },
+  {
+    "id": 829,
+    "name": "power-shift",
+    "japaneseName": "パワーシフト",
+    "type": "normal"
+  },
+  {
+    "id": 830,
+    "name": "stone-axe",
+    "japaneseName": "がんせきアックス",
+    "type": "rock"
+  },
+  {
+    "id": 831,
+    "name": "springtide-storm",
+    "japaneseName": "はるのあらし",
+    "type": "fairy"
+  },
+  {
+    "id": 832,
+    "name": "mystical-power",
+    "japaneseName": "しんぴのちから",
+    "type": "psychic"
+  },
+  {
+    "id": 833,
+    "name": "raging-fury",
+    "japaneseName": "だいふんげき",
+    "type": "fire"
+  },
+  {
+    "id": 834,
+    "name": "wave-crash",
+    "japaneseName": "ウェーブタックル",
+    "type": "water"
+  },
+  {
+    "id": 835,
+    "name": "chloroblast",
+    "japaneseName": "クロロブラスト",
+    "type": "grass"
+  },
+  {
+    "id": 836,
+    "name": "mountain-gale",
+    "japaneseName": "ひょうざんおろし",
+    "type": "ice"
+  },
+  {
+    "id": 837,
+    "name": "victory-dance",
+    "japaneseName": "しょうりのまい",
+    "type": "fighting"
+  },
+  {
+    "id": 838,
+    "name": "headlong-rush",
+    "japaneseName": "ぶちかまし",
+    "type": "ground"
+  },
+  {
+    "id": 839,
+    "name": "barb-barrage",
+    "japaneseName": "どくばりセンボン",
+    "type": "poison"
+  },
+  {
+    "id": 840,
+    "name": "esper-wing",
+    "japaneseName": "オーラウイング",
+    "type": "psychic"
+  },
+  {
+    "id": 841,
+    "name": "bitter-malice",
+    "japaneseName": "うらみつらみ",
+    "type": "ghost"
+  },
+  {
+    "id": 842,
+    "name": "shelter",
+    "japaneseName": "たてこもる",
+    "type": "steel"
+  },
+  {
+    "id": 843,
+    "name": "triple-arrows",
+    "japaneseName": "３ぼんのや",
+    "type": "fighting"
+  },
+  {
+    "id": 844,
+    "name": "infernal-parade",
+    "japaneseName": "ひゃっきやこう",
+    "type": "ghost"
+  },
+  {
+    "id": 845,
+    "name": "ceaseless-edge",
+    "japaneseName": "ひけん・ちえなみ",
+    "type": "dark"
+  },
+  {
+    "id": 846,
+    "name": "bleakwind-storm",
+    "japaneseName": "こがらしあらし",
+    "type": "flying"
+  },
+  {
+    "id": 847,
+    "name": "wildbolt-storm",
+    "japaneseName": "かみなりあらし",
+    "type": "electric"
+  },
+  {
+    "id": 848,
+    "name": "sandsear-storm",
+    "japaneseName": "ねっさのあらし",
+    "type": "ground"
+  },
+  {
+    "id": 849,
+    "name": "lunar-blessing",
+    "japaneseName": "みかづきのいのり",
+    "type": "psychic"
+  },
+  {
+    "id": 850,
+    "name": "take-heart",
+    "japaneseName": "ブレイブチャージ",
+    "type": "psychic"
+  },
+  {
+    "id": 851,
+    "name": "tera-blast",
+    "japaneseName": "テラバースト",
+    "type": "normal"
+  },
+  {
+    "id": 852,
+    "name": "silk-trap",
+    "japaneseName": "スレッドトラップ",
+    "type": "bug"
+  },
+  {
+    "id": 853,
+    "name": "axe-kick",
+    "japaneseName": "かかとおとし",
+    "type": "fighting"
+  },
+  {
+    "id": 854,
+    "name": "last-respects",
+    "japaneseName": "おはかまいり",
+    "type": "ghost"
+  },
+  {
+    "id": 855,
+    "name": "lumina-crash",
+    "japaneseName": "ルミナコリジョン",
+    "type": "psychic"
+  },
+  {
+    "id": 856,
+    "name": "order-up",
+    "japaneseName": "いっちょうあがり",
+    "type": "dragon"
+  },
+  {
+    "id": 857,
+    "name": "jet-punch",
+    "japaneseName": "ジェットパンチ",
+    "type": "water"
+  },
+  {
+    "id": 858,
+    "name": "spicy-extract",
+    "japaneseName": "ハバネロエキス",
+    "type": "grass"
+  },
+  {
+    "id": 859,
+    "name": "spin-out",
+    "japaneseName": "ホイールスピン",
+    "type": "steel"
+  },
+  {
+    "id": 860,
+    "name": "population-bomb",
+    "japaneseName": "ネズミざん",
+    "type": "normal"
+  },
+  {
+    "id": 861,
+    "name": "ice-spinner",
+    "japaneseName": "アイススピナー",
+    "type": "ice"
+  },
+  {
+    "id": 862,
+    "name": "glaive-rush",
+    "japaneseName": "きょけんとつげき",
+    "type": "dragon"
+  },
+  {
+    "id": 863,
+    "name": "revival-blessing",
+    "japaneseName": "さいきのいのり",
+    "type": "normal"
+  },
+  {
+    "id": 864,
+    "name": "salt-cure",
+    "japaneseName": "しおづけ",
+    "type": "rock"
+  },
+  {
+    "id": 865,
+    "name": "triple-dive",
+    "japaneseName": "トリプルダイブ",
+    "type": "water"
+  },
+  {
+    "id": 866,
+    "name": "mortal-spin",
+    "japaneseName": "キラースピン",
+    "type": "poison"
+  },
+  {
+    "id": 867,
+    "name": "doodle",
+    "japaneseName": "うつしえ",
+    "type": "normal"
+  },
+  {
+    "id": 868,
+    "name": "fillet-away",
+    "japaneseName": "みをけずる",
+    "type": "normal"
+  },
+  {
+    "id": 869,
+    "name": "kowtow-cleave",
+    "japaneseName": "ドゲザン",
+    "type": "dark"
+  },
+  {
+    "id": 870,
+    "name": "flower-trick",
+    "japaneseName": "トリックフラワー",
+    "type": "grass"
+  },
+  {
+    "id": 871,
+    "name": "torch-song",
+    "japaneseName": "フレアソング",
+    "type": "fire"
+  },
+  {
+    "id": 872,
+    "name": "aqua-step",
+    "japaneseName": "アクアステップ",
+    "type": "water"
+  },
+  {
+    "id": 873,
+    "name": "raging-bull",
+    "japaneseName": "レイジングブル",
+    "type": "normal"
+  },
+  {
+    "id": 874,
+    "name": "make-it-rain",
+    "japaneseName": "ゴールドラッシュ",
+    "type": "steel"
+  },
+  {
+    "id": 875,
+    "name": "psyblade",
+    "japaneseName": "サイコブレイド ",
+    "type": "psychic"
+  },
+  {
+    "id": 876,
+    "name": "hydro-steam",
+    "japaneseName": "ハイドロスチーム",
+    "type": "water"
+  },
+  {
+    "id": 877,
+    "name": "ruination",
+    "japaneseName": "カタストロフィ",
+    "type": "dark"
+  },
+  {
+    "id": 878,
+    "name": "collision-course",
+    "japaneseName": "アクセルブレイク",
+    "type": "fighting"
+  },
+  {
+    "id": 879,
+    "name": "electro-drift",
+    "japaneseName": "イナズマドライブ",
+    "type": "electric"
+  },
+  {
+    "id": 880,
+    "name": "shed-tail",
+    "japaneseName": "しっぽきり",
+    "type": "normal"
+  },
+  {
+    "id": 881,
+    "name": "chilly-reception",
+    "japaneseName": "さむいギャグ",
+    "type": "ice"
+  },
+  {
+    "id": 882,
+    "name": "tidy-up",
+    "japaneseName": "おかたづけ",
+    "type": "normal"
+  },
+  {
+    "id": 883,
+    "name": "snowscape",
+    "japaneseName": "ゆきげしき",
+    "type": "ice"
+  },
+  {
+    "id": 884,
+    "name": "pounce",
+    "japaneseName": "とびつく",
+    "type": "bug"
+  },
+  {
+    "id": 885,
+    "name": "trailblaze",
+    "japaneseName": "くさわけ",
+    "type": "grass"
+  },
+  {
+    "id": 886,
+    "name": "chilling-water",
+    "japaneseName": "ひやみず",
+    "type": "water"
+  },
+  {
+    "id": 887,
+    "name": "hyper-drill",
+    "japaneseName": "ハイパードリル",
+    "type": "normal"
+  },
+  {
+    "id": 888,
+    "name": "twin-beam",
+    "japaneseName": "ツインビーム",
+    "type": "psychic"
+  },
+  {
+    "id": 889,
+    "name": "rage-fist",
+    "japaneseName": "ふんどのこぶし",
+    "type": "ghost"
+  },
+  {
+    "id": 890,
+    "name": "armor-cannon",
+    "japaneseName": "アーマーキャノン",
+    "type": "fire"
+  },
+  {
+    "id": 891,
+    "name": "bitter-blade",
+    "japaneseName": "むねんのつるぎ",
+    "type": "fire"
+  },
+  {
+    "id": 892,
+    "name": "double-shock",
+    "japaneseName": "でんこうそうげき",
+    "type": "electric"
+  },
+  {
+    "id": 893,
+    "name": "gigaton-hammer",
+    "japaneseName": "デカハンマー",
+    "type": "steel"
+  },
+  {
+    "id": 894,
+    "name": "comeuppance",
+    "japaneseName": "ほうふく",
+    "type": "dark"
+  },
+  {
+    "id": 895,
+    "name": "aqua-cutter",
+    "japaneseName": "アクアカッター",
+    "type": "water"
+  },
+  {
+    "id": 896,
+    "name": "blazing-torque",
+    "japaneseName": "バーンアクセル",
+    "type": "fire"
+  },
+  {
+    "id": 897,
+    "name": "wicked-torque",
+    "japaneseName": "ダークアクセル",
+    "type": "dark"
+  },
+  {
+    "id": 898,
+    "name": "noxious-torque",
+    "japaneseName": "ポイズンアクセル",
+    "type": "poison"
+  },
+  {
+    "id": 899,
+    "name": "combat-torque",
+    "japaneseName": "ファイトアクセル",
+    "type": "fighting"
+  },
+  {
+    "id": 900,
+    "name": "magical-torque",
+    "japaneseName": "マジカルアクセル",
+    "type": "fairy"
+  },
+  {
+    "id": 901,
+    "name": "blood-moon",
+    "japaneseName": "ブラッドムーン",
+    "type": "normal"
+  },
+  {
+    "id": 902,
+    "name": "matcha-gotcha",
+    "japaneseName": "シャカシャカほう",
+    "type": "grass"
+  },
+  {
+    "id": 903,
+    "name": "syrup-bomb",
+    "japaneseName": "みずあめボム",
+    "type": "grass"
+  },
+  {
+    "id": 904,
+    "name": "ivy-cudgel",
+    "japaneseName": "ツタこんぼう",
+    "type": "grass"
+  },
+  {
+    "id": 905,
+    "name": "electro-shot",
+    "japaneseName": "エレクトロビーム",
+    "type": "electric"
+  },
+  {
+    "id": 906,
+    "name": "tera-starstorm",
+    "japaneseName": "テラクラスター",
+    "type": "normal"
+  },
+  {
+    "id": 907,
+    "name": "fickle-beam",
+    "japaneseName": "きまぐレーザー",
+    "type": "dragon"
+  },
+  {
+    "id": 908,
+    "name": "burning-bulwark",
+    "japaneseName": "かえんのまもり",
+    "type": "fire"
+  },
+  {
+    "id": 909,
+    "name": "thunderclap",
+    "japaneseName": "じんらい",
+    "type": "electric"
+  },
+  {
+    "id": 910,
+    "name": "mighty-cleave",
+    "japaneseName": "パワフルエッジ",
+    "type": "rock"
+  },
+  {
+    "id": 911,
+    "name": "tachyon-cutter",
+    "japaneseName": "タキオンカッター",
+    "type": "steel"
+  },
+  {
+    "id": 912,
+    "name": "hard-press",
+    "japaneseName": "ハードプレス",
+    "type": "steel"
+  },
+  {
+    "id": 913,
+    "name": "dragon-cheer",
+    "japaneseName": "ドラゴンエール",
+    "type": "dragon"
+  },
+  {
+    "id": 914,
+    "name": "alluring-voice",
+    "japaneseName": "みわくのボイス",
+    "type": "fairy"
+  },
+  {
+    "id": 915,
+    "name": "temper-flare",
+    "japaneseName": "やけっぱち",
+    "type": "fire"
+  },
+  {
+    "id": 916,
+    "name": "supercell-slam",
+    "japaneseName": "サンダーダイブ",
+    "type": "electric"
+  },
+  {
+    "id": 917,
+    "name": "psychic-noise",
+    "japaneseName": "サイコノイズ",
+    "type": "psychic"
+  },
+  {
+    "id": 918,
+    "name": "upper-hand",
+    "japaneseName": "はやてがえし",
+    "type": "fighting"
+  },
+  {
+    "id": 919,
+    "name": "malignant-chain",
+    "japaneseName": "じゃどくのくさり",
+    "type": "poison"
+  },
+  {
+    "id": 10001,
+    "name": "shadow-rush",
+    "japaneseName": "ダークラッシュ",
+    "type": "shadow"
+  },
+  {
+    "id": 10002,
+    "name": "shadow-blast",
+    "japaneseName": "ダークブラスト",
+    "type": "shadow"
+  },
+  {
+    "id": 10003,
+    "name": "shadow-blitz",
+    "japaneseName": "ダークアタック",
+    "type": "shadow"
+  },
+  {
+    "id": 10004,
+    "name": "shadow-bolt",
+    "japaneseName": "ダークサンダー",
+    "type": "shadow"
+  },
+  {
+    "id": 10005,
+    "name": "shadow-break",
+    "japaneseName": "ダークブレイク",
+    "type": "shadow"
+  },
+  {
+    "id": 10006,
+    "name": "shadow-chill",
+    "japaneseName": "ダークフリーズ",
+    "type": "shadow"
+  },
+  {
+    "id": 10007,
+    "name": "shadow-end",
+    "japaneseName": "ダークエンド",
+    "type": "shadow"
+  },
+  {
+    "id": 10008,
+    "name": "shadow-fire",
+    "japaneseName": "ダークファイア",
+    "type": "shadow"
+  },
+  {
+    "id": 10009,
+    "name": "shadow-rave",
+    "japaneseName": "ダークレイブ",
+    "type": "shadow"
+  },
+  {
+    "id": 10010,
+    "name": "shadow-storm",
+    "japaneseName": "ダークストーム",
+    "type": "shadow"
+  },
+  {
+    "id": 10011,
+    "name": "shadow-wave",
+    "japaneseName": "ダークウェーブ",
+    "type": "shadow"
+  },
+  {
+    "id": 10012,
+    "name": "shadow-down",
+    "japaneseName": "ダークダウン",
+    "type": "shadow"
+  },
+  {
+    "id": 10013,
+    "name": "shadow-half",
+    "japaneseName": "ダークハーフ",
+    "type": "shadow"
+  },
+  {
+    "id": 10014,
+    "name": "shadow-hold",
+    "japaneseName": "ダークホールド",
+    "type": "shadow"
+  },
+  {
+    "id": 10015,
+    "name": "shadow-mist",
+    "japaneseName": "ダークミスト",
+    "type": "shadow"
+  },
+  {
+    "id": 10016,
+    "name": "shadow-panic",
+    "japaneseName": "ダークパニック",
+    "type": "shadow"
+  },
+  {
+    "id": 10017,
+    "name": "shadow-shed",
+    "japaneseName": "ダークリムーブ",
+    "type": "shadow"
+  },
+  {
+    "id": 10018,
+    "name": "shadow-sky",
+    "japaneseName": "ダークウェザー",
+    "type": "shadow"
+  }
+]

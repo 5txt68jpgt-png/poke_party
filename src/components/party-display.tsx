@@ -5,7 +5,9 @@ import Image from "next/image";
 import { Party, PartyPokemon } from "@/lib/party/types";
 import { TypeBadge } from "./type-badge";
 import { MoveList } from "./move-list";
+import { ReceivedMoveModal } from "./received-move-modal";
 import type { PokemonEntry } from "@/lib/pokemon/search";
+import type { PokemonTypeName } from "@/lib/pokemon/types";
 
 interface PartyDisplayProps {
   party: Party;
@@ -86,6 +88,9 @@ interface PokemonDetailProps {
 }
 
 function PokemonDetail({ member, opponentPokemon, onOpponentChange }: PokemonDetailProps) {
+  const [isReceivedMoveModalOpen, setIsReceivedMoveModalOpen] = useState(false);
+  const pokemonTypes: PokemonTypeName[] = member.pokemon.types.map((t) => t.name);
+
   return (
     <div className="bg-white rounded-pokemon shadow-pokemon-card overflow-hidden border-2 border-pokemon-blue-200">
       {/* ポケモン画像 */}
@@ -127,7 +132,25 @@ function PokemonDetail({ member, opponentPokemon, onOpponentChange }: PokemonDet
             onOpponentChange={onOpponentChange}
           />
         </div>
+
+        {/* 受けた技をチェックボタン */}
+        <div className="border-t-2 border-pokemon-blue-100 pt-4 mt-4">
+          <button
+            onClick={() => setIsReceivedMoveModalOpen(true)}
+            className="w-full py-3 min-h-[44px] bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-pokemon font-bold hover:from-purple-600 hover:to-pink-600 transition-colors shadow-md"
+          >
+            受けた技をチェック
+          </button>
+        </div>
       </div>
+
+      {/* 受けた技モーダル */}
+      <ReceivedMoveModal
+        pokemonName={member.pokemon.japaneseName}
+        pokemonTypes={pokemonTypes}
+        isOpen={isReceivedMoveModalOpen}
+        onClose={() => setIsReceivedMoveModalOpen(false)}
+      />
     </div>
   );
 }

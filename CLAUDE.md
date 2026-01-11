@@ -17,10 +17,10 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Construction（v5）
+Operation（v5完成）
 
 ### Active Unit
-Unit 9: 相手ポケモン選択保持
+N/A
 
 ### Completed Units
 | Unit | 機能 | 状態 |
@@ -33,6 +33,8 @@ Unit 9: 相手ポケモン選択保持
 | 6 | ポケモン検索機能（v3） | 完了 |
 | 7 | おまかせ生成改善（v4） | 完了 |
 | 8 | ゲーム風デザイン（v4） | 完了 |
+| 9 | 相手ポケモン選択保持（v5） | 完了 |
+| 10 | 受けた技の相性チェック（v5） | 完了 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)
@@ -58,10 +60,13 @@ src/
 │   ├── party-display.tsx      # パーティ表示
 │   ├── pokemon-card.tsx       # ポケモンカード
 │   ├── move-list.tsx          # 技リスト（相性チェック付き）
+│   ├── move-effectiveness-modal.tsx  # 技相性モーダル
+│   ├── received-move-modal.tsx       # 受けた技チェックモーダル
+│   ├── pokemon-search.tsx     # ポケモン検索
+│   ├── move-search.tsx        # 技検索
 │   ├── type-badge.tsx         # タイプバッジ
 │   ├── type-selector.tsx      # タイプ選択
 │   ├── effectiveness-result.tsx
-│   ├── move-effectiveness-modal.tsx
 │   ├── theme-suggestions.tsx  # おすすめテーマ
 │   └── ...
 ├── lib/
@@ -69,10 +74,13 @@ src/
 │   ├── openai/                # AI クライアント（Gemini）
 │   ├── party/                 # パーティ生成ロジック
 │   ├── effectiveness/         # 相性計算
-│   └── pokemon/               # ドメイン型
+│   ├── pokemon/               # ポケモン検索ロジック
+│   └── moves/                 # 技検索ロジック
 └── data/
     ├── type-data.ts           # タイプ日本語名・カラー
-    └── type-chart.ts          # 相性表
+    ├── type-chart.ts          # 相性表
+    ├── pokemon-list.json      # ポケモン一覧（1025件）
+    └── move-list.json         # 技一覧（937件）
 ```
 
 ## Git Commit Convention

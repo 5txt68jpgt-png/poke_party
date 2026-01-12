@@ -3,6 +3,9 @@ import { getPokemonBasic } from "@/lib/pokeapi/client";
 import { selectMovesForPokemon } from "./move-selector";
 import { Party, PartyPokemon, GenerationRequest } from "./types";
 
+// AIに要求する余分なポケモン数（無効なポケモン名対策）
+const BUFFER_COUNT = 3;
+
 /**
  * パーティを生成する
  */
@@ -14,9 +17,12 @@ export async function generateParty(
   let theme: string;
   let pokemonNames: string[];
 
+  // 余分にポケモンを要求（無効なポケモン名があっても指定数を確保するため）
+  const requestCount = Math.min(count + BUFFER_COUNT, 10);
+
   if (mode === "random") {
     // おまかせモード: AIがテーマとポケモンを同時生成
-    const randomResponse = await generateRandomParty(count);
+    const randomResponse = await generateRandomParty(requestCount);
     theme = randomResponse.theme;
     pokemonNames = randomResponse.pokemon;
   } else {
@@ -25,22 +31,36 @@ export async function generateParty(
       throw new Error("テーマが指定されていません");
     }
     theme = request.theme;
-    const aiResponse = await generatePokemonNames(theme, count);
+    const aiResponse = await generatePokemonNames(theme, requestCount);
     pokemonNames = aiResponse.pokemon;
   }
 
   // 2. 各ポケモンの情報を取得し、技を選定
-  const members = await Promise.all(
-    pokemonNames.map((name) => createPartyPokemon(name))
-  );
+  const members: (PartyPokemon | null)[] = [];
 
-  // 3. 無効なポケモンを除外（存在しないポケモンがあった場合）
-  const validMembers = members.filter(
-    (m): m is PartyPokemon => m !== null
-  );
+  for (const name of pokemonNames) {
+    // 既に必要な数が揃ったら終了
+    const validCount = members.filter((m) => m !== null).length;
+    if (validCount >= count) {
+      break;
+    }
+
+    const member = await createPartyPokemon(name);
+    members.push(member);
+  }
+
+  // 3. 無効なポケモンを除外し、指定数に切り詰め
+  const validMembers = members
+    .filter((m): m is PartyPokemon => m !== null)
+    .slice(0, count);
 
   if (validMembers.length === 0) {
     throw new Error("有効なポケモンが見つかりませんでした");
+  }
+
+  // 指定数に満たない場合はエラー（稀なケース）
+  if (validMembers.length < count) {
+    console.warn(`Requested ${count} Pokemon but only found ${validMembers.length} valid ones`);
   }
 
   return {

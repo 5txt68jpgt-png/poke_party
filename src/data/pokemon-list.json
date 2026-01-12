@@ -8724,5 +8724,533 @@
       "poison",
       "ghost"
     ]
+  },
+  {
+    "id": 10091,
+    "name": "rattata-alola",
+    "japaneseName": "コラッタ（アローラの姿）",
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "id": 10092,
+    "name": "raticate-alola",
+    "japaneseName": "ラッタ（アローラの姿）",
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "id": 10093,
+    "name": "raticate-totem-alola",
+    "japaneseName": "ラッタ（アローラの姿）",
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "id": 10099,
+    "name": "pikachu-alola-cap",
+    "japaneseName": "ピカチュウ（アローラの姿）",
+    "types": [
+      "electric"
+    ]
+  },
+  {
+    "id": 10100,
+    "name": "raichu-alola",
+    "japaneseName": "ライチュウ（アローラの姿）",
+    "types": [
+      "electric",
+      "psychic"
+    ]
+  },
+  {
+    "id": 10101,
+    "name": "sandshrew-alola",
+    "japaneseName": "サンド（アローラの姿）",
+    "types": [
+      "ice",
+      "steel"
+    ]
+  },
+  {
+    "id": 10102,
+    "name": "sandslash-alola",
+    "japaneseName": "サンドパン（アローラの姿）",
+    "types": [
+      "ice",
+      "steel"
+    ]
+  },
+  {
+    "id": 10103,
+    "name": "vulpix-alola",
+    "japaneseName": "ロコン（アローラの姿）",
+    "types": [
+      "ice"
+    ]
+  },
+  {
+    "id": 10104,
+    "name": "ninetales-alola",
+    "japaneseName": "キュウコン（アローラの姿）",
+    "types": [
+      "ice",
+      "fairy"
+    ]
+  },
+  {
+    "id": 10105,
+    "name": "diglett-alola",
+    "japaneseName": "ディグダ（アローラの姿）",
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  {
+    "id": 10106,
+    "name": "dugtrio-alola",
+    "japaneseName": "ダグトリオ（アローラの姿）",
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  {
+    "id": 10107,
+    "name": "meowth-alola",
+    "japaneseName": "ニャース（アローラの姿）",
+    "types": [
+      "dark"
+    ]
+  },
+  {
+    "id": 10108,
+    "name": "persian-alola",
+    "japaneseName": "ペルシアン（アローラの姿）",
+    "types": [
+      "dark"
+    ]
+  },
+  {
+    "id": 10109,
+    "name": "geodude-alola",
+    "japaneseName": "イシツブテ（アローラの姿）",
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  {
+    "id": 10110,
+    "name": "graveler-alola",
+    "japaneseName": "ゴローン（アローラの姿）",
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  {
+    "id": 10111,
+    "name": "golem-alola",
+    "japaneseName": "ゴローニャ（アローラの姿）",
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  {
+    "id": 10112,
+    "name": "grimer-alola",
+    "japaneseName": "ベトベター（アローラの姿）",
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  {
+    "id": 10113,
+    "name": "muk-alola",
+    "japaneseName": "ベトベトン（アローラの姿）",
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  {
+    "id": 10114,
+    "name": "exeggutor-alola",
+    "japaneseName": "ナッシー（アローラの姿）",
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  {
+    "id": 10115,
+    "name": "marowak-alola",
+    "japaneseName": "ガラガラ（アローラの姿）",
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  {
+    "id": 10161,
+    "name": "meowth-galar",
+    "japaneseName": "ニャース（ガラルの姿）",
+    "types": [
+      "steel"
+    ]
+  },
+  {
+    "id": 10162,
+    "name": "ponyta-galar",
+    "japaneseName": "ポニータ（ガラルの姿）",
+    "types": [
+      "psychic"
+    ]
+  },
+  {
+    "id": 10163,
+    "name": "rapidash-galar",
+    "japaneseName": "ギャロップ（ガラルの姿）",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  {
+    "id": 10164,
+    "name": "slowpoke-galar",
+    "japaneseName": "ヤドン（ガラルの姿）",
+    "types": [
+      "psychic"
+    ]
+  },
+  {
+    "id": 10165,
+    "name": "slowbro-galar",
+    "japaneseName": "ヤドラン（ガラルの姿）",
+    "types": [
+      "poison",
+      "psychic"
+    ]
+  },
+  {
+    "id": 10166,
+    "name": "farfetchd-galar",
+    "japaneseName": "カモネギ（ガラルの姿）",
+    "types": [
+      "fighting"
+    ]
+  },
+  {
+    "id": 10167,
+    "name": "weezing-galar",
+    "japaneseName": "マタドガス（ガラルの姿）",
+    "types": [
+      "poison",
+      "fairy"
+    ]
+  },
+  {
+    "id": 10168,
+    "name": "mr-mime-galar",
+    "japaneseName": "バリヤード（ガラルの姿）",
+    "types": [
+      "ice",
+      "psychic"
+    ]
+  },
+  {
+    "id": 10169,
+    "name": "articuno-galar",
+    "japaneseName": "フリーザー（ガラルの姿）",
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "id": 10170,
+    "name": "zapdos-galar",
+    "japaneseName": "サンダー（ガラルの姿）",
+    "types": [
+      "fighting",
+      "flying"
+    ]
+  },
+  {
+    "id": 10171,
+    "name": "moltres-galar",
+    "japaneseName": "ファイヤー（ガラルの姿）",
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  {
+    "id": 10172,
+    "name": "slowking-galar",
+    "japaneseName": "ヤドキング（ガラルの姿）",
+    "types": [
+      "poison",
+      "psychic"
+    ]
+  },
+  {
+    "id": 10173,
+    "name": "corsola-galar",
+    "japaneseName": "サニーゴ（ガラルの姿）",
+    "types": [
+      "ghost"
+    ]
+  },
+  {
+    "id": 10174,
+    "name": "zigzagoon-galar",
+    "japaneseName": "ジグザグマ（ガラルの姿）",
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "id": 10175,
+    "name": "linoone-galar",
+    "japaneseName": "マッスグマ（ガラルの姿）",
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "id": 10176,
+    "name": "darumaka-galar",
+    "japaneseName": "ダルマッカ（ガラルの姿）",
+    "types": [
+      "ice"
+    ]
+  },
+  {
+    "id": 10177,
+    "name": "darmanitan-galar-standard",
+    "japaneseName": "ヒヒダルマ（ガラルの姿）",
+    "types": [
+      "ice"
+    ]
+  },
+  {
+    "id": 10178,
+    "name": "darmanitan-galar-zen",
+    "japaneseName": "ヒヒダルマ（ガラルの姿）",
+    "types": [
+      "ice",
+      "fire"
+    ]
+  },
+  {
+    "id": 10179,
+    "name": "yamask-galar",
+    "japaneseName": "デスマス（ガラルの姿）",
+    "types": [
+      "ground",
+      "ghost"
+    ]
+  },
+  {
+    "id": 10180,
+    "name": "stunfisk-galar",
+    "japaneseName": "マッギョ（ガラルの姿）",
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  {
+    "id": 10229,
+    "name": "growlithe-hisui",
+    "japaneseName": "ガーディ（ヒスイの姿）",
+    "types": [
+      "fire",
+      "rock"
+    ]
+  },
+  {
+    "id": 10230,
+    "name": "arcanine-hisui",
+    "japaneseName": "ウインディ（ヒスイの姿）",
+    "types": [
+      "fire",
+      "rock"
+    ]
+  },
+  {
+    "id": 10231,
+    "name": "voltorb-hisui",
+    "japaneseName": "ビリリダマ（ヒスイの姿）",
+    "types": [
+      "electric",
+      "grass"
+    ]
+  },
+  {
+    "id": 10232,
+    "name": "electrode-hisui",
+    "japaneseName": "マルマイン（ヒスイの姿）",
+    "types": [
+      "electric",
+      "grass"
+    ]
+  },
+  {
+    "id": 10233,
+    "name": "typhlosion-hisui",
+    "japaneseName": "バクフーン（ヒスイの姿）",
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  {
+    "id": 10234,
+    "name": "qwilfish-hisui",
+    "japaneseName": "ハリーセン（ヒスイの姿）",
+    "types": [
+      "dark",
+      "poison"
+    ]
+  },
+  {
+    "id": 10235,
+    "name": "sneasel-hisui",
+    "japaneseName": "ニューラ（ヒスイの姿）",
+    "types": [
+      "fighting",
+      "poison"
+    ]
+  },
+  {
+    "id": 10236,
+    "name": "samurott-hisui",
+    "japaneseName": "ダイケンキ（ヒスイの姿）",
+    "types": [
+      "water",
+      "dark"
+    ]
+  },
+  {
+    "id": 10237,
+    "name": "lilligant-hisui",
+    "japaneseName": "ドレディア（ヒスイの姿）",
+    "types": [
+      "grass",
+      "fighting"
+    ]
+  },
+  {
+    "id": 10238,
+    "name": "zorua-hisui",
+    "japaneseName": "ゾロア（ヒスイの姿）",
+    "types": [
+      "normal",
+      "ghost"
+    ]
+  },
+  {
+    "id": 10239,
+    "name": "zoroark-hisui",
+    "japaneseName": "ゾロアーク（ヒスイの姿）",
+    "types": [
+      "normal",
+      "ghost"
+    ]
+  },
+  {
+    "id": 10240,
+    "name": "braviary-hisui",
+    "japaneseName": "ウォーグル（ヒスイの姿）",
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "id": 10241,
+    "name": "sliggoo-hisui",
+    "japaneseName": "ヌメイル（ヒスイの姿）",
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  {
+    "id": 10242,
+    "name": "goodra-hisui",
+    "japaneseName": "ヌメルゴン（ヒスイの姿）",
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  {
+    "id": 10243,
+    "name": "avalugg-hisui",
+    "japaneseName": "クレベース（ヒスイの姿）",
+    "types": [
+      "ice",
+      "rock"
+    ]
+  },
+  {
+    "id": 10244,
+    "name": "decidueye-hisui",
+    "japaneseName": "ジュナイパー（ヒスイの姿）",
+    "types": [
+      "grass",
+      "fighting"
+    ]
+  },
+  {
+    "id": 10250,
+    "name": "tauros-paldea-combat-breed",
+    "japaneseName": "ケンタロス（パルデアの姿）",
+    "types": [
+      "fighting"
+    ]
+  },
+  {
+    "id": 10251,
+    "name": "tauros-paldea-blaze-breed",
+    "japaneseName": "ケンタロス（パルデアの姿）",
+    "types": [
+      "fighting",
+      "fire"
+    ]
+  },
+  {
+    "id": 10252,
+    "name": "tauros-paldea-aqua-breed",
+    "japaneseName": "ケンタロス（パルデアの姿）",
+    "types": [
+      "fighting",
+      "water"
+    ]
+  },
+  {
+    "id": 10253,
+    "name": "wooper-paldea",
+    "japaneseName": "ウパー（パルデアの姿）",
+    "types": [
+      "poison",
+      "ground"
+    ]
   }
 ]

@@ -13,6 +13,29 @@ export function PartyGenerator() {
   const [count, setCount] = useState(3);
   const [state, setState] = useState<GenerationState>({ status: "idle" });
   const [lastMode, setLastMode] = useState<GenerationMode>("theme");
+  const [pendingMode, setPendingMode] = useState<GenerationMode | null>(null);
+
+  // パーティが存在するかどうか
+  const hasParty = state.status === "success";
+
+  // 生成ボタンクリック時のハンドラ
+  const handleGenerateClick = (mode: GenerationMode) => {
+    if (hasParty) {
+      // パーティがある場合は確認ダイアログを表示
+      setPendingMode(mode);
+    } else {
+      // パーティがない場合は直接生成
+      handleGenerate(mode);
+    }
+  };
+
+  // 確認後の生成実行
+  const handleConfirmGenerate = () => {
+    if (pendingMode) {
+      handleGenerate(pendingMode);
+      setPendingMode(null);
+    }
+  };
 
   const handleGenerate = async (mode: GenerationMode) => {
     if (mode === "theme" && !theme.trim()) {
@@ -76,7 +99,7 @@ export function PartyGenerator() {
 
         {/* おまかせ生成ボタン */}
         <button
-          onClick={() => handleGenerate("random")}
+          onClick={() => handleGenerateClick("random")}
           disabled={state.status === "loading"}
           className="w-full py-4 min-h-[52px] pokemon-button-secondary text-lg disabled:opacity-50 disabled:cursor-not-allowed"
         >
@@ -118,7 +141,7 @@ export function PartyGenerator() {
         </div>
 
         <button
-          onClick={() => handleGenerate("theme")}
+          onClick={() => handleGenerateClick("theme")}
           disabled={state.status === "loading"}
           className="w-full py-3 min-h-[44px] pokemon-button-primary disabled:opacity-50 disabled:cursor-not-allowed"
         >
@@ -127,6 +150,29 @@ export function PartyGenerator() {
             : "パーティ生成"}
         </button>
       </div>
+
+      {/* 生成確認ダイアログ */}
+      {pendingMode && (
+        <div className="bg-amber-50 border-2 border-amber-300 rounded-pokemon p-4">
+          <p className="text-amber-800 text-center font-medium mb-3">
+            現在のパーティを破棄して新しく生成しますか？
+          </p>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setPendingMode(null)}
+              className="flex-1 py-2 min-h-[44px] bg-gray-200 text-gray-700 rounded-pokemon font-bold hover:bg-gray-300 transition-colors"
+            >
+              キャンセル
+            </button>
+            <button
+              onClick={handleConfirmGenerate}
+              className="flex-1 py-2 min-h-[44px] bg-red-500 text-white rounded-pokemon font-bold hover:bg-red-600 transition-colors"
+            >
+              生成する
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 結果表示 */}
       {state.status === "loading" && <LoadingSpinner />}

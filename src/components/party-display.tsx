@@ -6,6 +6,7 @@ import { Party, PartyPokemon } from "@/lib/party/types";
 import { TypeBadge } from "./type-badge";
 import { MoveList } from "./move-list";
 import { ReceivedMoveModal } from "./received-move-modal";
+import { ConfirmModal } from "./confirm-modal";
 import type { PokemonEntry } from "@/lib/pokemon/search";
 import type { PokemonTypeName, Move } from "@/lib/pokemon/types";
 
@@ -97,38 +98,26 @@ export function PartyDisplay({
       )}
 
       {/* 再生成ボタン */}
-      {!showRegenerateConfirm ? (
-        <button
-          onClick={() => setShowRegenerateConfirm(true)}
-          disabled={isLoading}
-          className="w-full py-3 min-h-[44px] bg-pokemon-blue-100 text-pokemon-blue-700 rounded-pokemon font-bold hover:bg-pokemon-blue-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors border-2 border-pokemon-blue-300"
-        >
-          {isLoading ? "生成中..." : "🔄 再生成"}
-        </button>
-      ) : (
-        <div className="bg-amber-50 border-2 border-amber-300 rounded-pokemon p-4">
-          <p className="text-amber-800 text-center font-medium mb-3">
-            現在のパーティを破棄して再生成しますか？
-          </p>
-          <div className="flex gap-2">
-            <button
-              onClick={() => setShowRegenerateConfirm(false)}
-              className="flex-1 py-2 min-h-[44px] bg-gray-200 text-gray-700 rounded-pokemon font-bold hover:bg-gray-300 transition-colors"
-            >
-              キャンセル
-            </button>
-            <button
-              onClick={() => {
-                setShowRegenerateConfirm(false);
-                onRegenerate();
-              }}
-              className="flex-1 py-2 min-h-[44px] bg-red-500 text-white rounded-pokemon font-bold hover:bg-red-600 transition-colors"
-            >
-              再生成する
-            </button>
-          </div>
-        </div>
-      )}
+      <button
+        onClick={() => setShowRegenerateConfirm(true)}
+        disabled={isLoading}
+        className="w-full py-3 min-h-[44px] bg-pokemon-blue-100 text-pokemon-blue-700 rounded-pokemon font-bold hover:bg-pokemon-blue-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors border-2 border-pokemon-blue-300"
+      >
+        {isLoading ? "生成中..." : "🔄 再生成"}
+      </button>
+
+      {/* 再生成確認モーダル */}
+      <ConfirmModal
+        isOpen={showRegenerateConfirm}
+        title="パーティを再生成"
+        message="現在のパーティを破棄して再生成しますか？"
+        confirmText="再生成する"
+        onConfirm={() => {
+          setShowRegenerateConfirm(false);
+          onRegenerate();
+        }}
+        onCancel={() => setShowRegenerateConfirm(false)}
+      />
     </div>
   );
 }

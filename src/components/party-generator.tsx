@@ -6,6 +6,7 @@ import { PartyDisplay } from "./party-display";
 import { LoadingSpinner } from "./loading-spinner";
 import { ThemeSuggestions } from "./theme-suggestions";
 import { RateLimitDisplay } from "./rate-limit-display";
+import { ConfirmModal } from "./confirm-modal";
 import { GenerationState, GeneratePartyResponse, GenerationMode } from "@/lib/party/types";
 
 export function PartyGenerator() {
@@ -151,28 +152,15 @@ export function PartyGenerator() {
         </button>
       </div>
 
-      {/* 生成確認ダイアログ */}
-      {pendingMode && (
-        <div className="bg-amber-50 border-2 border-amber-300 rounded-pokemon p-4">
-          <p className="text-amber-800 text-center font-medium mb-3">
-            現在のパーティを破棄して新しく生成しますか？
-          </p>
-          <div className="flex gap-2">
-            <button
-              onClick={() => setPendingMode(null)}
-              className="flex-1 py-2 min-h-[44px] bg-gray-200 text-gray-700 rounded-pokemon font-bold hover:bg-gray-300 transition-colors"
-            >
-              キャンセル
-            </button>
-            <button
-              onClick={handleConfirmGenerate}
-              className="flex-1 py-2 min-h-[44px] bg-red-500 text-white rounded-pokemon font-bold hover:bg-red-600 transition-colors"
-            >
-              生成する
-            </button>
-          </div>
-        </div>
-      )}
+      {/* 生成確認モーダル */}
+      <ConfirmModal
+        isOpen={pendingMode !== null}
+        title="パーティを再生成"
+        message="現在のパーティを破棄して新しく生成しますか？"
+        confirmText="生成する"
+        onConfirm={handleConfirmGenerate}
+        onCancel={() => setPendingMode(null)}
+      />
 
       {/* 結果表示 */}
       {state.status === "loading" && <LoadingSpinner />}

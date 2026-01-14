@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { PokemonCountSelect } from "./pokemon-count-select";
 import { PartyDisplay } from "./party-display";
 import { LoadingSpinner } from "./loading-spinner";
 import { ThemeSuggestions } from "./theme-suggestions";
+import { RateLimitDisplay } from "./rate-limit-display";
 import { GenerationState, GeneratePartyResponse, GenerationMode } from "@/lib/party/types";
 
 export function PartyGenerator() {
@@ -39,6 +40,14 @@ export function PartyGenerator() {
       const data: GeneratePartyResponse = await response.json();
 
       if (data.error) {
+        // レート制限エラーの場合
+        if (data.error.code === "RATE_LIMITED" && data.error.retryAfterSeconds) {
+          setState({
+            status: "rate_limited",
+            retryAfterSeconds: data.error.retryAfterSeconds
+          });
+          return;
+        }
         setState({ status: "error", message: data.error.message });
         return;
       }
@@ -126,6 +135,13 @@ export function PartyGenerator() {
         <div className="p-4 bg-red-100 border-2 border-red-300 rounded-pokemon">
           <p className="text-red-700 font-medium">{state.message}</p>
         </div>
+      )}
+
+      {state.status === "rate_limited" && (
+        <RateLimitDisplay
+          initialSeconds={state.retryAfterSeconds}
+          onRetry={handleRegenerate}
+        />
       )}
 
       {state.status === "success" && (

@@ -1,5 +1,32 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+// レート制限エラー
+export class RateLimitError extends Error {
+  retryAfterSeconds: number;
+
+  constructor(retryAfterSeconds: number = 60) {
+    super("API rate limit exceeded");
+    this.name = "RateLimitError";
+    this.retryAfterSeconds = retryAfterSeconds;
+  }
+}
+
+// レート制限エラーかどうかを判定
+function isRateLimitError(error: unknown): boolean {
+  if (error instanceof Error) {
+    const message = error.message.toLowerCase();
+    // Gemini APIのレート制限エラーパターン
+    return (
+      message.includes("quota") ||
+      message.includes("rate") ||
+      message.includes("resource_exhausted") ||
+      message.includes("429") ||
+      message.includes("too many requests")
+    );
+  }
+  return false;
+}
+
 // 遅延初期化（ビルド時にエラーを防ぐ）
 let genAI: GoogleGenerativeAI | null = null;
 
@@ -68,24 +95,31 @@ export async function generatePokemonNames(
     model: "gemini-2.5-flash",
   });
 
-  const result = await model.generateContent(fullPrompt);
-  const response = result.response;
-  const text = response.text();
+  try {
+    const result = await model.generateContent(fullPrompt);
+    const response = result.response;
+    const text = response.text();
 
-  // JSONを抽出（マークダウンコードブロックがある場合も対応）
-  let jsonText = text.trim();
-  const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
-  if (jsonMatch) {
-    jsonText = jsonMatch[1].trim();
+    // JSONを抽出（マークダウンコードブロックがある場合も対応）
+    let jsonText = text.trim();
+    const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (jsonMatch) {
+      jsonText = jsonMatch[1].trim();
+    }
+
+    const parsed = JSON.parse(jsonText) as AIResponse;
+
+    if (!parsed.pokemon || !Array.isArray(parsed.pokemon)) {
+      throw new Error("Invalid AI response format");
+    }
+
+    return parsed;
+  } catch (error) {
+    if (isRateLimitError(error)) {
+      throw new RateLimitError(60); // デフォルト60秒
+    }
+    throw error;
   }
-
-  const parsed = JSON.parse(jsonText) as AIResponse;
-
-  if (!parsed.pokemon || !Array.isArray(parsed.pokemon)) {
-    throw new Error("Invalid AI response format");
-  }
-
-  return parsed;
 }
 
 // おまかせ生成（テーマもAIが決める）
@@ -102,22 +136,29 @@ export async function generateRandomParty(
     model: "gemini-2.5-flash",
   });
 
-  const result = await model.generateContent(fullPrompt);
-  const response = result.response;
-  const text = response.text();
+  try {
+    const result = await model.generateContent(fullPrompt);
+    const response = result.response;
+    const text = response.text();
 
-  // JSONを抽出（マークダウンコードブロックがある場合も対応）
-  let jsonText = text.trim();
-  const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
-  if (jsonMatch) {
-    jsonText = jsonMatch[1].trim();
+    // JSONを抽出（マークダウンコードブロックがある場合も対応）
+    let jsonText = text.trim();
+    const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (jsonMatch) {
+      jsonText = jsonMatch[1].trim();
+    }
+
+    const parsed = JSON.parse(jsonText) as RandomAIResponse;
+
+    if (!parsed.theme || !parsed.pokemon || !Array.isArray(parsed.pokemon)) {
+      throw new Error("Invalid AI response format for random generation");
+    }
+
+    return parsed;
+  } catch (error) {
+    if (isRateLimitError(error)) {
+      throw new RateLimitError(60); // デフォルト60秒
+    }
+    throw error;
   }
-
-  const parsed = JSON.parse(jsonText) as RandomAIResponse;
-
-  if (!parsed.theme || !parsed.pokemon || !Array.isArray(parsed.pokemon)) {
-    throw new Error("Invalid AI response format for random generation");
-  }
-
-  return parsed;
 }

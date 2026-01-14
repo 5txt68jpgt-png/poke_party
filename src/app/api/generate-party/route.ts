@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { generateParty } from "@/lib/party/generator";
 import { GenerationRequest, GeneratePartyResponse } from "@/lib/party/types";
+import { RateLimitError } from "@/lib/openai/client";
 
 export async function POST(request: Request) {
   try {
@@ -60,6 +61,20 @@ export async function POST(request: Request) {
     return NextResponse.json<GeneratePartyResponse>({ party });
   } catch (error) {
     console.error("Party generation error:", error);
+
+    // レート制限エラーの場合
+    if (error instanceof RateLimitError) {
+      return NextResponse.json<GeneratePartyResponse>(
+        {
+          error: {
+            code: "RATE_LIMITED",
+            message: "APIの利用制限に達しました",
+            retryAfterSeconds: error.retryAfterSeconds,
+          },
+        },
+        { status: 429 }
+      );
+    }
 
     const errorMessage = error instanceof Error ? error.message : "Unknown error";
 

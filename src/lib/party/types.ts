@@ -27,13 +27,21 @@ export type GenerationState =
   | { status: "idle" }
   | { status: "loading" }
   | { status: "success"; party: Party }
-  | { status: "error"; message: string };
+  | { status: "error"; message: string }
+  | { status: "rate_limited"; retryAfterSeconds: number };
+
+// エラーコード
+export type ErrorCode =
+  | "INVALID_INPUT"
+  | "GENERATION_ERROR"
+  | "RATE_LIMITED";
 
 // API レスポンス
 export interface GeneratePartyResponse {
   party?: Party;
   error?: {
-    code: string;
+    code: ErrorCode;
     message: string;
+    retryAfterSeconds?: number; // レート制限時の待機秒数
   };
 }

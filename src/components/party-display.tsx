@@ -7,6 +7,7 @@ import { TypeBadge } from "./type-badge";
 import { MoveList } from "./move-list";
 import { ReceivedMoveModal } from "./received-move-modal";
 import { ConfirmModal } from "./confirm-modal";
+import { BattleGuideDisplay } from "./battle-guide-display";
 import type { PokemonEntry } from "@/lib/pokemon/search";
 import type { PokemonTypeName, Move } from "@/lib/pokemon/types";
 
@@ -63,6 +64,11 @@ export function PartyDisplay({
           )}
         </div>
         <p className="font-bold text-pokemon-blue-800">{party.theme}</p>
+
+        {/* バトルガイド */}
+        {party.battleGuide && (
+          <BattleGuideDisplay guide={party.battleGuide} />
+        )}
       </div>
 
       {/* ポケモン選択タブ */}

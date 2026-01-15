@@ -1,4 +1,4 @@
-import { generatePokemonNames, generateRandomParty } from "@/lib/openai/client";
+import { generatePokemonNames, generateRandomParty, generateBattleGuide } from "@/lib/openai/client";
 import { getPokemonBasic } from "@/lib/pokeapi/client";
 import { selectMovesForPokemon } from "./move-selector";
 import { Party, PartyPokemon, GenerationRequest } from "./types";
@@ -63,10 +63,22 @@ export async function generateParty(
     console.warn(`Requested ${count} Pokemon but only found ${validMembers.length} valid ones`);
   }
 
+  // バトルガイドを生成
+  const partyInfo = {
+    theme,
+    members: validMembers.map((m) => ({
+      name: m.pokemon.name,
+      japaneseName: m.pokemon.japaneseName,
+      types: m.pokemon.types.map((t) => t.japaneseName),
+    })),
+  };
+  const battleGuide = await generateBattleGuide(partyInfo, battleMode);
+
   return {
     theme,
     members: validMembers,
     battleMode,
+    battleGuide,
   };
 }
 

@@ -126,6 +126,34 @@ export interface RandomAIResponse {
   pokemon: string[];
 }
 
+// バトルガイド用プロンプト（シングル）
+const BATTLE_GUIDE_SINGLE_PROMPT = `あなたはポケモンバトルのコーチです。
+以下のパーティで子供とポケモンごっこ遊びをする親にアドバイスしてください。
+
+ルール:
+1. 各ポケモンの「役割」と「出し順」を中心に説明してください
+2. 技の詳細には踏み込まず、ポケモンの強み・特徴を伝えてください
+3. 4〜5文程度で簡潔にまとめてください
+4. 子供との遊びが盛り上がるような、ワクワクする表現を使ってください
+5. 日本語で書いてください
+
+出力形式（必ずこの形式で）:
+{"guide": "ガイド文章"}`;
+
+// バトルガイド用プロンプト（ダブル）
+const BATTLE_GUIDE_DOUBLE_PROMPT = `あなたはポケモンダブルバトルのコーチです。
+以下のパーティで子供とポケモンごっこ遊びをする親にアドバイスしてください。
+
+ルール:
+1. 各ポケモンの「役割」と「先発2匹の組み合わせ」を中心に説明してください
+2. 技の詳細には踏み込まず、ポケモンの強み・連携を伝えてください
+3. 4〜5文程度で簡潔にまとめてください
+4. 子供との遊びが盛り上がるような、ワクワクする表現を使ってください
+5. 日本語で書いてください
+
+出力形式（必ずこの形式で）:
+{"guide": "ガイド文章"}`
+
 export async function generatePokemonNames(
   theme: string,
   count: number,
@@ -210,5 +238,64 @@ export async function generateRandomParty(
       throw new RateLimitError(60); // デフォルト60秒
     }
     throw error;
+  }
+}
+
+// パーティ情報の型
+interface PartyInfo {
+  theme: string;
+  members: Array<{
+    name: string;
+    japaneseName: string;
+    types: string[];
+  }>;
+}
+
+// バトルガイド生成
+export async function generateBattleGuide(
+  partyInfo: PartyInfo,
+  battleMode: "single" | "double" = "single"
+): Promise<string> {
+  const basePrompt = battleMode === "double" ? BATTLE_GUIDE_DOUBLE_PROMPT : BATTLE_GUIDE_SINGLE_PROMPT;
+
+  // パーティ情報を文字列化
+  const pokemonList = partyInfo.members
+    .map((m) => `${m.japaneseName}（${m.types.join("/")}タイプ）`)
+    .join("、");
+
+  const fullPrompt = `${basePrompt}
+
+テーマ: ${partyInfo.theme}
+パーティ: ${pokemonList}
+
+このパーティでの戦い方をアドバイスしてください。JSONのみで返答してください。`;
+
+  const model = getGenAI().getGenerativeModel({
+    model: "gemini-2.5-flash",
+  });
+
+  try {
+    const result = await model.generateContent(fullPrompt);
+    const response = result.response;
+    const text = response.text();
+
+    // JSONを抽出
+    let jsonText = text.trim();
+    const jsonMatch = jsonText.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (jsonMatch) {
+      jsonText = jsonMatch[1].trim();
+    }
+
+    const parsed = JSON.parse(jsonText) as { guide: string };
+
+    if (!parsed.guide || typeof parsed.guide !== "string") {
+      throw new Error("Invalid battle guide response format");
+    }
+
+    return parsed.guide;
+  } catch (error) {
+    console.error("Failed to generate battle guide:", error);
+    // エラー時はデフォルトメッセージを返す
+    return "パーティの戦い方を考えてみよう！";
   }
 }

@@ -17,7 +17,7 @@
 - Sessions: `.ai-dlc/sessions/`
 
 ### Current Phase
-Operation（v6完成）
+Operation（v7完成）
 
 ### Active Unit
 N/A
@@ -36,6 +36,8 @@ N/A
 | 9 | 相手ポケモン選択保持（v5） | 完了 |
 | 10 | 受けた技の相性チェック（v5） | 完了 |
 | 11 | 技の入れ替え機能（v6） | 完了 |
+| 12 | ダブルバトルモード（v6.5） | 完了 |
+| 13 | バトル展開ガイド（v7） | 完了 |
 
 ## Tech Stack
 - Framework: Next.js 14 (App Router)

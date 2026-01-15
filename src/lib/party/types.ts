@@ -14,6 +14,7 @@ export interface Party {
   theme: string;
   members: PartyPokemon[];
   battleMode: BattleMode;
+  battleGuide?: string;  // バトル展開ガイド
 }
 
 // 生成モード

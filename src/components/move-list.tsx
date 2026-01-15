@@ -106,6 +106,7 @@ export function MoveList({
           pokemonId={pokemonId}
           pokemonName={pokemonName}
           currentMove={selectedMove}
+          currentMoves={moves}
           isOpen={isSwapModalOpen}
           onClose={() => setIsSwapModalOpen(false)}
           onSwap={handleSwap}

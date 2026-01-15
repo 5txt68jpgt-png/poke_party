@@ -11,6 +11,7 @@ interface MoveSwapModalProps {
   pokemonId: number;
   pokemonName: string;
   currentMove: Move;
+  currentMoves: Move[];  // 現在覚えている全ての技
   isOpen: boolean;
   onClose: () => void;
   onSwap: (newMove: Move) => void;
@@ -26,10 +27,13 @@ export function MoveSwapModal({
   pokemonId,
   pokemonName,
   currentMove,
+  currentMoves,
   isOpen,
   onClose,
   onSwap,
 }: MoveSwapModalProps) {
+  // 既に覚えている技の名前セット
+  const currentMoveNames = new Set(currentMoves.map((m) => m.name));
   const [learnableMoves, setLearnableMoves] = useState<MoveEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -62,11 +66,14 @@ export function MoveSwapModal({
     }
   }, [isOpen]);
 
-  // フィルタリングされた技リスト
+  // フィルタリングされた技リスト（既に覚えている技を除外）
   const filteredMoves = useMemo(() => {
-    if (!selectedType) return learnableMoves;
-    return learnableMoves.filter((m) => m.type === selectedType);
-  }, [learnableMoves, selectedType]);
+    let moves = learnableMoves.filter((m) => !currentMoveNames.has(m.name));
+    if (selectedType) {
+      moves = moves.filter((m) => m.type === selectedType);
+    }
+    return moves;
+  }, [learnableMoves, selectedType, currentMoveNames]);
 
   // MoveEntryをMove型に変換
   const convertToMove = (entry: MoveEntry): Move => ({
@@ -185,12 +192,7 @@ export function MoveSwapModal({
                 <li key={move.id}>
                   <button
                     onClick={() => handleSelectMove(move)}
-                    disabled={move.name === currentMove.name}
-                    className={`w-full p-3 rounded-pokemon flex items-center gap-2 transition-colors text-left ${
-                      move.name === currentMove.name
-                        ? "bg-gray-100 opacity-50 cursor-not-allowed"
-                        : "bg-white border border-pokemon-blue-200 hover:bg-pokemon-blue-50"
-                    }`}
+                    className="w-full p-3 rounded-pokemon flex items-center gap-2 transition-colors text-left bg-white border border-pokemon-blue-200 hover:bg-pokemon-blue-50"
                   >
                     <TypeBadge type={getTypeData(move.type)} size="sm" />
                     <span className="font-medium text-pokemon-blue-800 flex-1">

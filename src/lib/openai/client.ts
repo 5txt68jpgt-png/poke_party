@@ -72,6 +72,51 @@ const RANDOM_PROMPT = `あなたはポケモンの専門家です。
 出力形式（必ずこの形式で）:
 {"theme": "日本語のテーマ", "pokemon": ["pokemon1", "pokemon2", "pokemon3"]}`;
 
+// ダブルバトル用プロンプト
+const DOUBLE_SYSTEM_PROMPT = `あなたはポケモンのダブルバトル専門家です。
+ユーザーが指定したテーマに合う、ダブルバトル向けのポケモンを選んでください。
+
+ダブルバトルのルール:
+- 2匹のポケモンが同時に場に出る
+- 味方同士の連携が重要
+
+ルール:
+1. 実在するポケモンの英語名（小文字、ハイフンあり）のみを返してください
+2. 指定された数のポケモンを選んでください
+3. テーマに合わないポケモンは選ばないでください
+4. 必ずJSON形式のみで返してください（説明文は不要）
+5. ダブルバトルで相性の良いポケモンの組み合わせを意識してください
+6. 以下のような戦術を持つポケモンを含めると良いです：
+   - トリックルーム使い（遅いポケモンが先に動ける）
+   - おいかぜ使い（素早さ2倍）
+   - いかく持ち（相手の攻撃を下げる）
+   - このゆびとまれ/いかりのこな使い（味方を守る）
+   - まもる持ち（ダブルの基本）
+7. 毎回異なる結果になるよう、ランダム性を重視してください
+
+出力形式（必ずこの形式で）:
+{"pokemon": ["pokemon1", "pokemon2", "pokemon3"]}`;
+
+const DOUBLE_RANDOM_PROMPT = `あなたはポケモンのダブルバトル専門家です。
+ダブルバトル向けの面白いテーマを考え、そのテーマに合うポケモンを選んでください。
+
+ダブルバトルのルール:
+- 2匹のポケモンが同時に場に出る
+- 味方同士の連携が重要
+
+ルール:
+1. まずダブルバトル向けの面白いテーマを1つ考えてください
+   例：「トリックルームパーティ」「晴れパ」「雨パ」「おいかぜパーティ」「いかく軍団」「サポート重視」など
+2. テーマは必ず日本語で返してください（英語は不可）
+3. そのテーマに合うポケモンを指定数ランダムに選んでください
+4. ポケモン名は実在するポケモンの英語名（小文字、ハイフンあり）のみを返してください
+5. 必ずJSON形式のみで返してください（説明文は不要）
+6. ダブルバトルで相性の良いポケモンの組み合わせを意識してください
+7. テーマは毎回違うものにしてください
+
+出力形式（必ずこの形式で）:
+{"theme": "日本語のテーマ", "pokemon": ["pokemon1", "pokemon2", "pokemon3"]}`;
+
 export interface AIResponse {
   pokemon: string[];
 }
@@ -83,9 +128,11 @@ export interface RandomAIResponse {
 
 export async function generatePokemonNames(
   theme: string,
-  count: number
+  count: number,
+  battleMode: "single" | "double" = "single"
 ): Promise<AIResponse> {
-  const fullPrompt = `${SYSTEM_PROMPT}
+  const systemPrompt = battleMode === "double" ? DOUBLE_SYSTEM_PROMPT : SYSTEM_PROMPT;
+  const fullPrompt = `${systemPrompt}
 
 テーマ: ${theme}
 ポケモン数: ${count}匹
@@ -125,9 +172,11 @@ export async function generatePokemonNames(
 
 // おまかせ生成（テーマもAIが決める）
 export async function generateRandomParty(
-  count: number
+  count: number,
+  battleMode: "single" | "double" = "single"
 ): Promise<RandomAIResponse> {
-  const fullPrompt = `${RANDOM_PROMPT}
+  const randomPrompt = battleMode === "double" ? DOUBLE_RANDOM_PROMPT : RANDOM_PROMPT;
+  const fullPrompt = `${randomPrompt}
 
 ポケモン数: ${count}匹
 

@@ -54,7 +54,14 @@ export function PartyDisplay({
     <div className="space-y-4">
       {/* テーマ表示 */}
       <div className="text-center bg-pokemon-blue-50 rounded-pokemon p-3">
-        <span className="text-sm text-pokemon-blue-500">テーマ</span>
+        <div className="flex items-center justify-center gap-2 mb-1">
+          <span className="text-sm text-pokemon-blue-500">テーマ</span>
+          {party.battleMode === "double" && (
+            <span className="px-2 py-0.5 bg-purple-500 text-white text-xs font-bold rounded-full">
+              ダブル
+            </span>
+          )}
+        </div>
         <p className="font-bold text-pokemon-blue-800">{party.theme}</p>
       </div>
 
@@ -94,6 +101,7 @@ export function PartyDisplay({
           opponentPokemon={opponentPokemon}
           onOpponentChange={setOpponentPokemon}
           onMoveSwap={handleMoveSwap}
+          isDoubleMode={party.battleMode === "double"}
         />
       )}
 
@@ -128,9 +136,10 @@ interface PokemonDetailProps {
   opponentPokemon: PokemonEntry | null;
   onOpponentChange: (pokemon: PokemonEntry | null) => void;
   onMoveSwap: (pokemonIndex: number, moveIndex: number, newMove: Move) => void;
+  isDoubleMode?: boolean;
 }
 
-function PokemonDetail({ member, memberIndex, opponentPokemon, onOpponentChange, onMoveSwap }: PokemonDetailProps) {
+function PokemonDetail({ member, memberIndex, opponentPokemon, onOpponentChange, onMoveSwap, isDoubleMode }: PokemonDetailProps) {
   const [isReceivedMoveModalOpen, setIsReceivedMoveModalOpen] = useState(false);
   const pokemonTypes: PokemonTypeName[] = member.pokemon.types.map((t) => t.name);
 
@@ -180,6 +189,7 @@ function PokemonDetail({ member, memberIndex, opponentPokemon, onOpponentChange,
             pokemonId={member.pokemon.id}
             pokemonName={member.pokemon.japaneseName}
             onMoveSwap={handleMoveSwap}
+            isDoubleMode={isDoubleMode}
           />
         </div>
 

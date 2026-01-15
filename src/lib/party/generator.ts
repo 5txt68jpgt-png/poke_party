@@ -12,7 +12,7 @@ const BUFFER_COUNT = 3;
 export async function generateParty(
   request: GenerationRequest
 ): Promise<Party> {
-  const { count, mode } = request;
+  const { count, mode, battleMode } = request;
 
   let theme: string;
   let pokemonNames: string[];
@@ -22,7 +22,7 @@ export async function generateParty(
 
   if (mode === "random") {
     // おまかせモード: AIがテーマとポケモンを同時生成
-    const randomResponse = await generateRandomParty(requestCount);
+    const randomResponse = await generateRandomParty(requestCount, battleMode);
     theme = randomResponse.theme;
     pokemonNames = randomResponse.pokemon;
   } else {
@@ -31,7 +31,7 @@ export async function generateParty(
       throw new Error("テーマが指定されていません");
     }
     theme = request.theme;
-    const aiResponse = await generatePokemonNames(theme, requestCount);
+    const aiResponse = await generatePokemonNames(theme, requestCount, battleMode);
     pokemonNames = aiResponse.pokemon;
   }
 
@@ -66,6 +66,7 @@ export async function generateParty(
   return {
     theme,
     members: validMembers,
+    battleMode,
   };
 }
 

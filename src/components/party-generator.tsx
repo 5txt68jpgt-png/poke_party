@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState } from "react";
+import { BattleModeTab, BattleMode } from "./battle-mode-tab";
 import { PokemonCountSelect } from "./pokemon-count-select";
 import { PartyDisplay } from "./party-display";
 import { LoadingSpinner } from "./loading-spinner";
@@ -10,6 +11,7 @@ import { ConfirmModal } from "./confirm-modal";
 import { GenerationState, GeneratePartyResponse, GenerationMode } from "@/lib/party/types";
 
 export function PartyGenerator() {
+  const [battleMode, setBattleMode] = useState<BattleMode>("single");
   const [theme, setTheme] = useState("");
   const [count, setCount] = useState(3);
   const [state, setState] = useState<GenerationState>({ status: "idle" });
@@ -18,6 +20,15 @@ export function PartyGenerator() {
 
   // パーティが存在するかどうか
   const hasParty = state.status === "success";
+
+  // バトルモード切り替え時
+  const handleBattleModeChange = (newMode: BattleMode) => {
+    setBattleMode(newMode);
+    // ダブルモードでは4匹以上必須
+    if (newMode === "double" && count < 4) {
+      setCount(4);
+    }
+  };
 
   // 生成ボタンクリック時のハンドラ
   const handleGenerateClick = (mode: GenerationMode) => {
@@ -58,6 +69,7 @@ export function PartyGenerator() {
           theme: mode === "theme" ? theme.trim() : undefined,
           count,
           mode,
+          battleMode,
         }),
       });
 
@@ -93,10 +105,21 @@ export function PartyGenerator() {
 
   return (
     <div className="space-y-6">
+      {/* バトルモードタブ */}
+      <BattleModeTab
+        value={battleMode}
+        onChange={handleBattleModeChange}
+        disabled={state.status === "loading"}
+      />
+
       {/* 入力フォーム */}
       <div className="space-y-4">
         {/* ポケモン数選択（共通） */}
-        <PokemonCountSelect value={count} onChange={setCount} />
+        <PokemonCountSelect
+          value={count}
+          onChange={setCount}
+          battleMode={battleMode}
+        />
 
         {/* おまかせ生成ボタン */}
         <button
@@ -129,7 +152,7 @@ export function PartyGenerator() {
             type="text"
             value={theme}
             onChange={(e) => setTheme(e.target.value)}
-            placeholder="例：かわいいポケモン"
+            placeholder={battleMode === "double" ? "例：トリックルームパーティ" : "例：かわいいポケモン"}
             className="w-full px-4 py-3 min-h-[44px] pokemon-input text-gray-800 placeholder:text-gray-400"
             disabled={state.status === "loading"}
           />

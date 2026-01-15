@@ -21,6 +21,20 @@ export async function POST(request: Request) {
       );
     }
 
+    // バトルモードのバリデーション
+    const battleMode = body.battleMode || "single";
+    if (battleMode !== "single" && battleMode !== "double") {
+      return NextResponse.json<GeneratePartyResponse>(
+        {
+          error: {
+            code: "INVALID_INPUT",
+            message: "無効なバトルモードです",
+          },
+        },
+        { status: 400 }
+      );
+    }
+
     // テーマモードの場合はテーマが必須
     if (mode === "theme" && (!body.theme || typeof body.theme !== "string")) {
       return NextResponse.json<GeneratePartyResponse>(
@@ -56,6 +70,7 @@ export async function POST(request: Request) {
       theme: body.theme ? body.theme.trim().slice(0, 200) : undefined,
       count: body.count,
       mode,
+      battleMode,
     });
 
     return NextResponse.json<GeneratePartyResponse>({ party });

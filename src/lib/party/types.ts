@@ -1,5 +1,8 @@
 import { Pokemon, Move } from "@/lib/pokemon/types";
 
+// バトルモード
+export type BattleMode = "single" | "double";
+
 // パーティメンバー
 export interface PartyPokemon {
   pokemon: Omit<Pokemon, "moves">;
@@ -10,6 +13,7 @@ export interface PartyPokemon {
 export interface Party {
   theme: string;
   members: PartyPokemon[];
+  battleMode: BattleMode;
 }
 
 // 生成モード
@@ -20,6 +24,7 @@ export interface GenerationRequest {
   theme?: string;  // おまかせ時はundefined
   count: number;   // 1-6
   mode: GenerationMode;
+  battleMode: BattleMode;
 }
 
 // 生成状態
